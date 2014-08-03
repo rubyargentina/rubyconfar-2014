@@ -37,6 +37,12 @@ a, img a {
   padding: 0; }
 
 /* End RESET. */
+@font-face {
+  font-family: "outage";
+  src: url("../fonts/outage/outage-webfont.eot");
+  src: url("../fonts/outage/outage-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/outage/outage-webfont.woff") format("woff"), url("../fonts/outage/outage-webfont.ttf") format("truetype"), url("../fonts/outage/outage-webfont.svg#outageregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /*!
  *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -1776,47 +1782,91 @@ body > footer {
 section#start {
   background: url(../images/main.png) no-repeat top center, url(../images/bkg.png) repeat-x top center;
   background-size: auto 100%; }
+  section#start.erlich h1.erlich {
+    display: block; }
   section#start.horseboy {
     background: url(../images/horse.png) no-repeat top center, url(../images/bkg.png) repeat-x top center;
     background-size: auto 100%; }
+    section#start.horseboy h1.horseboy {
+      display: block; }
   section#start.woz {
     background: url(../images/woz.png) no-repeat top center, url(../images/bkg.png) repeat-x top center;
     background-size: auto 100%; }
+    section#start.woz h1.woz {
+      display: block; }
   section#start.moss {
     background: url(../images/moss.png) no-repeat top center, url(../images/bkg.png) repeat-x top center;
     background-size: auto 100%; }
+    section#start.moss h1.moss {
+      display: block; }
   section#start.staplerguy {
     background: url(../images/staplerguy.png) no-repeat top center, url(../images/bkg.png) repeat-x top center;
     background-size: auto 100%; }
-  section#start hgroup {
-    bottom: 200px;
-    left: 40px;
-    max-width: 30%;
-    position: absolute;
-    text-align: center; }
-    section#start hgroup img {
-      max-width: 100%;
-      height: auto; }
-  section#start h2 {
-    font-family: "Ubuntu";
-    font-size: 1.25em;
-    letter-spacing: 0.5px;
-    text-transform: uppercase; }
-  @media screen and (max-width: 500px) {
-    section#start hgroup {
+    section#start.staplerguy h1.staplerguy {
+      display: block; }
+      section#start.staplerguy h1.staplerguy span {
+        display: block; }
+  section#start.trinity {
+    background: black; }
+    section#start.trinity h1.trinity {
+      display: block; }
+    section#start.trinity canvas {
+      display: block;
+      height: 100%;
+      width: 100%; }
+    section#start.trinity img#matrix {
+      height: auto;
+      left: 50%;
+      max-height: 80%;
+      max-width: 700px;
+      position: absolute;
+      top: 10%;
+      visibility: visible;
+      width: auto; }
+    section#start.trinity hgroup {
       background-color: transparent;
       background-image: -moz-linear-gradient(top, transparent, black);
       background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, transparent), color-stop(1, black));
-      background-image: linear-gradient(top, transparent, black);
-      bottom: 0;
-      left: 0;
-      max-width: 100%;
-      padding-bottom: 50px;
-      width: 100%; }
-      section#start hgroup img {
-        max-width: 70%; }
-    section#start h2 {
-      font-size: 1em; } }
+      background-image: linear-gradient(top, transparent, black); }
+  section#start hgroup {
+    background-color: rgba(104, 72, 88, 0);
+    background-image: -moz-linear-gradient(top, rgba(104, 72, 88, 0), #684858);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(104, 72, 88, 0)), color-stop(1, #684858));
+    background-image: linear-gradient(top, rgba(104, 72, 88, 0), #684858);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    bottom: 0;
+    color: #35a785;
+    font-family: "outage";
+    left: 0;
+    max-width: 100%;
+    padding: 50px 15px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 3; }
+    section#start hgroup h1 {
+      color: #ffd88f;
+      line-height: 1.1;
+      font-size: 50px;
+      display: none; }
+    section#start hgroup h2 {
+      font-size: 20px; }
+      section#start hgroup h2 span:before {
+        content: " | "; }
+  section#start canvas {
+    display: none; }
+  section#start img#matrix {
+    visibility: hidden; }
+  @media screen and (max-width: 500px) {
+    section#start hgroup {
+      padding-bottom: 30px; }
+      section#start hgroup h1 {
+        margin-bottom: 5px; }
+        section#start hgroup h1 span {
+          display: block; }
+      section#start hgroup h2 span:before {
+        display: none; } }
 
 section#registration {
   background: #684858; }

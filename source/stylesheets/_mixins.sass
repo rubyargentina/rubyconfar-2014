@@ -46,6 +46,9 @@ $easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955)
   #{$property}: -moz-calc(#{$expression})
   #{$property}: calc(#{$expression})
 
+@mixin box-sizing($value : border-box)
+  box-sizing: $value
+  -moz-box-sizing: $value
 
 @mixin caret
   font-family: 'fontAwesome'
