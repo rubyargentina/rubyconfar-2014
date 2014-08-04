@@ -40,7 +40,7 @@ $(document).ready(function() {
     var Trinity =  $('img#matrix').width();
     $('img#matrix').css({'marginLeft' : Trinity / -2});
   }
-  centerTrinity();
+
 
   // Responsive Headlines
   $('section#start h1.trinity').fitText(
@@ -138,6 +138,13 @@ $(document).ready(function() {
 
 
 });
+$(window).load(function() {
+  centerTrinity();
+  $('img#matrix').fadeIn(2000);
+
+});
+
+
 
 $(window).resize(function() {
 	$("section#start").height($(window).height());
@@ -149,6 +156,7 @@ $(window).resize(function() {
   }
 
   centerTrinity();
+
 
 });
 

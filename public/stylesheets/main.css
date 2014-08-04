@@ -1821,7 +1821,6 @@ section#start {
       max-width: 700px;
       position: absolute;
       top: 10%;
-      visibility: visible;
       width: auto; }
     section#start.trinity hgroup {
       background-color: transparent;
@@ -1857,7 +1856,7 @@ section#start {
   section#start canvas {
     display: none; }
   section#start img#matrix {
-    visibility: hidden; }
+    display: none; }
   @media screen and (max-width: 500px) {
     section#start hgroup {
       padding-bottom: 30px; }
