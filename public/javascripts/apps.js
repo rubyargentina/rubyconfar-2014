@@ -140,7 +140,10 @@ $(document).ready(function() {
 });
 $(window).load(function() {
   centerTrinity();
-  $('img#matrix').fadeIn(2000);
+  if ( $('section#start').hasClass('trinity') ) {
+    $('img#matrix').fadeIn(2000);
+  }
+  
 
 });
 
