@@ -1718,6 +1718,10 @@ body > footer {
   color: #c4c4c4;
   font-size: 12px;
   padding: 50px 0; }
+  body > footer.fixed {
+    bottom: 0;
+    position: absolute;
+    width: 100%; }
   body > footer .social-links {
     float: right;
     margin-left: 5%; }
@@ -1883,15 +1887,15 @@ section#venue {
 
 body.inner-page {
   background: #dadada; }
+  @media screen and (min-width: 500px) {
+    body.inner-page {
+      border-left: 64px solid #35a785; } }
   body.inner-page h1 {
     font-size: 30px; }
   body.inner-page section {
     color: #333333;
     padding-bottom: 50px;
     padding-top: 20px; }
-    @media screen and (min-width: 500px) {
-      body.inner-page section {
-        border-left: 64px solid #35a785; } }
     body.inner-page section h1 {
       color: #e1483f;
       margin: 20px 0; }
