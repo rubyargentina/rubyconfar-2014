@@ -1610,7 +1610,10 @@ nav {
       zoom: 1;
       *display: inline;
       *vertical-align: auto;
-      margin: 0 5px 5px; }
+      margin: 5px; }
+      nav ul li a {
+        font-size: 0.6em;
+        font-weight: bold; }
       nav ul li.current {
         background: #bc2e2a;
         padding: 0 8px;
@@ -1693,6 +1696,7 @@ nav {
       color: #ffd88f;
       border-bottom: 1px solid rgba(188, 46, 42, 0.35);
       padding: 12px;
+      font-size: 0.85em;
       margin-bottom: 0; }
       nav a .icon {
         display: none; }
@@ -1887,15 +1891,15 @@ section#venue {
 
 body.inner-page {
   background: #dadada; }
-  @media screen and (min-width: 500px) {
-    body.inner-page {
-      border-left: 64px solid #35a785; } }
   body.inner-page h1 {
     font-size: 30px; }
   body.inner-page section {
     color: #333333;
     padding-bottom: 50px;
     padding-top: 20px; }
+    @media screen and (min-width: 500px) {
+      body.inner-page section {
+        border-left: 64px solid #35a785; } }
     body.inner-page section h1 {
       color: #e1483f;
       margin: 20px 0; }

@@ -42,19 +42,19 @@ $(document).ready(function() {
   }
 
   // Footer fixed to bottom
-  footerBottom = function(){
-    var section =  $('body.inner-page section').height();
-    var footer =  $('body.inner-page > footer').height();
-    var wHeight = $(window).height();
-    if ( wHeight > section + footer + 110) {
-      $('footer').addClass('fixed');
-      $('body, html').css({'height' : '100%'});
-    } else {
-      $('footer').removeClass('fixed');
-      $('body, html').css({'height' : ''});
-    }
-  }
-  footerBottom();
+  // footerBottom = function(){
+  //   var section =  $('body.inner-page section').height();
+  //   var footer =  $('body.inner-page > footer').height();
+  //   var wHeight = $(window).height();
+  //   if ( wHeight > section + footer + 110 && $('body').hasClass('inner-page') ) {
+  //     $('footer').addClass('fixed');
+  //     $('body, html').css({'height' : '100%'});
+  //   } else {
+  //     $('footer').removeClass('fixed');
+  //     $('body, html').css({'height' : ''});
+  //   }
+  // }
+  // footerBottom();
 
   // Responsive Headlines
   $('section#start h1.trinity').fitText(
@@ -174,7 +174,7 @@ $(window).resize(function() {
 
   centerTrinity();
 
-  footerBottom();
+  // footerBottom();
 
 
 });
