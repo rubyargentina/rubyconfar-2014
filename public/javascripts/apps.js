@@ -87,6 +87,12 @@ $(document).ready(function() {
       maxFontSize: '70px' 
   });
 
+  $('section#start h1.woz').fitText(
+    1.2, { 
+      minFontSize: '40px', 
+      maxFontSize: '90px' 
+  });
+
 
 
 
