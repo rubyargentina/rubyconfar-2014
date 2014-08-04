@@ -163,7 +163,9 @@ $(window).load(function() {
   if ( $('section#start').hasClass('trinity') ) {
     $('img#matrix').fadeIn(2000);
   }
-  
+
+  // Cleans URL of dirty hashtag.
+  history.pushState("", document.title, window.location.pathname);  
 
 });
 
@@ -200,6 +202,6 @@ $(window).scroll(function(){
 
 });
 
-  // Cleans URL of dirty hashtag.
-  
+
+
 
