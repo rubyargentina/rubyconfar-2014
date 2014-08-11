@@ -127,22 +127,26 @@ a, img a {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
+
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
+
   100% {
     -o-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
@@ -2048,7 +2052,7 @@ section#registration {
         width: 46%; }
         section#registration .table ul li:before {
           font-family: "fontAwesome";
-          content: "";
+          content: "\f00c";
           color: #e1483f;
           font-size: 16px;
           margin-right: 8px; }
@@ -2085,6 +2089,10 @@ section#registration {
         width: auto; }
         section#registration .table .col.active {
           margin: -3px -3px 0; }
+          section#registration .table .col.active .cell h4 {
+            font-size: 16px; }
+          section#registration .table .col.active .cell small {
+            font-size: 18px; }
         section#registration .table .col .cell, section#registration .table .col .cell:last-child {
           box-sizing: border-box;
           -moz-box-sizing: border-box;
@@ -2095,7 +2103,8 @@ section#registration {
           *vertical-align: auto;
           border: 0 none;
           padding: 10px 0;
-          vertical-align: top;
+          min-height: 60px;
+          vertical-align: middle;
           width: 50%; }
       section#registration .table h5 {
         background: url(../images/lanyard.png) no-repeat left bottom;
@@ -2105,6 +2114,7 @@ section#registration {
       section#registration .table ul li {
         display: block;
         width: auto;
+        padding-right: 10%;
         margin-left: 10%; }
         section#registration .table ul li:before {
           left: 5%;
@@ -2311,10 +2321,14 @@ body {
     @media screen and (max-width: 800px) {
       body#home section article.wrapper {
         text-align: center; }
-        body#home section article.wrapper h2 {
+        body#home section article.wrapper h2:not(.title) {
           float: none;
           width: auto; }
         body#home section article.wrapper .content {
           margin: 0; }
         body#home section article.wrapper .btn {
           display: block; } }
+    @media screen and (max-width: 500px) {
+      body#home section article.wrapper {
+        padding-right: 20px;
+        padding-left: 20px; } }

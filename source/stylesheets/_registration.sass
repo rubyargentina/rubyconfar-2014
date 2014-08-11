@@ -147,10 +147,6 @@ section#registration
       width: auto
       &:after
         display: none
-        // bottom: -100px
-        // height: 100px
-        // right: -20px
-        // top: auto
       .col
         border: 0 none
         border-bottom: 3px solid rgba($cream, 0.3)
@@ -158,13 +154,22 @@ section#registration
         width: auto
         &.active
           margin: -3px -3px 0
+          .cell
+            h4
+              font-size: 16px
+            small
+              font-size: 18px
         .cell, .cell:last-child
           @include box-sizing
           @include inline-block
           border: 0 none
           padding: 10px 0
-          vertical-align: top
+          min-height: 60px
+          // line-height: 50px
+          vertical-align: middle
           width: 50%
+
+
 
       h5
         background: url(../images/lanyard.png) no-repeat left bottom
@@ -175,6 +180,7 @@ section#registration
         li
           display: block
           width: auto
+          padding-right: 10%
           margin-left: 10%
           &:before
             left: 5%
