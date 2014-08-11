@@ -10,7 +10,25 @@ $(document).ready(function() {
     $('section#start').addClass(arr[idx]);
   }
 
-  $("section#start").height($(window).height());
+
+  mainElementsHeight = function() {
+    var wHeight = $(window).height();
+    var windowWidth = $(window).width();
+    $("section#start, .signal").height(wHeight);
+    
+    var characterWidth = $("img.character").width();
+
+    $("img.character").css({'marginLeft' : characterWidth /-2});
+    if ( wHeight < $("img.character").attr('height') ) {
+      $("img.character").height(wHeight * 0.9);
+    }
+    
+
+
+
+  }
+  mainElementsHeight();
+  
 
   $("#home nav a.circle").click(function() {
     $(this).siblings().removeClass('active');
@@ -172,7 +190,7 @@ $(window).load(function() {
 
 
 $(window).resize(function() {
-	$("section#start").height($(window).height());
+	mainElementsHeight();
 
   // Hack for when closing Mobile Nav on Desktop and then enlarging window.
   var windowWidth = $(window).width();

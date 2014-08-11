@@ -1,32 +1,123 @@
 section#start
+  background: #851512
+  background: -moz-linear-gradient(top,  #851512 0%, #cb2522 50%, #e74e3b 99%)
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#851512), color-stop(50%,#cb2522), color-stop(99%,#e74e3b))
+  background: -webkit-linear-gradient(top,  #851512 0%,#cb2522 50%,#e74e3b 99%)
+  background: -o-linear-gradient(top,  #851512 0%,#cb2522 50%,#e74e3b 99%)
+  background: -ms-linear-gradient(top,  #851512 0%,#cb2522 50%,#e74e3b 99%)
+  background: linear-gradient(to bottom,  #851512 0%,#cb2522 50%,#e74e3b 99%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 )
+  position: relative
+  text-align: center  
 
-  background: url(../images/main.png) no-repeat top center, url(../images/bkg.png) repeat-x top center
-  background-size: auto 100%
+  .konex
+    bottom: -200px
+    height: auto
+    left: -15px
+    position: absolute    
+    z-index: 3
+
+  .cloud
+    height: auto
+    left: 0
+    position: absolute    
+    top: 50%
+
+
+  .signal
+    background: url(../images/signal.png) no-repeat center 15%
+    background-size: auto 85%
+    bottom: 0
+    min-height: 400px
+    position: absolute
+    width: 100%
+    z-index: 2
+
+  .breeze
+    background: url(../images/breeze.png) no-repeat top center
+    height: 300px
+    position: absolute
+    top: 10%
+    width: 100%
+    z-index: 1
+
+  .bricks
+    background: $gray url(../images/bricks.png) repeat center top
+    bottom: 0
+    height: 275px
+    position: absolute
+    width: 100%
+    z-index: 2
+
+    .bat
+      position: absolute
+
+    .bat1
+      right: 10%
+      margin-top: -100px
+
+    .bat2
+      right: 25%
+      margin-top: -50px
+
+    .bat3
+      left: 15%
+      margin-top: -250px
+
+    .clouds
+      background: url(../images/clouds.png) no-repeat top center
+      height: 317px
+      margin-top: -312px
+      position: absolute
+      width: 100%    
+
+
+
+  img.character
+    bottom: 20px
+    height: auto
+    left: 50%
+    max-height: 90%
+    position: absolute
+    width: auto
+    z-index: 2 
+
+
+
+
+  img.character
+    display: none
+
   &.erlich
+    img.erlich
+      display: inline
     h1.erlich
-      display: block  
+      display: block
+
   &.horseboy
-    background: url(../images/horse.png) no-repeat top center, url(../images/bkg.png) repeat-x top center
-    background-size: auto 100%
+    img.horseboy
+      display: inline
     h1.horseboy
       display: block
+
   &.woz
-    background: url(../images/woz.png) no-repeat top center, url(../images/bkg.png) repeat-x top center
-    background-size: auto 100%
+    img.woz
+      display: inline
     h1.woz
       display: block
+
   &.moss
-    background: url(../images/moss.png) no-repeat top center, url(../images/bkg.png) repeat-x top center
-    background-size: auto 100%
+    img.moss
+      display: inline
     h1.moss
-      display: block
+      display: block    
+
   &.staplerguy
-    background: url(../images/staplerguy.png) no-repeat top center, url(../images/bkg.png) repeat-x top center
-    background-size: auto 100%
+    img.staplerguy
+      display: inline
     h1.staplerguy
       display: block
-      span
-        display: block
+
   &.trinity
     background: black
     h1.trinity
@@ -45,13 +136,16 @@ section#start
       top: 10%
       // display: block
       width: auto
+      z-index: 3
+
+    .signal, .breeze, .cloud, .clouds, .konex, .bat
+      display: none
 
     hgroup
       @include gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1))
 
   hgroup    
     @include gradient(rgba($violet, 0), rgba($violet, 1))
-
     @include box-sizing
     bottom: 0
     color: $teal
@@ -62,7 +156,7 @@ section#start
     position: absolute
     text-align: center
     width: 100%
-    z-index: 3
+    z-index: 4
 
     h1
       color: $cream
@@ -98,31 +192,21 @@ section#start
 
 
 
-  // hgroup
-  //   bottom: 200px
-  //   left: 40px
-  //   max-width: 30%
-  //   position: absolute
-  //   text-align: center
-  //   img
-  //     max-width: 100%
-  //     height: auto
+  @media screen and (max-width: 600px)
+    .signal
+      background-position: right 20%
+    
+    img.cloud
+      display: none
 
-  // h2
-  //   font-family: 'Ubuntu'
-  //   font-size: 1.25em
-  //   letter-spacing: 0.5px
-  //   text-transform: uppercase
+    .bricks
+      height: 150px
 
-  // @media screen and (max-width: 500px)
-  //   hgroup
-  //     @include gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1))
-  //     bottom: 0
-  //     left: 0
-  //     max-width: 100%
-  //     padding-bottom: 50px
-  //     width: 100%
-  //     img
-  //       max-width: 70%
-  //   h2
-  //     font-size: 1.0em
+      .bat2
+        display: none
+
+    .konex
+      bottom: -80px
+      left: -200px
+      max-width: 300px
+

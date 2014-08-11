@@ -1788,32 +1788,96 @@ body > footer {
       color: #c4c4c4; }
 
 section#start {
-  background: url(../images/main.png) no-repeat top center, url(../images/bkg.png) repeat-x top center;
-  background-size: auto 100%; }
+  background: #851512;
+  background: -moz-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #851512), color-stop(50%, #cb2522), color-stop(99%, #e74e3b));
+  background: -webkit-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
+  background: -o-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
+  background: -ms-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
+  background: linear-gradient(to bottom, #851512 0%, #cb2522 50%, #e74e3b 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 );
+  position: relative;
+  text-align: center; }
+  section#start .konex {
+    bottom: -200px;
+    height: auto;
+    left: -15px;
+    position: absolute;
+    z-index: 3; }
+  section#start .cloud {
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 50%; }
+  section#start .signal {
+    background: url(../images/signal.png) no-repeat center 15%;
+    background-size: auto 85%;
+    bottom: 0;
+    min-height: 400px;
+    position: absolute;
+    width: 100%;
+    z-index: 2; }
+  section#start .breeze {
+    background: url(../images/breeze.png) no-repeat top center;
+    height: 300px;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    z-index: 1; }
+  section#start .bricks {
+    background: #333333 url(../images/bricks.png) repeat center top;
+    bottom: 0;
+    height: 275px;
+    position: absolute;
+    width: 100%;
+    z-index: 2; }
+    section#start .bricks .bat {
+      position: absolute; }
+    section#start .bricks .bat1 {
+      right: 10%;
+      margin-top: -100px; }
+    section#start .bricks .bat2 {
+      right: 25%;
+      margin-top: -50px; }
+    section#start .bricks .bat3 {
+      left: 15%;
+      margin-top: -250px; }
+    section#start .bricks .clouds {
+      background: url(../images/clouds.png) no-repeat top center;
+      height: 317px;
+      margin-top: -312px;
+      position: absolute;
+      width: 100%; }
+  section#start img.character {
+    bottom: 20px;
+    height: auto;
+    left: 50%;
+    max-height: 90%;
+    position: absolute;
+    width: auto;
+    z-index: 2; }
+  section#start img.character {
+    display: none; }
+  section#start.erlich img.erlich {
+    display: inline; }
   section#start.erlich h1.erlich {
     display: block; }
-  section#start.horseboy {
-    background: url(../images/horse.png) no-repeat top center, url(../images/bkg.png) repeat-x top center;
-    background-size: auto 100%; }
-    section#start.horseboy h1.horseboy {
-      display: block; }
-  section#start.woz {
-    background: url(../images/woz.png) no-repeat top center, url(../images/bkg.png) repeat-x top center;
-    background-size: auto 100%; }
-    section#start.woz h1.woz {
-      display: block; }
-  section#start.moss {
-    background: url(../images/moss.png) no-repeat top center, url(../images/bkg.png) repeat-x top center;
-    background-size: auto 100%; }
-    section#start.moss h1.moss {
-      display: block; }
-  section#start.staplerguy {
-    background: url(../images/staplerguy.png) no-repeat top center, url(../images/bkg.png) repeat-x top center;
-    background-size: auto 100%; }
-    section#start.staplerguy h1.staplerguy {
-      display: block; }
-      section#start.staplerguy h1.staplerguy span {
-        display: block; }
+  section#start.horseboy img.horseboy {
+    display: inline; }
+  section#start.horseboy h1.horseboy {
+    display: block; }
+  section#start.woz img.woz {
+    display: inline; }
+  section#start.woz h1.woz {
+    display: block; }
+  section#start.moss img.moss {
+    display: inline; }
+  section#start.moss h1.moss {
+    display: block; }
+  section#start.staplerguy img.staplerguy {
+    display: inline; }
+  section#start.staplerguy h1.staplerguy {
+    display: block; }
   section#start.trinity {
     background: black; }
     section#start.trinity h1.trinity {
@@ -1829,7 +1893,10 @@ section#start {
       max-width: 700px;
       position: absolute;
       top: 10%;
-      width: auto; }
+      width: auto;
+      z-index: 3; }
+    section#start.trinity .signal, section#start.trinity .breeze, section#start.trinity .cloud, section#start.trinity .clouds, section#start.trinity .konex, section#start.trinity .bat {
+      display: none; }
     section#start.trinity hgroup {
       background-color: transparent;
       background-image: -moz-linear-gradient(top, transparent, black);
@@ -1851,7 +1918,7 @@ section#start {
     position: absolute;
     text-align: center;
     width: 100%;
-    z-index: 3; }
+    z-index: 4; }
     section#start hgroup h1 {
       color: #ffd88f;
       line-height: 1.1;
@@ -1874,9 +1941,24 @@ section#start {
           display: block; }
       section#start hgroup h2 span:before {
         display: none; } }
+  @media screen and (max-width: 600px) {
+    section#start .signal {
+      background-position: right 20%; }
+    section#start img.cloud {
+      display: none; }
+    section#start .bricks {
+      height: 150px; }
+      section#start .bricks .bat2 {
+        display: none; }
+    section#start .konex {
+      bottom: -80px;
+      left: -200px;
+      max-width: 300px; } }
 
 section#registration {
-  background: #684858; }
+  background: #684858;
+  position: relative;
+  z-index: 4; }
 
 section#speakers {
   background: #35a785; }
