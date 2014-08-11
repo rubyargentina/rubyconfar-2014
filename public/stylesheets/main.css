@@ -1971,6 +1971,15 @@ section#registration {
     margin: 0 auto 90px;
     position: relative;
     width: 700px; }
+    section#registration .table:after {
+      background: url(../images/lanyard.png) no-repeat center bottom;
+      content: "";
+      height: 242px;
+      position: absolute;
+      right: -39px;
+      top: -7px;
+      width: 63px;
+      z-index: 2; }
     section#registration .table .col {
       border-right: 3px solid rgba(255, 216, 143, 0.3);
       float: left;
@@ -2071,6 +2080,8 @@ section#registration {
   @media screen and (max-width: 800px) {
     section#registration .table {
       width: auto; }
+      section#registration .table:after {
+        display: none; }
       section#registration .table .col {
         border: 0 none;
         border-bottom: 3px solid rgba(255, 216, 143, 0.3);
@@ -2090,6 +2101,11 @@ section#registration {
           padding: 10px 0;
           vertical-align: top;
           width: 50%; }
+      section#registration .table h5 {
+        background: url(../images/lanyard.png) no-repeat left bottom;
+        margin-bottom: 15px;
+        text-align: left;
+        padding: 20px 10px 90px 60px; }
       section#registration .table ul li {
         display: block;
         width: auto;

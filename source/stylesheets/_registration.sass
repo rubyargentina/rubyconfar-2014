@@ -35,6 +35,15 @@ section#registration
     margin: 0 auto 90px
     position: relative
     width: 700px
+    &:after
+      background: url(../images/lanyard.png) no-repeat center bottom
+      content: ""
+      height: 242px
+      position: absolute
+      right: -39px
+      top: -7px
+      width: 63px
+      z-index: 2
     .col
       border-right: 3px solid rgba($cream, 0.3)
       float: left
@@ -136,6 +145,12 @@ section#registration
   @media screen and (max-width: 800px)
     .table
       width: auto
+      &:after
+        display: none
+        // bottom: -100px
+        // height: 100px
+        // right: -20px
+        // top: auto
       .col
         border: 0 none
         border-bottom: 3px solid rgba($cream, 0.3)
@@ -151,7 +166,11 @@ section#registration
           vertical-align: top
           width: 50%
 
-
+      h5
+        background: url(../images/lanyard.png) no-repeat left bottom
+        margin-bottom: 15px
+        text-align: left
+        padding: 20px 10px 90px 60px
       ul
         li
           display: block
