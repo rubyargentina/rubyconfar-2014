@@ -182,6 +182,8 @@ $(window).load(function() {
     $('img#matrix').fadeIn(2000);
   }
 
+  mainElementsHeight();
+
   // Cleans URL of dirty hashtag.
   history.pushState("", document.title, window.location.pathname);  
 
