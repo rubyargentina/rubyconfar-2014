@@ -1895,7 +1895,7 @@ section#start {
       top: 10%;
       width: auto;
       z-index: 3; }
-    section#start.trinity .signal, section#start.trinity .breeze, section#start.trinity .cloud, section#start.trinity .clouds, section#start.trinity .konex, section#start.trinity .bat {
+    section#start.trinity .signal, section#start.trinity .breeze, section#start.trinity .cloud, section#start.trinity .clouds, section#start.trinity .konex, section#start.trinity .bat, section#start.trinity .bricks {
       display: none; }
     section#start.trinity hgroup {
       background-color: transparent;
@@ -2126,10 +2126,22 @@ body {
     body a.btn.btn-alt {
       background: #35a785;
       color: #ffd88f; }
+  body#home section h2.title {
+    color: #73c9a8;
+    font-family: "outage";
+    font-size: 42px;
+    margin-bottom: 35px;
+    text-align: center;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+    text-transform: uppercase; }
+    @media screen and (max-width: 600px) {
+      body#home section h2.title {
+        font-size: 32px;
+        margin-bottom: 20px; } }
   body#home section article.wrapper {
     padding-bottom: 50px;
     padding-top: 50px; }
-    body#home section article.wrapper h2 {
+    body#home section article.wrapper h2:not(.title) {
       float: left;
       font-family: "Ubuntu";
       font-size: 30px;

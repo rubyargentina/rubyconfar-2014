@@ -112,11 +112,26 @@ body
   
   &#home
     section
+
+      h2.title
+        color: $teal_vibrant
+        font-family: 'outage'
+        font-size: 42px
+        margin-bottom: 35px
+        text-align: center
+        text-shadow: 5px 5px 0 rgba(black, 0.1)
+        text-transform: uppercase
+        @media screen and (max-width: 600px)
+          font-size: 32px
+          margin-bottom: 20px
+
+
+
       article.wrapper
         padding-bottom: 50px
         padding-top: 50px
 
-        h2
+        h2:not(.title)
           float: left
           font-family: 'Ubuntu'
           font-size: 30px
