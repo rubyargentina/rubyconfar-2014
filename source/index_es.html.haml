@@ -51,26 +51,54 @@
   %canvas#c
 
 %section#registration
-  / .bricks
-  / .wall
-
-
   %article.wrapper
-    %h2.title Inscripci&oacute;n
-    .content
-      %p
-        %a.btn.btn-alt{href: '#'} 
-          Pronto
-          %i.fa.fa-angle-right
+    %h2.title Inscripción
+    %p
+      %strong RubyConf Argentina 
+      es uno de los mayores eventos de sudamérica sobre desarrollo de software, donde más de 450 desarrolladores se reúnen para aprender, discutir y compartir ideas sobre software libre, web, aplicaciones móviles, seguridad, robótica, y mucho más.
 
-      %p Tu entrada incluye: 
+      .table
+        .col.active
+          .cell>
+            %h4 Pajarito
+          .cell
+            %small AR$
+            %strong 650
 
-      %ul
-        %li Admisi&oacute;n a los dos d&iacute;as de charla
-        %li Acceso a todas las fiestas post evento 
-        %li Remera oficial de la conferencia y bolsa de regalos 
-        %li Desayuno, almuerzo y merienda durante ambos d&iacute;as
-        %li ¡Acceso a nuestros fabulosos oradores y asistentes!
+        .col
+          .cell>
+            %h4 Pájaro
+          .cell
+            %small AR$
+            %strong ---
+
+        .col
+          .cell>
+            %h4 Pajarote
+          .cell
+            %small AR$
+            %strong ---
+
+        .col.last
+          .cell>
+            %h4 Pajarón
+          .cell
+            %small AR$
+            %strong 1000
+
+        %h5 Lo que obtienes con tu entrada
+
+        %ul
+          %li> Admisi&oacute;n a los dos d&iacute;as de charla
+          %li> Acceso a todas las fiestas post evento 
+          %li> Remera oficial de la conferencia y bolsa de regalos 
+          %li> Desayuno, almuerzo y merienda
+          %li> 
+            ¡Acceso a nuestros fabulosos 
+            %br
+            oradores y asistentes!
+
+        %a{href:"http://eventioz.com/rubyconfar2014", target: '_blank'} Register Now
 
 %section#speakers
   %article.wrapper
