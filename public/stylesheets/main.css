@@ -127,22 +127,26 @@ a, img a {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
+
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
+
   100% {
     -o-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
@@ -2048,14 +2052,18 @@ section#registration {
         *vertical-align: auto;
         font-size: 13px;
         margin-bottom: 5px;
-        padding: 0 0 0 4%;
-        width: 46%; }
+        margin-left: 8%;
+        padding: 0 4% 0 0;
+        position: relative;
+        vertical-align: top;
+        width: 38%; }
         section#registration .table ul li:before {
           font-family: "fontAwesome";
-          content: "";
+          content: "\f00c";
           color: #e1483f;
-          font-size: 16px;
-          margin-right: 8px; }
+          font-size: 17px;
+          left: -28px;
+          position: absolute; }
     section#registration .table a {
       transition: all, 0.12s;
       -moz-transition: all, 0.12s;
@@ -2113,12 +2121,8 @@ section#registration {
         padding: 20px 10px 90px 60px; }
       section#registration .table ul li {
         display: block;
-        width: auto;
-        padding-right: 10%;
-        margin-left: 10%; }
-        section#registration .table ul li:before {
-          left: 5%;
-          position: absolute; }
+        margin-left: 15%;
+        width: auto; }
       section#registration .table a {
         width: 160px;
         margin-left: -80px;
