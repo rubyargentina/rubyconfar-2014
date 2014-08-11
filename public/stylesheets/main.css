@@ -1958,6 +1958,7 @@ section#start {
 section#registration {
   background: #684858;
   position: relative;
+  padding-bottom: 100px;
   text-align: center;
   z-index: 4; }
   section#registration h2 + p {
@@ -1968,9 +1969,10 @@ section#registration {
     border-radius: 3px;
     border: 4px solid rgba(255, 216, 143, 0.3);
     min-height: 340px;
-    margin: 0 auto 90px;
+    margin: 0 auto;
     position: relative;
-    width: 700px; }
+    width: 700px;
+    z-index: 1; }
     section#registration .table:after {
       background: url(../images/lanyard.png) no-repeat center bottom;
       content: "";
@@ -2085,6 +2087,24 @@ section#registration {
       section#registration .table a:hover {
         background: #35a785;
         text-decoration: none; }
+  section#registration .stuff .wrapper {
+    height: 262px;
+    margin-top: -210px;
+    position: relative;
+    text-align: left; }
+  section#registration .stuff .cup {
+    bottom: -23px;
+    position: absolute;
+    right: 100px; }
+  section#registration .stuff .sign {
+    bottom: -6px;
+    left: 0;
+    position: absolute;
+    z-index: 0; }
+  section#registration .wood {
+    background: #c18044 url(../images/wood.png);
+    box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
+    height: 30px; }
   @media screen and (max-width: 800px) {
     section#registration .table {
       width: auto; }
@@ -2126,7 +2146,11 @@ section#registration {
       section#registration .table a {
         width: 160px;
         margin-left: -80px;
-        font-size: 18px; } }
+        font-size: 18px; }
+    section#registration .stuff .sign {
+      display: none; }
+    section#registration .stuff .cup {
+      right: -20px; } }
 
 section#speakers {
   background: #35a785; }
