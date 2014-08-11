@@ -127,26 +127,22 @@ a, img a {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
-
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
-
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
-
   100% {
     -o-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
-
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
@@ -2056,7 +2052,7 @@ section#registration {
         width: 46%; }
         section#registration .table ul li:before {
           font-family: "fontAwesome";
-          content: "\f00c";
+          content: "";
           color: #e1483f;
           font-size: 16px;
           margin-right: 8px; }
