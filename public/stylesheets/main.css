@@ -1961,14 +1961,14 @@ section#registration {
   text-align: center;
   z-index: 4; }
   section#registration h2 + p {
-    margin: 0 auto 40px;
+    margin: 0 auto 50px;
     max-width: 600px; }
   section#registration .table {
     background: #333333;
     border-radius: 3px;
     border: 4px solid rgba(255, 216, 143, 0.3);
     height: 340px;
-    margin: 0 auto;
+    margin: 0 auto 90px;
     position: relative;
     width: 700px; }
     section#registration .table .col {
@@ -1976,11 +1976,15 @@ section#registration {
       float: left;
       position: relative;
       width: 172px; }
+      section#registration .table .col.last {
+        border-right: 0 none; }
       section#registration .table .col.active {
         border: 6px solid #73c9a8;
         border-radius: 6px;
         margin: -15px 0 0 -6px;
         z-index: 1; }
+        section#registration .table .col.active.last {
+          margin-right: -3px; }
         section#registration .table .col.active .cell {
           border-color: rgba(115, 201, 168, 0.3); }
           section#registration .table .col.active .cell h4, section#registration .table .col.active .cell small, section#registration .table .col.active .cell strong {
@@ -1996,8 +2000,6 @@ section#registration {
             font-size: 32px; }
           section#registration .table .col.active .cell:last-child {
             border: 0 none; }
-      section#registration .table .col.last {
-        border-right: 0 none; }
       section#registration .table .col .cell {
         border-bottom: 3px solid rgba(255, 216, 143, 0.3);
         background: #404040;
@@ -2029,14 +2031,42 @@ section#registration {
     section#registration .table ul {
       text-align: left; }
       section#registration .table ul li {
+        display: inline-block;
+        vertical-align: baseline;
+        zoom: 1;
+        *display: inline;
+        *vertical-align: auto;
         font-size: 13px;
-        margin-bottom: 5px; }
+        margin-bottom: 5px;
+        padding: 0 0 0 4%;
+        width: 46%; }
         section#registration .table ul li:before {
           font-family: "fontAwesome";
           content: "\f00c";
           color: #e1483f;
           font-size: 16px;
           margin-right: 8px; }
+    section#registration .table a {
+      transition: all, 0.12s;
+      -moz-transition: all, 0.12s;
+      -webkit-transition: all, 0.12s;
+      -o-transition: all, 0.12s;
+      background: #e1483f;
+      border-radius: 0 0 3px 3px;
+      bottom: -60px;
+      box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+      font-size: 24px;
+      font-weight: 600;
+      height: 60px;
+      left: 50%;
+      line-height: 60px;
+      margin-left: -150px;
+      position: absolute;
+      text-transform: uppercase;
+      width: 300px; }
+      section#registration .table a:hover {
+        background: #35a785;
+        text-decoration: none; }
 
 section#speakers {
   background: #35a785; }
