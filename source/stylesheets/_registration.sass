@@ -54,12 +54,14 @@ section#registration
       &.active
         border: 6px solid $teal_vibrant
         border-radius: 6px
-        margin: -15px 0 0 -6px
+        margin: -22px 0 0 -6px
         z-index: 1
         &.last
           margin-right: -3px
         .cell
           border-color: rgba($teal_vibrant, 0.3)
+          &:first-child
+            min-height: 67px
           h4, small, strong
             color: $teal_vibrant
           h4
@@ -78,16 +80,20 @@ section#registration
       .cell
         border-bottom: 3px solid rgba($cream, 0.3)
         background: lighten($gray, 5%)
-        padding: 10px 0
+        padding: 10px
+        min-height: 51px
         &:last-child
           background: $gray
-          padding: 15px 0
+
         h4
           font-family: 'Ubuntu'
           font-size: 16px
           font-weight: bold
           margin: 0 0 3px
           text-transform: uppercase
+
+          i
+            display: block
         p
           font-size: 11px
 

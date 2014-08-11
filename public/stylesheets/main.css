@@ -1990,12 +1990,14 @@ section#registration {
       section#registration .table .col.active {
         border: 6px solid #73c9a8;
         border-radius: 6px;
-        margin: -15px 0 0 -6px;
+        margin: -22px 0 0 -6px;
         z-index: 1; }
         section#registration .table .col.active.last {
           margin-right: -3px; }
         section#registration .table .col.active .cell {
           border-color: rgba(115, 201, 168, 0.3); }
+          section#registration .table .col.active .cell:first-child {
+            min-height: 67px; }
           section#registration .table .col.active .cell h4, section#registration .table .col.active .cell small, section#registration .table .col.active .cell strong {
             color: #73c9a8; }
           section#registration .table .col.active .cell h4 {
@@ -2012,16 +2014,18 @@ section#registration {
       section#registration .table .col .cell {
         border-bottom: 3px solid rgba(255, 216, 143, 0.3);
         background: #404040;
-        padding: 10px 0; }
+        padding: 10px;
+        min-height: 51px; }
         section#registration .table .col .cell:last-child {
-          background: #333333;
-          padding: 15px 0; }
+          background: #333333; }
         section#registration .table .col .cell h4 {
           font-family: "Ubuntu";
           font-size: 16px;
           font-weight: bold;
           margin: 0 0 3px;
           text-transform: uppercase; }
+          section#registration .table .col .cell h4 i {
+            display: block; }
         section#registration .table .col .cell p {
           font-size: 11px; }
         section#registration .table .col .cell small {
