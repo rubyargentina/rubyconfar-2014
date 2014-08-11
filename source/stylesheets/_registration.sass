@@ -1,8 +1,8 @@
 section#registration
   background: $violet
   position: relative
-  z-index: 4 
-  
+  text-align: center
+  z-index: 4
 
   // .wall
   //   background: url(../images/wall.png) no-repeat top center
@@ -19,6 +19,91 @@ section#registration
   //   height: 275px
   //   position: absolute
   //   top: 115px
+
+
+
+
+  h2 + p
+    margin: 0 auto 40px
+    max-width: 600px
+
+  .table
+    background: $gray
+    border-radius: 3px
+    border: 4px solid rgba($cream, 0.3)
+    height: 340px
+    margin: 0 auto
+    position: relative
+    width: 700px
+    .col
+      border-right: 3px solid rgba($cream, 0.3)
+      float: left
+      position: relative
+      width: 172px
+      &.active
+        border: 6px solid $teal_vibrant
+        border-radius: 6px
+        margin: -15px 0 0 -6px
+        z-index: 1
+        .cell
+          border-color: rgba($teal_vibrant, 0.3)
+          h4, small, strong
+            color: $teal_vibrant
+          h4
+            font-size: 22px
+            margin-bottom: 0
+          p
+            font-size: 13px
+          small
+            font-size: 20px
+          strong
+            font-size: 32px
+
+          &:last-child
+            border: 0 none
+      &.last
+        border-right: 0 none
+      .cell
+        border-bottom: 3px solid rgba($cream, 0.3)
+        background: lighten($gray, 5%)
+        padding: 10px 0
+        &:last-child
+          background: $gray
+          padding: 15px 0
+        h4
+          font-family: 'Ubuntu'
+          font-size: 16px
+          font-weight: bold
+          margin: 0 0 3px
+          text-transform: uppercase
+        p
+          font-size: 11px
+
+        small
+          font-size: 18px
+          font-weight: 600
+        strong
+          font-weight: normal
+          font-family: 'outage'
+          font-size: 28px
+
+    h5
+      clear: left
+      font-size: 18px
+      font-weight: 600
+      padding: 25px 0
+      text-transform: uppercase
+
+    ul
+      text-align: left
+      li
+        font-size: 13px
+        margin-bottom: 5px
+        &:before
+          @include checkmark
+          color: $red_alt
+          font-size: 16px
+          margin-right: 8px 
 
 
 

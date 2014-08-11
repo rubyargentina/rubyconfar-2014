@@ -1958,7 +1958,85 @@ section#start {
 section#registration {
   background: #684858;
   position: relative;
+  text-align: center;
   z-index: 4; }
+  section#registration h2 + p {
+    margin: 0 auto 40px;
+    max-width: 600px; }
+  section#registration .table {
+    background: #333333;
+    border-radius: 3px;
+    border: 4px solid rgba(255, 216, 143, 0.3);
+    height: 340px;
+    margin: 0 auto;
+    position: relative;
+    width: 700px; }
+    section#registration .table .col {
+      border-right: 3px solid rgba(255, 216, 143, 0.3);
+      float: left;
+      position: relative;
+      width: 172px; }
+      section#registration .table .col.active {
+        border: 6px solid #73c9a8;
+        border-radius: 6px;
+        margin: -15px 0 0 -6px;
+        z-index: 1; }
+        section#registration .table .col.active .cell {
+          border-color: rgba(115, 201, 168, 0.3); }
+          section#registration .table .col.active .cell h4, section#registration .table .col.active .cell small, section#registration .table .col.active .cell strong {
+            color: #73c9a8; }
+          section#registration .table .col.active .cell h4 {
+            font-size: 22px;
+            margin-bottom: 0; }
+          section#registration .table .col.active .cell p {
+            font-size: 13px; }
+          section#registration .table .col.active .cell small {
+            font-size: 20px; }
+          section#registration .table .col.active .cell strong {
+            font-size: 32px; }
+          section#registration .table .col.active .cell:last-child {
+            border: 0 none; }
+      section#registration .table .col.last {
+        border-right: 0 none; }
+      section#registration .table .col .cell {
+        border-bottom: 3px solid rgba(255, 216, 143, 0.3);
+        background: #404040;
+        padding: 10px 0; }
+        section#registration .table .col .cell:last-child {
+          background: #333333;
+          padding: 15px 0; }
+        section#registration .table .col .cell h4 {
+          font-family: "Ubuntu";
+          font-size: 16px;
+          font-weight: bold;
+          margin: 0 0 3px;
+          text-transform: uppercase; }
+        section#registration .table .col .cell p {
+          font-size: 11px; }
+        section#registration .table .col .cell small {
+          font-size: 18px;
+          font-weight: 600; }
+        section#registration .table .col .cell strong {
+          font-weight: normal;
+          font-family: "outage";
+          font-size: 28px; }
+    section#registration .table h5 {
+      clear: left;
+      font-size: 18px;
+      font-weight: 600;
+      padding: 25px 0;
+      text-transform: uppercase; }
+    section#registration .table ul {
+      text-align: left; }
+      section#registration .table ul li {
+        font-size: 13px;
+        margin-bottom: 5px; }
+        section#registration .table ul li:before {
+          font-family: "fontAwesome";
+          content: "\f00c";
+          color: #e1483f;
+          font-size: 16px;
+          margin-right: 8px; }
 
 section#speakers {
   background: #35a785; }
@@ -1987,7 +2065,17 @@ body.inner-page {
       margin: 20px 0; }
     body.inner-page section h2 {
       color: #e1483f;
-      font-size: 20px; }
+      font-size: 20px;
+      margin-bottom: 20px; }
+    body.inner-page section p {
+      margin-bottom: 20px; }
+    body.inner-page section ul {
+      list-style: disc inside;
+      padding: 0 20px 20px; }
+      body.inner-page section ul li {
+        margin-bottom: 5px; }
+        body.inner-page section ul li:last-child {
+          margin-bottom: 0; }
   @media screen and (min-width: 500px) {
     body.inner-page nav {
       margin-top: 70px; } }
@@ -2073,26 +2161,19 @@ body {
       body .wrapper {
         padding-left: 30px;
         padding-right: 30px; } }
-    body .wrapper p, body .wrapper ul, body .wrapper h6, body .wrapper h5, body .wrapper h4, body .wrapper h3, body .wrapper h2 {
+    body .wrapper .content p, body .wrapper .content h6, body .wrapper .content h5, body .wrapper .content h4, body .wrapper .content h3, body .wrapper .content h2 {
       margin-bottom: 20px; }
-    body .wrapper h6 {
+    body .wrapper .content h6 {
       font-size: 15px; }
-    body .wrapper h5 {
+    body .wrapper .content h5 {
       font-size: 15px; }
-    body .wrapper h4 {
+    body .wrapper .content h4 {
       font-size: 16px; }
-    body .wrapper h3 {
+    body .wrapper .content h3 {
       font-size: 17px;
       margin-bottom: 15px; }
-    body .wrapper h3 {
+    body .wrapper .content h3 {
       font-size: 18px; }
-    body .wrapper ul {
-      list-style: disc inside;
-      padding: 0 20px 20px; }
-      body .wrapper ul li {
-        margin-bottom: 5px; }
-        body .wrapper ul li:last-child {
-          margin-bottom: 0; }
     body .wrapper strong {
       font-weight: 600; }
     body .wrapper a:hover {
@@ -2130,7 +2211,7 @@ body {
     color: #73c9a8;
     font-family: "outage";
     font-size: 42px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     text-align: center;
     text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
     text-transform: uppercase; }
