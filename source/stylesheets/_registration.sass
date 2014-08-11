@@ -31,7 +31,7 @@ section#registration
     background: $gray
     border-radius: 3px
     border: 4px solid rgba($cream, 0.3)
-    height: 340px
+    min-height: 340px
     margin: 0 auto 90px
     position: relative
     width: 700px
@@ -94,10 +94,11 @@ section#registration
       clear: left
       font-size: 18px
       font-weight: 600
-      padding: 25px 0
+      padding: 25px
       text-transform: uppercase
 
     ul
+      padding-bottom: 25px
       text-align: left
       li
         @include inline-block
@@ -132,4 +133,38 @@ section#registration
         text-decoration: none
 
 
+  @media screen and (max-width: 800px)
+    .table
+      width: auto
+      .col
+        border: 0 none
+        border-bottom: 3px solid rgba($cream, 0.3)
+        float: none
+        width: auto
+        &.active
+          margin: -3px -3px 0
+        .cell, .cell:last-child
+          @include box-sizing
+          @include inline-block
+          border: 0 none
+          padding: 10px 0
+          vertical-align: top
+          width: 50%
+
+
+      ul
+        li
+          display: block
+          width: auto
+          margin-left: 10%
+          &:before
+            left: 5%
+            position: absolute
+
+
+      a
+        width: 160px
+        margin-left: -80px
+        font-size: 18px
+          
 

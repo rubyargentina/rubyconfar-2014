@@ -1967,7 +1967,7 @@ section#registration {
     background: #333333;
     border-radius: 3px;
     border: 4px solid rgba(255, 216, 143, 0.3);
-    height: 340px;
+    min-height: 340px;
     margin: 0 auto 90px;
     position: relative;
     width: 700px; }
@@ -2026,9 +2026,10 @@ section#registration {
       clear: left;
       font-size: 18px;
       font-weight: 600;
-      padding: 25px 0;
+      padding: 25px;
       text-transform: uppercase; }
     section#registration .table ul {
+      padding-bottom: 25px;
       text-align: left; }
       section#registration .table ul li {
         display: inline-block;
@@ -2067,6 +2068,39 @@ section#registration {
       section#registration .table a:hover {
         background: #35a785;
         text-decoration: none; }
+  @media screen and (max-width: 800px) {
+    section#registration .table {
+      width: auto; }
+      section#registration .table .col {
+        border: 0 none;
+        border-bottom: 3px solid rgba(255, 216, 143, 0.3);
+        float: none;
+        width: auto; }
+        section#registration .table .col.active {
+          margin: -3px -3px 0; }
+        section#registration .table .col .cell, section#registration .table .col .cell:last-child {
+          box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          display: inline-block;
+          vertical-align: baseline;
+          zoom: 1;
+          *display: inline;
+          *vertical-align: auto;
+          border: 0 none;
+          padding: 10px 0;
+          vertical-align: top;
+          width: 50%; }
+      section#registration .table ul li {
+        display: block;
+        width: auto;
+        margin-left: 10%; }
+        section#registration .table ul li:before {
+          left: 5%;
+          position: absolute; }
+      section#registration .table a {
+        width: 160px;
+        margin-left: -80px;
+        font-size: 18px; } }
 
 section#speakers {
   background: #35a785; }
