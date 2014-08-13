@@ -8,14 +8,15 @@ section#start
   background: linear-gradient(to bottom,  #851512 0%,#cb2522 50%,#e74e3b 99%)
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 )
   position: relative
-  text-align: center  
+  text-align: center
+  overflow: hidden
 
   .konex
     bottom: -200px
     height: auto
     left: -15px
     position: absolute    
-    z-index: 3
+    z-index: 2
 
   .cloud
     height: auto
@@ -146,7 +147,7 @@ section#start
       @include gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1))
 
   hgroup    
-    @include gradient(rgba($violet, 0), rgba($violet, 1))
+    // @include gradient(rgba($violet, 0), rgba($violet, 1))
     @include box-sizing
     bottom: 0
     color: $teal_vibrant 

@@ -1797,13 +1797,14 @@ section#start {
   background: linear-gradient(to bottom, #851512 0%, #cb2522 50%, #e74e3b 99%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 );
   position: relative;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
   section#start .konex {
     bottom: -200px;
     height: auto;
     left: -15px;
     position: absolute;
-    z-index: 3; }
+    z-index: 2; }
   section#start .cloud {
     height: auto;
     left: 0;
@@ -1904,10 +1905,6 @@ section#start {
       background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, transparent), color-stop(1, black));
       background-image: linear-gradient(top, transparent, black); }
   section#start hgroup {
-    background-color: rgba(104, 72, 88, 0);
-    background-image: -moz-linear-gradient(top, rgba(104, 72, 88, 0), #684858);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(104, 72, 88, 0)), color-stop(1, #684858));
-    background-image: linear-gradient(top, rgba(104, 72, 88, 0), #684858);
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     bottom: 0;
@@ -1957,11 +1954,49 @@ section#start {
       max-width: 300px; } }
 
 section#registration {
-  background: #684858;
+  background: #734658;
   position: relative;
   padding-bottom: 100px;
-  text-align: center;
-  z-index: 4; }
+  text-align: center; }
+  section#registration #the-wall {
+    height: 421px;
+    margin-top: -320px;
+    position: absolute;
+    width: 100%;
+    z-index: 2; }
+    section#registration #the-wall #wall {
+      background: url(../images/wall2.png) no-repeat bottom center;
+      background-size: 100% auto;
+      height: 221px;
+      padding-top: 200px;
+      position: absolute;
+      width: 100%;
+      z-index: 2; }
+    section#registration #the-wall #gradient {
+      background-color: rgba(104, 72, 88, 0);
+      background-image: -moz-linear-gradient(top, rgba(104, 72, 88, 0), #684858);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(104, 72, 88, 0)), color-stop(1, #684858));
+      background-image: linear-gradient(top, rgba(104, 72, 88, 0), #684858);
+      height: 421px;
+      position: absolute;
+      width: 100%;
+      z-index: 1; }
+    section#registration #the-wall #bricks {
+      background: url(../images/bricks-violet.png) no-repeat top center;
+      border-top: 20px solid #333333;
+      bottom: 0;
+      height: 131px;
+      position: absolute;
+      width: 100%;
+      z-index: 0; }
+    @media screen and (max-width: 600px) {
+      section#registration #the-wall {
+        zoom: 0.6; } }
+  section#registration h2.title {
+    margin-top: 120px; }
+    @media screen and (max-width: 600px) {
+      section#registration h2.title {
+        margin-top: 20px; } }
   section#registration h2 + p {
     margin: 0 auto 50px;
     max-width: 600px; }
