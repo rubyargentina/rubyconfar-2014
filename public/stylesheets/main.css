@@ -2076,8 +2076,9 @@ section#registration {
       section#registration .table .col.sold-out .cell {
         background: #595959; }
       section#registration .table .col.sold-out img {
+        margin: -25px 0 0 -38px;
         position: absolute;
-        margin: -25px 0 0 -38px; }
+        z-index: 4; }
     section#registration .table h5 {
       clear: left;
       font-size: 18px;
@@ -2191,8 +2192,7 @@ section#registration {
     section#registration .stuff .sign {
       display: none; }
     section#registration .stuff .cup {
-      right: auto;
-      left: -115px; } }
+      right: -20px; } }
 
 section#speakers {
   background: #35a785; }
@@ -2286,6 +2286,9 @@ body#cfp #top {
     @media screen and (max-width: 670px) {
       body#cfp #top h1 {
         display: none; } }
+
+html, body {
+  overflow-x: hidden; }
 
 body {
   background-color: #bc2e2a;

@@ -132,8 +132,9 @@ section#registration
           background: lighten($gray, 15%)
 
         img
-          position: absolute
           margin: -25px 0 0 -38px
+          position: absolute
+          z-index: 4
 
     h5
       clear: left
@@ -206,7 +207,7 @@ section#registration
     box-shadow: 0 10px 0 rgba(black, 0.1)
     height: 30px
 
-  @media screen and (max-width: 800px)    
+  @media screen and (max-width: 800px)  
     .table
       width: auto
       &:after
@@ -252,10 +253,11 @@ section#registration
 
 
     .stuff
+
       .sign
         display: none
       .cup
-        right: auto
-        left: -115px
+        right: -20px
+
             
 
