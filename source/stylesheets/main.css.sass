@@ -109,57 +109,39 @@ body
       background: $teal
       color: $cream
   
+  
+
+
+  h2.title
+    color: $teal_vibrant
+    font-family: 'outage'
+    font-size: 42px
+    margin-bottom: 30px        
+    text-shadow: 5px 5px 0 rgba(black, 0.1)
+    text-transform: uppercase
+    @media screen and (max-width: 600px)
+      font-size: 32px
+      margin-bottom: 20px
+
+
   &#home
     section
 
-      h2.title
-        color: $teal_vibrant
-        font-family: 'outage'
-        font-size: 42px
-        margin-bottom: 30px
-        text-align: center
-        text-shadow: 5px 5px 0 rgba(black, 0.1)
-        text-transform: uppercase
-        @media screen and (max-width: 600px)
-          font-size: 32px
-          margin-bottom: 20px
-
+      
 
 
       article.wrapper
         padding-bottom: 50px
         padding-top: 50px
-
-        h2:not(.title)
-          float: left
-          font-family: 'Ubuntu'
-          font-size: 30px
-          font-weight: 300
-          margin-bottom: 10px
-          width: 25%
-
-        .content
-          margin-left: 25%
-          padding-top: 10px
-            
-
+        text-align: center
 
         @media screen and (max-width: 800px)
-          text-align: center
-          
-          h2:not(.title)
-            float: none
-            width: auto
-          .content
-            margin: 0
-
           .btn
             display: block
 
         @media screen and (max-width: 500px)
           padding-right: 20px
           padding-left: 20px
-
 
 
 

@@ -127,22 +127,26 @@ a, img a {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
+
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
+
   100% {
     -o-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
@@ -2099,7 +2103,7 @@ section#registration {
         width: 38%; }
         section#registration .table ul li:before {
           font-family: "fontAwesome";
-          content: "";
+          content: "\f00c";
           color: #e1483f;
           font-size: 17px;
           left: -28px;
@@ -2192,9 +2196,11 @@ section#registration {
 
 section#speakers {
   background: #35a785; }
+  section#speakers h2.title {
+    color: #ffd88f; }
 
 section#sponsors {
-  background: #4b5563; }
+  background: #e1483f; }
 
 section#venue {
   background: #684858; }
@@ -2362,41 +2368,24 @@ body {
     body a.btn.btn-alt {
       background: #35a785;
       color: #ffd88f; }
-  body#home section h2.title {
+  body h2.title {
     color: #73c9a8;
     font-family: "outage";
     font-size: 42px;
     margin-bottom: 30px;
-    text-align: center;
     text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
     text-transform: uppercase; }
     @media screen and (max-width: 600px) {
-      body#home section h2.title {
+      body h2.title {
         font-size: 32px;
         margin-bottom: 20px; } }
   body#home section article.wrapper {
     padding-bottom: 50px;
-    padding-top: 50px; }
-    body#home section article.wrapper h2:not(.title) {
-      float: left;
-      font-family: "Ubuntu";
-      font-size: 30px;
-      font-weight: 300;
-      margin-bottom: 10px;
-      width: 25%; }
-    body#home section article.wrapper .content {
-      margin-left: 25%;
-      padding-top: 10px; }
+    padding-top: 50px;
+    text-align: center; }
     @media screen and (max-width: 800px) {
-      body#home section article.wrapper {
-        text-align: center; }
-        body#home section article.wrapper h2:not(.title) {
-          float: none;
-          width: auto; }
-        body#home section article.wrapper .content {
-          margin: 0; }
-        body#home section article.wrapper .btn {
-          display: block; } }
+      body#home section article.wrapper .btn {
+        display: block; } }
     @media screen and (max-width: 500px) {
       body#home section article.wrapper {
         padding-right: 20px;
