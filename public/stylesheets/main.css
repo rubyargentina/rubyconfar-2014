@@ -127,22 +127,26 @@ a, img a {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
+
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
+
   100% {
     -o-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
@@ -2069,6 +2073,11 @@ section#registration {
           font-weight: normal;
           font-family: "outage";
           font-size: 28px; }
+      section#registration .table .col.sold-out .cell {
+        background: #595959; }
+      section#registration .table .col.sold-out img {
+        position: absolute;
+        margin: -25px 0 0 -38px; }
     section#registration .table h5 {
       clear: left;
       font-size: 18px;
@@ -2093,7 +2102,7 @@ section#registration {
         width: 38%; }
         section#registration .table ul li:before {
           font-family: "fontAwesome";
-          content: "";
+          content: "\f00c";
           color: #e1483f;
           font-size: 17px;
           left: -28px;
