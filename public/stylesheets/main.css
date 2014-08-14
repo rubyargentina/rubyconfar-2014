@@ -1955,8 +1955,8 @@ section#start {
 
 section#registration {
   background: #734658;
-  position: relative;
   padding-bottom: 100px;
+  position: relative;
   text-align: center; }
   section#registration #the-wall {
     height: 421px;
@@ -2191,7 +2191,8 @@ section#registration {
     section#registration .stuff .sign {
       display: none; }
     section#registration .stuff .cup {
-      right: -20px; } }
+      right: auto;
+      left: -115px; } }
 
 section#speakers {
   background: #35a785; }
