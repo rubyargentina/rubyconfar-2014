@@ -127,22 +127,26 @@ a, img a {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
+
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
+
   100% {
     -o-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
@@ -2099,7 +2103,7 @@ section#registration {
         width: 38%; }
         section#registration .table ul li:before {
           font-family: "fontAwesome";
-          content: "";
+          content: "\f00c";
           color: #e1483f;
           font-size: 17px;
           left: -28px;
@@ -2251,6 +2255,11 @@ section#speakers {
         color: #86c8ea; }
       section#speakers ul li a:hover i.fa-github {
         color: #e1483f; }
+  section#speakers h6 {
+    font-family: "Ubuntu";
+    font-size: 16px;
+    margin-top: 40px;
+    text-transform: uppercase; }
 
 section#sponsors {
   background: #dadada; }
@@ -2310,6 +2319,13 @@ body.inner-page {
   @media screen and (min-width: 500px) {
     body.inner-page nav {
       margin-top: 70px; } }
+
+body#home section#cfp {
+  background: #e1483f; }
+  body#home section#cfp h3 {
+    font-family: "Ubuntu";
+    font-size: 18px;
+    margin-bottom: 15px; }
 
 body#cfp header {
   background: #35a785;
