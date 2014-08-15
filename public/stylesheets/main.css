@@ -127,22 +127,26 @@ a, img a {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
+
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
+
   100% {
     -o-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
@@ -2099,7 +2103,7 @@ section#registration {
         width: 38%; }
         section#registration .table ul li:before {
           font-family: "fontAwesome";
-          content: "";
+          content: "\f00c";
           color: #e1483f;
           font-size: 17px;
           left: -28px;
@@ -2196,7 +2200,27 @@ section#speakers {
     color: #ffd88f; }
 
 section#sponsors {
-  background: #e1483f; }
+  background: #dadada; }
+  section#sponsors h2.title {
+    color: #35a785; }
+  section#sponsors h4 {
+    color: #8c8c8c; }
+  section#sponsors ul li {
+    margin: 20px; }
+    section#sponsors ul li a {
+      transition: all, 0.25s;
+      -moz-transition: all, 0.25s;
+      -webkit-transition: all, 0.25s;
+      -o-transition: all, 0.25s; }
+      section#sponsors ul li a img {
+        max-width: 100%;
+        height: auto; }
+      section#sponsors ul li a:hover {
+        opacity: 0.8; }
+  section#sponsors h3 {
+    font-weight: bold; }
+  section#sponsors h3, section#sponsors p {
+    color: #333333; }
 
 section#venue {
   background: #684858; }

@@ -1,5 +1,27 @@
 section#sponsors
-  background: $red_alt
+  background: $gray_light
 
   h2.title
-    // color: $red_alt
+    color: $teal
+
+  h4
+    color: lighten($gray, 35%)
+
+  ul
+    li
+      margin: 20px
+      a
+        @include transition(all, 0.25s)
+        
+        img
+          max-width: 100%
+          height: auto
+
+        &:hover
+          opacity: 0.8
+
+
+  h3
+    font-weight: bold
+  h3, p
+    color: $gray
