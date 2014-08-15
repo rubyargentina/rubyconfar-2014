@@ -1851,10 +1851,10 @@ section#start {
       position: absolute;
       width: 100%; }
   section#start img.character {
-    bottom: 20px;
+    bottom: 30px;
     height: auto;
     left: 50%;
-    max-height: 90%;
+    max-height: 87%;
     position: absolute;
     width: auto;
     z-index: 2; }
@@ -1983,9 +1983,9 @@ section#registration {
       z-index: 1; }
     section#registration #the-wall #bricks {
       background: url(../images/bricks-violet.png) no-repeat top center;
-      border-top: 20px solid #333333;
+      border-top: 10px solid #333333;
       bottom: 0;
-      height: 131px;
+      height: 110px;
       position: absolute;
       width: 100%;
       z-index: 0; }
@@ -2198,6 +2198,63 @@ section#speakers {
   background: #35a785; }
   section#speakers h2.title {
     color: #ffd88f; }
+  section#speakers ul li {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+    margin: 20px;
+    vertical-align: top; }
+    section#speakers ul li .img a {
+      transition: all, 0.25s;
+      -moz-transition: all, 0.25s;
+      -webkit-transition: all, 0.25s;
+      -o-transition: all, 0.25s;
+      border-radius: 100%;
+      display: block;
+      height: 200px;
+      overflow: hidden;
+      width: 200px; }
+      section#speakers ul li .img a img {
+        display: block;
+        height: auto;
+        max-width: 100%; }
+      section#speakers ul li .img a:hover {
+        opacity: 0.8; }
+    section#speakers ul li h3 {
+      font-family: "Ubuntu";
+      font-size: 18px;
+      font-weight: bold;
+      margin: 15px 0 0;
+      text-transform: uppercase; }
+    section#speakers ul li h4 {
+      font-size: 15px; }
+      section#speakers ul li h4 span {
+        margin-left: 3px;
+        padding-left: 8px;
+        position: relative; }
+        section#speakers ul li h4 span:before {
+          border-left: 1px solid #ffd88f;
+          content: "";
+          height: 12px;
+          left: 0;
+          position: absolute;
+          top: 5px; }
+    section#speakers ul li a i {
+      transition: all, 0.25s;
+      -moz-transition: all, 0.25s;
+      -webkit-transition: all, 0.25s;
+      -o-transition: all, 0.25s;
+      font-size: 18px;
+      font-weight: normal;
+      margin: 0 3px; }
+    section#speakers ul li a:hover {
+      text-decoration: none; }
+      section#speakers ul li a:hover i.fa-twitter {
+        color: #86c8ea; }
+      section#speakers ul li a:hover i.fa-github {
+        color: #e1483f; }
 
 section#sponsors {
   background: #dadada; }

@@ -3,3 +3,67 @@ section#speakers
 
   h2.title
     color: $cream
+
+
+  ul
+    li
+      @include inline-block
+      margin: 20px
+      vertical-align: top
+      .img
+        a
+          @include transition(all, 0.25s)
+          border-radius: 100%
+          display: block
+          height: 200px
+          overflow: hidden
+          width: 200px
+          img
+            display: block
+            height: auto
+            max-width: 100%
+
+          &:hover  
+            opacity: 0.8
+
+      h3
+        font-family: 'Ubuntu'
+        font-size: 18px
+        font-weight: bold
+        margin: 15px 0 0
+        text-transform: uppercase
+
+      h4
+        font-size: 15px
+
+        span    
+          margin-left: 3px
+          padding-left: 8px
+          position: relative
+          &:before
+            border-left: 1px solid $cream
+            content: ""
+            height: 12px
+            left: 0
+            position: absolute
+            top: 5px      
+
+      a
+        i
+          @include transition(all, 0.25s)
+          font-size: 18px
+          font-weight: normal
+          margin: 0 3px          
+        &:hover
+          text-decoration: none
+          i.fa-twitter            
+            color: #86c8ea
+          i.fa-github
+            color: $red_alt
+
+
+      h5
+        // font-size: 16px
+
+
+
