@@ -1955,7 +1955,7 @@ section#start {
 
 section#registration {
   background: #734658;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   position: relative;
   text-align: center; }
   section#registration #the-wall {
@@ -2195,71 +2195,160 @@ section#registration {
       right: -20px; } }
 
 section#speakers {
-  background: #35a785; }
+  background: #36a582 url(../images/cave-middle.png) no-repeat center 230px; }
+  section#speakers #cave-top {
+    background: url(../images/cave-top.png) repeat center top;
+    height: 489px;
+    margin-bottom: -220px;
+    margin-top: -77px;
+    position: relative;
+    width: 100%; }
+    @media screen and (max-width: 650px) {
+      section#speakers #cave-top {
+        margin-top: -180px;
+        zoom: 0.5; } }
+  section#speakers #cave-bottom {
+    background: url(../images/cave-bottom.png) repeat center top;
+    height: 159px;
+    margin-bottom: -65px;
+    margin-top: -115px;
+    position: relative;
+    width: 100%; }
+    @media screen and (min-width: 1673px) {
+      section#speakers #cave-bottom {
+        background-size: 100% auto; } }
   section#speakers h2.title {
     color: #ffd88f; }
-  section#speakers ul li {
-    display: inline-block;
-    vertical-align: baseline;
-    zoom: 1;
-    *display: inline;
-    *vertical-align: auto;
-    margin: 20px;
-    vertical-align: top; }
-    section#speakers ul li .img a {
-      transition: all, 0.25s;
-      -moz-transition: all, 0.25s;
-      -webkit-transition: all, 0.25s;
-      -o-transition: all, 0.25s;
-      border-radius: 100%;
-      display: block;
-      height: 200px;
-      overflow: hidden;
-      width: 200px; }
-      section#speakers ul li .img a img {
-        display: block;
-        height: auto;
-        max-width: 100%; }
-      section#speakers ul li .img a:hover {
-        opacity: 0.8; }
-    section#speakers ul li h3 {
-      font-family: "Ubuntu";
-      font-size: 18px;
-      font-weight: bold;
-      margin: 15px 0 0;
-      text-transform: uppercase; }
-    section#speakers ul li h4 {
-      font-size: 15px; }
-      section#speakers ul li h4 span {
-        margin-left: 3px;
-        padding-left: 8px;
-        position: relative; }
-        section#speakers ul li h4 span:before {
-          border-left: 1px solid #ffd88f;
-          content: "";
-          height: 12px;
-          left: 0;
+  section#speakers ul {
+    background: #363636;
+    padding: 10px;
+    position: relative;
+    z-index: 1; }
+    section#speakers ul li {
+      display: inline-block;
+      vertical-align: baseline;
+      zoom: 1;
+      *display: inline;
+      *vertical-align: auto;
+      background: #737f8d url(../images/speaker-bkg-a.png) repeat center top;
+      height: 417px;
+      margin: 0.5%;
+      position: relative;
+      width: 24%;
+      vertical-align: top; }
+      section#speakers ul li:nth-child(even) {
+        background-color: #7d7d7d;
+        background-image: url(../images/speaker-bkg-b.png); }
+      section#speakers ul li h3 {
+        font-family: "outage";
+        font-size: 18px;
+        font-weight: normal;
+        margin: 90px 0 0;
+        text-transform: uppercase; }
+      section#speakers ul li h4 {
+        font-size: 15px;
+        margin-bottom: 25px; }
+      section#speakers ul li .img {
+        bottom: 20px;
+        left: 50%;
+        margin-left: -115px;
+        overflow: hidden;
+        position: absolute;
+        width: 230px; }
+        section#speakers ul li .img .overlay {
+          transition: all, 0.25s;
+          -moz-transition: all, 0.25s;
+          -webkit-transition: all, 0.25s;
+          -o-transition: all, 0.25s;
+          background: transparent;
+          border-radius: 100%;
+          box-shadow: 0 0 0 10px rgba(65, 73, 84, 0.7) inset;
+          height: 100%;
           position: absolute;
-          top: 5px; }
-    section#speakers ul li a i {
-      transition: all, 0.25s;
-      -moz-transition: all, 0.25s;
-      -webkit-transition: all, 0.25s;
-      -o-transition: all, 0.25s;
-      font-size: 18px;
-      font-weight: normal;
-      margin: 0 3px; }
-    section#speakers ul li a:hover {
-      text-decoration: none; }
-      section#speakers ul li a:hover i.fa-twitter {
-        color: #86c8ea; }
-      section#speakers ul li a:hover i.fa-github {
-        color: #e1483f; }
+          width: 100%; }
+          section#speakers ul li .img .overlay:hover {
+            background: rgba(39, 36, 37, 0.9); }
+            section#speakers ul li .img .overlay:hover h5, section#speakers ul li .img .overlay:hover .links {
+              opacity: 1; }
+          section#speakers ul li .img .overlay h5, section#speakers ul li .img .overlay .links {
+            transition: all, 0.25s;
+            -moz-transition: all, 0.25s;
+            -webkit-transition: all, 0.25s;
+            -o-transition: all, 0.25s;
+            opacity: 0; }
+          section#speakers ul li .img .overlay h5 {
+            color: #35a785;
+            font-family: "Ubuntu";
+            font-size: 18px;
+            margin-top: 45px; }
+          section#speakers ul li .img .overlay .links {
+            border-top: 1px solid rgba(255, 216, 143, 0.5);
+            left: 50%;
+            margin-left: -37%;
+            padding-top: 20px;
+            position: absolute;
+            top: 50%;
+            width: 74%; }
+          section#speakers ul li .img .overlay a i {
+            transition: all, 0.25s;
+            -moz-transition: all, 0.25s;
+            -webkit-transition: all, 0.25s;
+            -o-transition: all, 0.25s;
+            font-size: 26px;
+            font-weight: normal;
+            margin: 0 10px; }
+          section#speakers ul li .img .overlay a:hover {
+            text-decoration: none; }
+            section#speakers ul li .img .overlay a:hover i.fa-twitter {
+              color: #86c8ea; }
+            section#speakers ul li .img .overlay a:hover i.fa-github {
+              color: #e1483f; }
+        section#speakers ul li .img img {
+          box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          border-radius: 100%;
+          border: 1px solid rgba(65, 73, 84, 0.7);
+          display: block;
+          height: auto;
+          max-width: 100%; }
+      @media screen and (min-width: 920px) and (max-width: 1140px) {
+        section#speakers ul li {
+          height: 400px; }
+          section#speakers ul li .img {
+            bottom: 30px;
+            margin-left: -100px;
+            width: 200px; } }
+      @media screen and (min-width: 920px) and (max-width: 1020px) {
+        section#speakers ul li {
+          height: 380px; }
+          section#speakers ul li .img {
+            bottom: 20px;
+            margin-left: -90px;
+            width: 180px; } }
+      @media screen and (max-width: 920px) {
+        section#speakers ul li {
+          width: 48%;
+          margin: 1%; } }
+      @media screen and (max-width: 650px) {
+        section#speakers ul li {
+          width: 96%;
+          margin: 2%; } }
   section#speakers h6 {
-    font-family: "Ubuntu";
-    font-size: 16px;
-    margin-top: 40px;
-    text-transform: uppercase; }
+    background: #363636;
+    border-radius: 0 0 3px 3px;
+    bottom: -35px;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+    font-size: 13px;
+    font-weight: 600;
+    height: 35px;
+    left: 50%;
+    line-height: 35px;
+    margin-left: -140px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 280px;
+    z-index: 1; }
 
 section#sponsors {
   background: #dadada; }
@@ -2330,11 +2419,18 @@ body.inner-page {
       margin-top: 70px; } }
 
 body#home section#cfp {
-  background: #e1483f; }
+  background: #363636; }
+  body#home section#cfp h2.title {
+    color: #ffd88f;
+    margin-top: 55px; }
   body#home section#cfp h3 {
     font-family: "Ubuntu";
     font-size: 18px;
     margin-bottom: 15px; }
+  body#home section#cfp h4 {
+    color: #35a785;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
 
 body#cfp header {
   background: #35a785;

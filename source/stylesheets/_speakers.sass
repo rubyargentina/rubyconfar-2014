@@ -1,71 +1,167 @@
 section#speakers
-  background: $teal
+  background: #36a582 url(../images/cave-middle.png) no-repeat center 230px
 
+  #cave-top
+    background: url(../images/cave-top.png) repeat center top
+    height: 489px
+    margin-bottom: -220px
+    margin-top: -77px
+    position: relative
+    width: 100%
+
+    @media screen and (max-width: 650px)
+      margin-top: -180px
+      zoom: 0.5
+  
+  #cave-bottom
+    background: url(../images/cave-bottom.png) repeat center top
+    height: 159px
+    margin-bottom: -65px
+    margin-top: -115px
+    position: relative
+    width: 100%
+    @media screen and (min-width: 1673px)
+      background-size: 100% auto
+
+  
   h2.title
     color: $cream
 
 
   ul
+    background: $gray2
+    padding: 10px
+    position: relative
+    z-index: 1
     li
       @include inline-block
-      margin: 20px
+      background: #737f8d url(../images/speaker-bkg-a.png) repeat center top
+      height: 417px
+      margin: 0.5%
+      position: relative
+      width: 24%
       vertical-align: top
-      .img
-        a
-          @include transition(all, 0.25s)
-          border-radius: 100%
-          display: block
-          height: 200px
-          overflow: hidden
-          width: 200px
-          img
-            display: block
-            height: auto
-            max-width: 100%
+      &:nth-child(even)
+        background-color: #7d7d7d
+        background-image: url(../images/speaker-bkg-b.png)
 
-          &:hover  
-            opacity: 0.8
 
       h3
-        font-family: 'Ubuntu'
+        font-family: 'outage'
         font-size: 18px
-        font-weight: bold
-        margin: 15px 0 0
+        font-weight: normal
+        margin: 90px 0 0
         text-transform: uppercase
 
       h4
         font-size: 15px
+        margin-bottom: 25px
 
-        span    
-          margin-left: 3px
-          padding-left: 8px
-          position: relative
-          &:before
-            border-left: 1px solid $cream
-            content: ""
-            height: 12px
-            left: 0
-            position: absolute
-            top: 5px      
+      .img        
+        bottom: 20px
+        left: 50%
+        margin-left: -115px
+        overflow: hidden
+        position: absolute
+        width: 230px
 
-      a
-        i
+        .overlay
           @include transition(all, 0.25s)
-          font-size: 18px
-          font-weight: normal
-          margin: 0 3px          
-        &:hover
-          text-decoration: none
-          i.fa-twitter            
-            color: #86c8ea
-          i.fa-github
-            color: $red_alt
+          background: transparent
+          border-radius: 100%
+          box-shadow: 0 0 0 10px rgba(#414954, 0.7) inset          
+          height: 100%
+          position: absolute
+          width: 100%
+          &:hover
+            background: rgba(#272425, 0.9)
+
+            h5, .links
+              opacity: 1
+
+          h5, .links
+            @include transition(all, 0.25s)
+            opacity: 0
+
+          h5    
+            color: $teal
+            font-family: 'Ubuntu'
+            font-size: 18px
+            margin-top: 45px
+
+          .links
+            border-top: 1px solid rgba($cream, 0.5)
+            left: 50%
+            margin-left: -37%
+            padding-top: 20px
+            position: absolute
+            top: 50%
+            width: 74%
+
+
+          a
+            i
+              @include transition(all, 0.25s)
+              font-size: 26px
+              font-weight: normal
+              margin: 0 10px        
+            &:hover
+              text-decoration: none
+              i.fa-twitter            
+                color: #86c8ea
+              i.fa-github
+                color: $red_alt
+
+        img
+          @include box-sizing
+          border-radius: 100%
+          border: 1px solid rgba(#414954, 0.7)
+          display: block
+          height: auto
+          max-width: 100%
+
+
+      @media screen and (min-width: 920px) and (max-width: 1140px)
+        height: 400px
+        .img
+          bottom: 30px
+          margin-left: -100px
+          width: 200px
+
+      @media screen and (min-width: 920px) and (max-width: 1020px)
+        height: 380px
+        .img
+          bottom: 20px
+          margin-left: -90px
+          width: 180px
+
+      @media screen and (max-width: 920px)
+        width: 48%
+        margin: 1%
+
+      @media screen and (max-width: 650px)
+        width: 96%
+        margin: 2%
+     
+
+      
 
 
   h6
-    font-family: 'Ubuntu'
-    font-size: 16px
-    margin-top: 40px
+    background: $gray2
+    border-radius: 0 0 3px 3px
+    bottom: -35px
+    box-shadow: 0 4px 0 rgba(black, 0.1)
+    font-size: 13px
+    font-weight: 600
+    height: 35px
+    left: 50%
+    line-height: 35px
+    margin-left: -140px
+    position: absolute
+    text-align: center
     text-transform: uppercase
+    width: 280px
+    z-index: 1
 
 

@@ -112,65 +112,74 @@
     .wood
 
 %section#speakers
+  #cave-top  
   %article.wrapper
     %h2.title Speakers
 
     %ul
-      %li
-        .img
-          %a{:href=>"https://twitter.com/djanowski", :target=>"_blank"}
-            %img{:src=>'images/speakers/jano.jpg', :alt=>"Damian Janowski"}
+      %li>
         %h3 Jano
-        %h4
-          %a{:href=>"https://twitter.com/djanowski", :target=>"_blank"}
-            %i.fa.fa-twitter          
-          %a{:href=>"https://github.com/djanowski", :target=>"_blank"}
-            %i.fa.fa-github
-          %span Educabilia
-        %h5 [TBA]        
-
-      %li
+        %h4 Educabilia
         .img
-          %a{:href=>"https://twitter.com/poteland", :target=>"_blank"}
-            %img{:src=>'images/speakers/pote.jpg', :alt=>"Pablo Astigarraga"}
+          .overlay
+            %h5 [TBA]
+            .links
+              %a{:href=>"https://twitter.com/djanowski", :target=>"_blank"}
+                %i.fa.fa-twitter          
+              %a{:href=>"https://github.com/djanowski", :target=>"_blank"}
+                %i.fa.fa-github
+          %img{:src=>'images/speakers/jano.jpg', :alt=>"Damian Janowski"}         
+              
+
+      %li>        
         %h3 Pablo Astigarraga
-        %h4
-          %a{:href=>"https://twitter.com/poteland", :target=>"_blank"}
-            %i.fa.fa-twitter
-          %a{:href=>"https://github.com/pote", :target=>"_blank"}
-            %i.fa.fa-github
-          %span 13 Floor
-        %h5 The Dilemma of Simplicity
-        
-
-      %li
+        %h4 13 Floor
         .img
-          %a{:href=>"https://twitter.com/juliancheal", :target=>"_blank"}
-            %img{:src=>'images/speakers/juliancheal.jpg', :alt=>"Julian Cheal"}
+          .overlay
+            %h5
+              The Dilemma 
+              %br
+              of Simplicity
+            .links
+              %a{:href=>"https://twitter.com/poteland", :target=>"_blank"}
+                %i.fa.fa-twitter
+              %a{:href=>"https://github.com/pote", :target=>"_blank"}
+                %i.fa.fa-github
+          %img{:src=>'images/speakers/pote.jpg', :alt=>"Pablo Astigarraga"}      
+          
+
+      %li>
         %h3 Julian Cheal
-        %h4
-          %a{:href=>"https://twitter.com/juliancheal", :target=>"_blank"}
-            %i.fa.fa-twitter
-          %a{href:"http://github.com/juliancheal"}
-            %i.fa.fa-github
-          %span Artolo
-        %h5 Dancing with Robots
-        
-      
-      %li
+        %h4 Artolo
         .img
-          %a{:href=>"https://twitter.com/chrishunt", :target=>"_blank"}
-            %img{:src=>'images/speakers/chrishunt.jpg', :alt=>"Chris Hunt"}
+          .overlay
+            %h5
+              Dancing 
+              %br
+              with Robots
+            .links
+              %a{:href=>"https://twitter.com/juliancheal", :target=>"_blank"}
+                %i.fa.fa-twitter
+              %a{href:"http://github.com/juliancheal"}
+                %i.fa.fa-github
+          %img{:src=>'images/speakers/juliancheal.jpg', :alt=>"Julian Cheal"}       
+          
+      
+      %li>
         %h3 Chris Hunt
-        %h4
-          %a{:href=>"https://twitter.com/chrishunt", :target=>"_blank"}
-            %i.fa.fa-twitter
-          %a{:href=>"https://github.com/chrishunt", :target=>"_blank"}
-            %i.fa.fa-github
-          %span Github
-        %h5 [TBA]
+        %h4 Github
+        .img
+          .overlay
+            %h5 [TBA]
+            .links
+              %a{:href=>"https://twitter.com/chrishunt", :target=>"_blank"}
+                %i.fa.fa-twitter
+              %a{:href=>"https://github.com/chrishunt", :target=>"_blank"}
+                %i.fa.fa-github
+          %img{:src=>'images/speakers/chrishunt.jpg', :alt=>"Chris Hunt"}
 
-    %h6 [ More speakers TBA soon ]
+      %h6 More speakers TBA soon
+  #cave-bottom
 
 %section#cfp
   %article.wrapper
@@ -184,10 +193,11 @@
         Read the 
         %a{href: "call_for_papers_en.html" } guidelines and submit your proposal 
         and get to talk in front of more than 400 rubyists! 
-      %p We want you to speak at the next RubyConf Argentina.
-      %br
+        
+      %h4 We want you to speak at the next RubyConf Argentina.
+
       %p
-        %a.btn{:href=>"call_for_papers_en.html"}
+        %a.btn.btn-alt{:href=>"call_for_papers_en.html"}
           Call For Papers
           %i.fa.fa-angle-right
 
