@@ -207,22 +207,7 @@
   %article.wrapper
     %h2.title Sponsors
     .content
-      %ul
-        %h4 Platinum
-        %li
-          %a{:href=>"https://citrusbyte.com", :target=>"_blank"}
-            %img{:src=>"images/sponsors/citrusbyte.png", :alt=>"Citrusbyte", :width=>"311", :height=>"70"}
-        %h4 Bronze
-        %li
-          %a{:href=>"http://www.13floor.org", :target=>"_blank"}
-            %img{:src=>"images/sponsors/13floor.png", :alt=>"13Floor", :width=>"193", :height=>"31"}
-        %h4 Media Partners
-        %li
-          %a{:href=>"http://szstudios.com.ar", :target=>"_blank"}
-            %img{:src=>"images/sponsors/szstudios.png", :alt=>"Sz Studios", :width=>"100", :height=>"62"}
-        %li
-          %a{:href=>"http://www.palermo.edu", :target=>"_blank"}
-            %img{:src=>"images/sponsors/up.png", :alt=>"Universidad de Palermo", :width=>"163", :height=>"36"}
+      = partial("_sponsors.haml")
       
       %h3 ¿Interesado en ayudarnos a organizar la cuarta RubyConf Argentina?
       %p Tu compañía puede ser parte de una de las conferencias de software más grandes de Sudamérica. 
