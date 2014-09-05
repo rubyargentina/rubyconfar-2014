@@ -127,22 +127,26 @@ a, img a {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
+
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
+
   100% {
     -o-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
@@ -2099,7 +2103,7 @@ section#registration {
         width: 38%; }
         section#registration .table ul li:before {
           font-family: "fontAwesome";
-          content: "";
+          content: "\f00c";
           color: #e1483f;
           font-size: 17px;
           left: -28px;
@@ -2377,6 +2381,11 @@ section#sponsors {
     font-weight: bold; }
   section#sponsors h3, section#sponsors p {
     color: #333333; }
+  @media screen and (min-width: 501px) {
+    section#sponsors img.inaka {
+      margin-top: -10px; }
+    section#sponsors img.pines {
+      margin-bottom: -2px; } }
 
 section#venue {
   background: #684858; }
