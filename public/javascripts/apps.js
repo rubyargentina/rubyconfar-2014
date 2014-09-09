@@ -169,7 +169,10 @@ $(document).ready(function() {
 
 
 
-
+  // Ruby Fun Day
+  $('a.magnific-popup').magnificPopup({
+    type:'iframe'
+  });
 
 
 
