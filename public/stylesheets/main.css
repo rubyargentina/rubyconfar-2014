@@ -2480,6 +2480,12 @@ section#registration {
       section#registration .table .col.sold-out img {
         margin: -25px 0 0 -38px;
         position: absolute;
+        z-index: 7; }
+      section#registration .table .col:nth-child(2) img {
+        z-index: 6; }
+      section#registration .table .col:nth-child(3) img {
+        z-index: 5; }
+      section#registration .table .col:nth-child(4) img {
         z-index: 4; }
     section#registration .table h5 {
       clear: left;
