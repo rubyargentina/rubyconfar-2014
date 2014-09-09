@@ -31,13 +31,13 @@ $(document).ready(function() {
   
 
   $("#home nav a.circle").click(function() {
-    $(this).siblings().removeClass('active');
-    $(this).toggleClass('active');
-    event.preventDefault();
-    var $anchor = $('#' + this.hash.substring(1));
-    $('html,body').animate({ 
-        scrollTop: $anchor.offset().top
-    }, 799, 'easeOutBack');
+    // $(this).siblings().removeClass('active');
+    // $(this).toggleClass('active');
+    // event.preventDefault();
+    // var $anchor = $('#' + this.hash.substring(1));
+    // $('html,body').animate({ 
+    //     scrollTop: $anchor.offset().top
+    // }, 799, 'easeOutBack');
 
     if ( $('#mobileMenuTrigger').hasClass('active') ) {
       $('#mobileMenuTrigger').click();
@@ -166,7 +166,12 @@ $(document).ready(function() {
 
   setInterval(draw, 33);
 
-
+  $('#home nav').onePageNav({
+    currentClass: 'active',
+    scrollSpeed: 750,
+    scrollThreshold: 0.6,
+    easing: 'swing'
+  });
 
 
   // Ruby Fun Day

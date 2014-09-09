@@ -33,7 +33,7 @@ nav
 
   // LANGUAGE SELECTORS
   @media screen and (min-width: 500px)
-    ul
+    ol
       margin-top: 5px 
       
       li
@@ -77,7 +77,7 @@ nav
 
   // END LANGUAGE SELECTORS
   @media screen and (max-width: 500px)
-    ul
+    ol
       li
         @include inline-block
         margin: 5px
@@ -90,6 +90,9 @@ nav
           border-radius: 3px
 
 
+  ul
+    li
+      list-style: none
   a
     @include transition
     color: $cream
@@ -103,7 +106,7 @@ nav
       border-radius: 100%
       height: 8px
       margin: 0 0 6px 10px
-      width: 8px
+      width: 8px      
 
     span  
       @media screen and (min-width: 500px)
@@ -111,12 +114,13 @@ nav
         background: rgba(black, 0.7)
         border-radius: 3px
         color: $cream        
-        font-size: 12px
+        font-size: 15px
+        font-family: 'outage'
         left: -3000px
         opacity: 0
         padding: 3px 9px
         position: absolute
-        top: -2px
+        top: -5px
         white-space: nowrap
         &:before
           @include caret-left
@@ -127,16 +131,13 @@ nav
           top: 4px
     &:hover
       text-decoration: none
-      .icon
-        opacity: 0.7
+      .icon        
+        background: rgba($cream, 0.5)
+
       span
         left: 30px
         opacity: 1
-    &.active
-      .icon
-        background: $teal
-      span
-        color: $teal
+    
 
     &.facebook
       padding: 0
@@ -146,6 +147,18 @@ nav
       padding: 0
       &:hover
         color: #86c8ea
+
+  li.active
+    a.circle
+      .icon
+        background: $teal
+      span
+        color: $teal
+    &.alt
+      a.circle
+        .icon
+          background: $teal_vibrant
+
 
 @media screen and (max-width: 500px)
   nav

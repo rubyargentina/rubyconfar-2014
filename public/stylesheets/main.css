@@ -1962,9 +1962,9 @@ nav {
     display: none;
     margin: 11px 0 0; }
   @media screen and (min-width: 500px) {
-    nav ul {
+    nav ol {
       margin-top: 5px; }
-      nav ul li {
+      nav ol li {
         transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         -moz-transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         -webkit-transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -1980,45 +1980,47 @@ nav {
         text-align: center;
         width: 26px;
         z-index: 1; }
-        nav ul li a {
+        nav ol li a {
           color: #ffd88f;
           display: block;
           font-size: 11px;
           font-weight: 700;
           padding-top: 10px; }
-        nav ul li.current {
+        nav ol li.current {
           background: #ffd88f;
           opacity: 1;
           z-index: 2; }
-          nav ul li.current a {
+          nav ol li.current a {
             color: #bc2e2a;
             padding-top: 2px; }
-            nav ul li.current a:after {
+            nav ol li.current a:after {
               font-family: "fontAwesome";
               content: "";
               display: block;
               font-size: 14px;
               margin-top: -3px; }
-      nav ul:hover li:not(.current) {
+      nav ol:hover li:not(.current) {
         margin-top: 36px;
         opacity: 1; }
-        nav ul:hover li:not(.current):hover {
+        nav ol:hover li:not(.current):hover {
           background: #35a785; } }
   @media screen and (max-width: 500px) {
-    nav ul li {
+    nav ol li {
       display: inline-block;
       vertical-align: baseline;
       zoom: 1;
       *display: inline;
       *vertical-align: auto;
       margin: 5px; }
-      nav ul li a {
+      nav ol li a {
         font-size: 0.6em;
         font-weight: bold; }
-      nav ul li.current {
+      nav ol li.current {
         background: #bc2e2a;
         padding: 0 8px;
         border-radius: 3px; } }
+  nav ul li {
+    list-style: none; }
   nav a {
     transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -2044,12 +2046,13 @@ nav {
         background: rgba(0, 0, 0, 0.7);
         border-radius: 3px;
         color: #ffd88f;
-        font-size: 12px;
+        font-size: 15px;
+        font-family: "outage";
         left: -3000px;
         opacity: 0;
         padding: 3px 9px;
         position: absolute;
-        top: -2px;
+        top: -5px;
         white-space: nowrap; }
         nav a span:before {
           font-family: "fontAwesome";
@@ -2062,14 +2065,10 @@ nav {
     nav a:hover {
       text-decoration: none; }
       nav a:hover .icon {
-        opacity: 0.7; }
+        background: rgba(255, 216, 143, 0.5); }
       nav a:hover span {
         left: 30px;
         opacity: 1; }
-    nav a.active .icon {
-      background: #35a785; }
-    nav a.active span {
-      color: #35a785; }
     nav a.facebook {
       padding: 0; }
       nav a.facebook:hover {
@@ -2078,6 +2077,12 @@ nav {
       padding: 0; }
       nav a.twitter:hover {
         color: #86c8ea; }
+  nav li.active a.circle .icon {
+    background: #35a785; }
+  nav li.active a.circle span {
+    color: #35a785; }
+  nav li.active.alt a.circle .icon {
+    background: #73c9a8; }
 
 @media screen and (max-width: 500px) {
   nav {
