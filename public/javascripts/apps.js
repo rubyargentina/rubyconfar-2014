@@ -28,7 +28,13 @@ $(document).ready(function() {
 
   }
   mainElementsHeight();
-  
+
+  $('#home nav').onePageNav({
+    currentClass: 'active',
+    scrollSpeed: 750,
+    scrollThreshold: 0.2,
+    easing: 'swing'
+  });  
 
   $("#home nav a.circle").click(function() {
     // $(this).siblings().removeClass('active');
@@ -164,14 +170,7 @@ $(document).ready(function() {
     }
   }
 
-  setInterval(draw, 33);
-
-  $('#home nav').onePageNav({
-    currentClass: 'active',
-    scrollSpeed: 750,
-    scrollThreshold: 0.6,
-    easing: 'swing'
-  });
+  setInterval(draw, 33);  
 
 
   // Ruby Fun Day
