@@ -171,7 +171,20 @@ $(document).ready(function() {
 
   // Ruby Fun Day
   $('a.magnific-popup').magnificPopup({
-    type:'iframe'
+    type:'iframe', 
+    iframe: {
+       markup: '<div class="mfp-iframe-scaler">'+
+               '<div class="mfp-close"></div>'+
+               '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+               '</div>', 
+       patterns: {
+           gmaps: {
+               index: '//maps.google.',
+               src: '%id%&output=embed'
+           }
+       },
+       srcAction: 'iframe_src', 
+     }
   });
 
 
