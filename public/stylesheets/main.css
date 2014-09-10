@@ -2202,7 +2202,7 @@ section#start {
   background: -o-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
   background: -ms-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
   background: linear-gradient(to bottom, #851512 0%, #cb2522 50%, #e74e3b 99%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 );
   position: relative;
   text-align: center;
   overflow: hidden; }
@@ -2609,6 +2609,12 @@ section#registration {
 
 section#speakers {
   background: #36a582 url(../images/cave-middle.png) no-repeat center 230px; }
+  @media screen and (min-width: 1400px) {
+    section#speakers .wrapper {
+      max-width: 1450px; }
+      section#speakers .wrapper ul li {
+        width: 19%;
+        margin: 0.5%; } }
   section#speakers #cave-top {
     background: url(../images/cave-top.png) repeat center top;
     height: 489px;
