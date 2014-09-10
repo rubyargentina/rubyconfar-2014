@@ -3007,6 +3007,32 @@ body#cfp #top {
       body#cfp #top h1 {
         display: none; } }
 
+body section ul.details {
+  padding: 0; }
+  body section ul.details li {
+    list-style: none;
+    margin-bottom: 15px; }
+    body section ul.details li:after {
+      content: "";
+      display: table;
+      clear: both; }
+    body section ul.details li .left {
+      float: left;
+      width: 30%; }
+    body section ul.details li .right {
+      display: block;
+      margin-left: 32%; }
+    body section ul.details li img {
+      height: auto;
+      max-width: 80%; }
+    @media screen and (max-width: 880px) {
+      body section ul.details li .left, body section ul.details li .right {
+        display: block;
+        float: none;
+        margin: 0;
+        text-align: center;
+        width: 100%; } }
+
 html, body {
   overflow-x: hidden; }
 

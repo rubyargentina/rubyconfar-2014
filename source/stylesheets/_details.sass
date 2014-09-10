@@ -1,0 +1,28 @@
+body section
+  ul.details
+    padding: 0
+    li
+      @include clearfix
+      list-style: none
+      margin-bottom: 15px
+      .left
+        float: left
+        width: 30%
+      .right
+        
+        display: block
+        margin-left: 32%
+
+      img
+        height: auto
+        max-width: 80%
+
+
+
+      @media screen and (max-width: 880px)
+        .left, .right
+          display: block
+          float: none
+          margin: 0
+          text-align: center
+          width: 100%
