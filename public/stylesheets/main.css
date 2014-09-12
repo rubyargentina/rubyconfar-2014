@@ -2202,7 +2202,7 @@ section#start {
   background: -o-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
   background: -ms-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
   background: linear-gradient(to bottom, #851512 0%, #cb2522 50%, #e74e3b 99%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 );
   position: relative;
   text-align: center;
   overflow: hidden; }
