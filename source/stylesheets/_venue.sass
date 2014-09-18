@@ -1,5 +1,114 @@
 section#venue
-  background: $violet
+  background: #785767 url(../images/konex.png) no-repeat center top
+  height: 1211px
+  position: relative
+  &:before
+    background: url(../images/venue-top.png) repeat left top
+    content: ""
+    height: 30px
+    position: absolute
+    top: -30px
+    width: 100%
 
-  address
-    margin-bottom: 25px
+
+  @media screen and (min-width: 1601px)
+    background: url(../images/konex.png) no-repeat center top, url(../images/konex-sides.png) no-repeat center top
+    background-color: #785767
+  
+  .konex
+    margin-top: 520px
+    text-align: left
+
+    a
+      @include transition(all, 0.25s)
+      border-radius: 3px
+      display: block
+      margin: 0 0 0 -10px
+      padding: 5px 10px
+      width: 400px
+      position: relative
+      &:before
+        @include transition(all, 0.25s)
+        border-right: 1px solid rgba($cream, 0.5)
+        color: $cream
+        content: "\f041"
+        float: left
+        font-family: 'fontAwesome'
+        font-size: 36px
+        line-height: 1.2
+        margin-right: 15px
+        padding: 7px 15px 7px 0
+      
+
+
+      .btn
+        @include transition(all, 0.25s)
+        @include inline-block
+        background: $teal
+        border-radius: 2px
+        box-shadow: 0 3px 0 rgba(black, 0.1)
+        color: $cream
+        position: absolute
+        right: 0
+        font-size: 12px
+        font-weight: 700
+        top: 20px
+        padding: 6px 24px
+        text-transform: uppercase
+        &:hover
+          background: $teal_vibrant
+          color: $violet
+
+      &:hover
+        // background: rgba(black, 0.15)
+        text-decoration: none
+        color: $teal_vibrant
+        &:before
+          color: #d85957
+
+
+    address
+      small
+        font-size: 11px
+        span
+          display: block        
+
+
+
+
+
+
+
+  @media screen and (max-width: 1010px)
+    background-size: auto 860px
+    background-position: left top
+    height: 860px
+
+    .konex
+      margin-top: 340px
+
+      h2.title
+        margin-bottom: 15px
+
+  @media screen and (max-width: 500px)
+    background-position: center top
+    .konex
+      text-align: center
+      width: 100%
+      margin-top: 20px
+        
+      a
+        display: block
+        margin: 0
+        padding: 0
+        width: 100%
+        &:before
+          display: none
+        .btn
+          display: block
+          margin: 20px 0 0 0
+          position: relative
+          right: auto
+          top: auto
+
+
