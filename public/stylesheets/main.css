@@ -2941,7 +2941,7 @@ section#venue {
         -o-transition: all, 0.25s;
         border-right: 1px solid rgba(255, 216, 143, 0.5);
         color: #ffd88f;
-        content: "\f041";
+        content: "";
         float: left;
         font-family: "fontAwesome";
         font-size: 36px;
