@@ -127,22 +127,26 @@ a, img a {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
+
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
+
   100% {
     -o-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
@@ -2198,7 +2202,7 @@ section#start {
   background: -o-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
   background: -ms-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
   background: linear-gradient(to bottom, #851512 0%, #cb2522 50%, #e74e3b 99%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 );
   position: relative;
   text-align: center;
   overflow: hidden; }
@@ -2512,7 +2516,7 @@ section#registration {
         width: 38%; }
         section#registration .table ul li:before {
           font-family: "fontAwesome";
-          content: "";
+          content: "\f00c";
           color: #e1483f;
           font-size: 17px;
           left: -28px;
@@ -2801,7 +2805,7 @@ section#rubyfunday {
       section#rubyfunday .text a:before {
         border-right: 1px solid rgba(255, 255, 255, 0.5);
         color: #73c9a8;
-        content: "";
+        content: "\f041";
         float: left;
         font-family: "fontAwesome";
         font-size: 36px;
@@ -2941,7 +2945,7 @@ section#venue {
         -o-transition: all, 0.25s;
         border-right: 1px solid rgba(255, 216, 143, 0.5);
         color: #ffd88f;
-        content: "";
+        content: "\f041";
         float: left;
         font-family: "fontAwesome";
         font-size: 36px;
