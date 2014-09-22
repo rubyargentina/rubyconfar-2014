@@ -2756,6 +2756,15 @@ section#speakers {
         section#speakers ul li {
           width: 96%;
           margin: 2%; } }
+  section#speakers a.btn {
+    border-radius: 0 0 3px 3px;
+    bottom: -48px;
+    height: 30px;
+    left: 50%;
+    line-height: 30px;
+    margin-left: -50px;
+    position: absolute;
+    width: 100px; }
   section#speakers h6 {
     background: #363636;
     border-radius: 0 0 3px 3px;
