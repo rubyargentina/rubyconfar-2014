@@ -37,36 +37,41 @@ section#speakers
     color: $cream
 
 
-  ul
+  article > ul
     background: $gray2
-    padding: 10px
+    color: $cream
+    padding: 10px    
     position: relative
     z-index: 1
-    li
+    > li
       @include inline-block
-      background: #737f8d url(../images/speaker-bkg-a.png) repeat center top
-      height: 417px
+      background: #737f8d      
       margin: 0.5%
-      position: relative
       width: 24%
-      vertical-align: top
-      &:nth-child(even)
-        background-color: #7d7d7d
-        background-image: url(../images/speaker-bkg-b.png)
+      vertical-align: top     
 
+      .main-info
+        background: url(../images/speaker-bkg-a.png) repeat center top
+        height: 417px
+        position: relative
+
+      &:nth-child(even)
+        .main-info
+          background-color: #7d7d7d
+          background-image: url(../images/speaker-bkg-b.png)
 
       h3
         font-family: 'outage'
         font-size: 18px
         font-weight: normal
-        margin: 90px 0 0
+        padding: 90px 0 0
         text-transform: uppercase
 
       h4
         font-size: 15px
         margin-bottom: 25px
 
-      .abstract, .bio
+      .details
         display: none
       
       .img        
@@ -135,33 +140,6 @@ section#speakers
           height: auto
           max-width: 100%
 
-      
-
-
-
-      @media screen and (min-width: 920px) and (max-width: 1140px)
-        height: 400px
-        .img
-          bottom: 30px
-          margin-left: -100px
-          width: 200px
-
-      @media screen and (min-width: 920px) and (max-width: 1020px)
-        height: 380px
-        .img
-          bottom: 20px
-          margin-left: -90px
-          width: 180px
-
-      @media screen and (max-width: 920px)
-        width: 48%
-        margin: 1%
-
-      @media screen and (max-width: 650px)
-        width: 96%
-        margin: 2%
-     
-
   a.btn
     border-radius: 0 0 3px 3px
     bottom: -48px
@@ -189,5 +167,80 @@ section#speakers
     text-transform: uppercase
     width: 280px
     z-index: 1
+
+    
+body#home section#speakers 
+  article > ul
+    > li
+
+      @media screen and (min-width: 920px) and (max-width: 1140px)
+        height: 400px
+        .img
+          bottom: 30px
+          margin-left: -100px
+          width: 200px
+
+      @media screen and (min-width: 920px) and (max-width: 1020px)
+        height: 380px
+        .img
+          bottom: 20px
+          margin-left: -90px
+          width: 180px
+
+      @media screen and (max-width: 920px)
+        width: 48%
+        margin: 1%
+
+      @media screen and (max-width: 650px)
+        width: 96%
+        margin: 2%
+     
+
+ 
+
+.inner-page
+  section#speakers
+    border-left: 0 none
+    text-align: center
+    #cave-top
+      margin-top: -245px
+    
+    h1
+      color: $cream
+      font-family: 'outage'
+      font-size: 42px
+      margin-bottom: 30px        
+      text-shadow: 5px 5px 0 rgba(black, 0.1)
+      text-transform: uppercase
+      position: relative
+      z-index: 1
+
+
+    ul
+      li        
+        display: block
+        height: auto
+        margin: 0 0 10px 0
+        width: 100%
+
+        .main-info
+          float: left
+          width: 300px   
+          
+        
+        .details
+          display: block    
+          margin-left: 300px
+          padding: 20px
+          text-align: left
+
+        @media screen and (max-width: 650px)
+          .main-info, .details
+            float: none
+            margin-left: 0
+            width: 100%
+            
+
+
 
 

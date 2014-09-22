@@ -2638,45 +2638,48 @@ section#speakers {
         background-size: 100% auto; } }
   section#speakers h2.title {
     color: #ffd88f; }
-  section#speakers ul {
+  section#speakers article > ul {
     background: #363636;
+    color: #ffd88f;
     padding: 10px;
     position: relative;
     z-index: 1; }
-    section#speakers ul li {
+    section#speakers article > ul > li {
       display: inline-block;
       vertical-align: baseline;
       zoom: 1;
       *display: inline;
       *vertical-align: auto;
-      background: #737f8d url(../images/speaker-bkg-a.png) repeat center top;
-      height: 417px;
+      background: #737f8d;
       margin: 0.5%;
-      position: relative;
       width: 24%;
       vertical-align: top; }
-      section#speakers ul li:nth-child(even) {
+      section#speakers article > ul > li .main-info {
+        background: url(../images/speaker-bkg-a.png) repeat center top;
+        height: 417px;
+        position: relative; }
+      section#speakers article > ul > li:nth-child(even) .main-info {
         background-color: #7d7d7d;
         background-image: url(../images/speaker-bkg-b.png); }
-      section#speakers ul li h3 {
+      section#speakers article > ul > li h3 {
         font-family: "outage";
         font-size: 18px;
         font-weight: normal;
-        margin: 90px 0 0;
+        padding: 90px 0 0;
         text-transform: uppercase; }
-      section#speakers ul li h4 {
+      section#speakers article > ul > li h4 {
         font-size: 15px;
         margin-bottom: 25px; }
-      section#speakers ul li .abstract, section#speakers ul li .bio {
+      section#speakers article > ul > li .details {
         display: none; }
-      section#speakers ul li .img {
+      section#speakers article > ul > li .img {
         bottom: 20px;
         left: 50%;
         margin-left: -115px;
         overflow: hidden;
         position: absolute;
         width: 230px; }
-        section#speakers ul li .img .overlay {
+        section#speakers article > ul > li .img .overlay {
           transition: all, 0.25s;
           -moz-transition: all, 0.25s;
           -webkit-transition: all, 0.25s;
@@ -2687,24 +2690,24 @@ section#speakers {
           height: 100%;
           position: absolute;
           width: 100%; }
-          section#speakers ul li .img .overlay:hover {
+          section#speakers article > ul > li .img .overlay:hover {
             background: rgba(39, 36, 37, 0.9); }
-            section#speakers ul li .img .overlay:hover h5, section#speakers ul li .img .overlay:hover .links {
+            section#speakers article > ul > li .img .overlay:hover h5, section#speakers article > ul > li .img .overlay:hover .links {
               opacity: 1; }
-          section#speakers ul li .img .overlay h5, section#speakers ul li .img .overlay .links {
+          section#speakers article > ul > li .img .overlay h5, section#speakers article > ul > li .img .overlay .links {
             transition: all, 0.25s;
             -moz-transition: all, 0.25s;
             -webkit-transition: all, 0.25s;
             -o-transition: all, 0.25s;
             opacity: 0; }
-          section#speakers ul li .img .overlay h5 {
+          section#speakers article > ul > li .img .overlay h5 {
             color: #35a785;
             font-family: "Ubuntu";
             font-size: 18px;
             margin-top: 45px; }
-            section#speakers ul li .img .overlay h5 small {
+            section#speakers article > ul > li .img .overlay h5 small {
               font-size: 14px; }
-          section#speakers ul li .img .overlay .links {
+          section#speakers article > ul > li .img .overlay .links {
             border-top: 1px solid rgba(255, 216, 143, 0.5);
             left: 50%;
             margin-left: -37%;
@@ -2712,7 +2715,7 @@ section#speakers {
             position: absolute;
             top: 50%;
             width: 74%; }
-          section#speakers ul li .img .overlay a i {
+          section#speakers article > ul > li .img .overlay a i {
             transition: all, 0.25s;
             -moz-transition: all, 0.25s;
             -webkit-transition: all, 0.25s;
@@ -2720,13 +2723,13 @@ section#speakers {
             font-size: 26px;
             font-weight: normal;
             margin: 0 10px; }
-          section#speakers ul li .img .overlay a:hover {
+          section#speakers article > ul > li .img .overlay a:hover {
             text-decoration: none; }
-            section#speakers ul li .img .overlay a:hover i.fa-twitter {
+            section#speakers article > ul > li .img .overlay a:hover i.fa-twitter {
               color: #86c8ea; }
-            section#speakers ul li .img .overlay a:hover i.fa-github {
+            section#speakers article > ul > li .img .overlay a:hover i.fa-github {
               color: #e1483f; }
-        section#speakers ul li .img img {
+        section#speakers article > ul > li .img img {
           box-sizing: border-box;
           -moz-box-sizing: border-box;
           border-radius: 100%;
@@ -2734,28 +2737,6 @@ section#speakers {
           display: block;
           height: auto;
           max-width: 100%; }
-      @media screen and (min-width: 920px) and (max-width: 1140px) {
-        section#speakers ul li {
-          height: 400px; }
-          section#speakers ul li .img {
-            bottom: 30px;
-            margin-left: -100px;
-            width: 200px; } }
-      @media screen and (min-width: 920px) and (max-width: 1020px) {
-        section#speakers ul li {
-          height: 380px; }
-          section#speakers ul li .img {
-            bottom: 20px;
-            margin-left: -90px;
-            width: 180px; } }
-      @media screen and (max-width: 920px) {
-        section#speakers ul li {
-          width: 48%;
-          margin: 1%; } }
-      @media screen and (max-width: 650px) {
-        section#speakers ul li {
-          width: 96%;
-          margin: 2%; } }
   section#speakers a.btn {
     border-radius: 0 0 3px 3px;
     bottom: -48px;
@@ -2781,6 +2762,62 @@ section#speakers {
     text-transform: uppercase;
     width: 280px;
     z-index: 1; }
+
+@media screen and (min-width: 920px) and (max-width: 1140px) {
+  body#home section#speakers article > ul > li {
+    height: 400px; }
+    body#home section#speakers article > ul > li .img {
+      bottom: 30px;
+      margin-left: -100px;
+      width: 200px; } }
+@media screen and (min-width: 920px) and (max-width: 1020px) {
+  body#home section#speakers article > ul > li {
+    height: 380px; }
+    body#home section#speakers article > ul > li .img {
+      bottom: 20px;
+      margin-left: -90px;
+      width: 180px; } }
+@media screen and (max-width: 920px) {
+  body#home section#speakers article > ul > li {
+    width: 48%;
+    margin: 1%; } }
+@media screen and (max-width: 650px) {
+  body#home section#speakers article > ul > li {
+    width: 96%;
+    margin: 2%; } }
+
+.inner-page section#speakers {
+  border-left: 0 none;
+  text-align: center; }
+  .inner-page section#speakers #cave-top {
+    margin-top: -245px; }
+  .inner-page section#speakers h1 {
+    color: #ffd88f;
+    font-family: "outage";
+    font-size: 42px;
+    margin-bottom: 30px;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1; }
+  .inner-page section#speakers ul li {
+    display: block;
+    height: auto;
+    margin: 0 0 10px 0;
+    width: 100%; }
+    .inner-page section#speakers ul li .main-info {
+      float: left;
+      width: 300px; }
+    .inner-page section#speakers ul li .details {
+      display: block;
+      margin-left: 300px;
+      padding: 20px;
+      text-align: left; }
+    @media screen and (max-width: 650px) {
+      .inner-page section#speakers ul li .main-info, .inner-page section#speakers ul li .details {
+        float: none;
+        margin-left: 0;
+        width: 100%; } }
 
 section#rubyfunday {
   background: #65b79a url(../images/salondelajusticia-1400.png) no-repeat center top;
