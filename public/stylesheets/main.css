@@ -2667,6 +2667,8 @@ section#speakers {
       section#speakers ul li h4 {
         font-size: 15px;
         margin-bottom: 25px; }
+      section#speakers ul li .abstract, section#speakers ul li .bio {
+        display: none; }
       section#speakers ul li .img {
         bottom: 20px;
         left: 50%;
@@ -3227,6 +3229,8 @@ body {
       body h2.title {
         font-size: 32px;
         margin-bottom: 20px; } }
+  body#home section#speakers ul li {
+    display: none; }
   body#home section article.wrapper {
     padding-bottom: 50px;
     padding-top: 50px;
