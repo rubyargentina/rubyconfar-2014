@@ -34,7 +34,9 @@ $(document).ready(function() {
     scrollSpeed: 750,
     scrollThreshold: 0.2,
     easing: 'swing'
-  });  
+  });
+
+  $('body:not(#home) nav li').removeClass('active');
 
   $("#home nav a.circle").click(function() {
     // $(this).siblings().removeClass('active');
