@@ -51,7 +51,7 @@ section#speakers
       vertical-align: top     
 
       .main-info
-        background: url(../images/speaker-bkg-a.png) repeat center top
+        background: url(../images/speaker-bkg-a.png) repeat top center
         height: 417px
         position: relative
 
@@ -72,9 +72,12 @@ section#speakers
           background-color: #7d7d7d
           background-image: url(../images/speaker-bkg-b.png)
 
+        .details
+          background-image: url(../images/speaker-bkg-b2.png)
       
 
       .details
+        background: url(../images/speaker-bkg-a2.png) repeat-x top center
         display: none
       
       .img        
@@ -256,6 +259,7 @@ body#home section#speakers
           color: $gray_light
           display: block    
           margin-left: 300px
+          min-height: 417px   
           padding: 30px 30px 10px
           text-align: left
 
@@ -271,6 +275,7 @@ body#home section#speakers
             width: 100%
 
           .details
+            min-height: 0
             h2
               text-align: center
 

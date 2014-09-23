@@ -2655,7 +2655,7 @@ section#speakers {
       width: 24%;
       vertical-align: top; }
       section#speakers article > ul > li .main-info {
-        background: url(../images/speaker-bkg-a.png) repeat center top;
+        background: url(../images/speaker-bkg-a.png) repeat top center;
         height: 417px;
         position: relative; }
         section#speakers article > ul > li .main-info h3 {
@@ -2672,7 +2672,10 @@ section#speakers {
         section#speakers article > ul > li:nth-child(even) .main-info {
           background-color: #7d7d7d;
           background-image: url(../images/speaker-bkg-b.png); }
+        section#speakers article > ul > li:nth-child(even) .details {
+          background-image: url(../images/speaker-bkg-b2.png); }
       section#speakers article > ul > li .details {
+        background: url(../images/speaker-bkg-a2.png) repeat-x top center;
         display: none; }
       section#speakers article > ul > li .img {
         bottom: 20px;
@@ -2840,6 +2843,7 @@ body#home section#speakers article > ul > li.show {
       color: #dadada;
       display: block;
       margin-left: 300px;
+      min-height: 417px;
       padding: 30px 30px 10px;
       text-align: left; }
       .inner-page section#speakers ul > li .details h2 {
@@ -2850,10 +2854,12 @@ body#home section#speakers article > ul > li.show {
         float: none;
         margin-left: 0;
         width: 100%; }
-      .inner-page section#speakers ul > li .details h2 {
-        text-align: center; }
-      .inner-page section#speakers ul > li .details p {
-        text-align: justify; } }
+      .inner-page section#speakers ul > li .details {
+        min-height: 0; }
+        .inner-page section#speakers ul > li .details h2 {
+          text-align: center; }
+        .inner-page section#speakers ul > li .details p {
+          text-align: justify; } }
 
 section#rubyfunday {
   background: #65b79a url(../images/salondelajusticia-1400.png) no-repeat center top;
