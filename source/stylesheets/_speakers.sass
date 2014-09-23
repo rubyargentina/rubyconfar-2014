@@ -92,6 +92,7 @@ section#speakers
           padding: 2px 8px 1px
           background: rgba(black, 0.15)
           &:hover
+            color: $teal_vibrant
             text-decoration: none
           &:before
             font-weight: normal
@@ -263,7 +264,7 @@ body#home section#speakers
         display: block
         height: auto
         margin: 0 0 10px 0
-        min-height: 417px    
+        min-height: 450px    
         width: 100%
 
         ol
@@ -275,10 +276,27 @@ body#home section#speakers
               font-family: 'fontAwesome'
               margin-right: 10px
 
-
         .main-info
           float: left
-          width: 300px   
+          width: 300px
+
+          .img
+            overflow: visible
+
+            .overlay
+              h5
+                display: none      
+              &:hover
+                background: transparent
+
+              .links
+                border: 0 none
+                top: 96%
+                opacity: 1
+
+
+                a
+                  color: $gray_light
           
         
         .details
@@ -295,7 +313,8 @@ body#home section#speakers
             font-size
             font-weight: 600
 
-        @media screen and (max-width: 650px)
+        @media screen and (max-width: 650px)         
+
           .main-info, .details
             float: none
             margin-left: 0
@@ -303,12 +322,32 @@ body#home section#speakers
 
           .details
             min-height: 0
+            padding: 30px 1em 0.33em
+
+            a.share
+              display: none
+
+
+            ol
+              padding-left: 0
+              padding-right: 0
             h2
               text-align: center
 
             p
               text-align: justify
-            
+
+          .main-info .img .overlay
+            .links
+              left: 0
+              margin: 0
+              top: 86%
+              width: 100%
+              a:first-child
+                float: left
+              a:last-child
+                float: right
+          
 
 
 

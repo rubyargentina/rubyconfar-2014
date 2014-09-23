@@ -2696,6 +2696,7 @@ section#speakers {
           padding: 2px 8px 1px;
           background: rgba(0, 0, 0, 0.15); }
           section#speakers article > ul > li .details a.share:hover {
+            color: #73c9a8;
             text-decoration: none; }
           section#speakers article > ul > li .details a.share:before {
             font-weight: normal;
@@ -2853,7 +2854,7 @@ body#home section#speakers article > ul > li.show {
     display: block;
     height: auto;
     margin: 0 0 10px 0;
-    min-height: 417px;
+    min-height: 450px;
     width: 100%; }
     .inner-page section#speakers ul > li ol {
       padding: 0 20px 20px; }
@@ -2865,6 +2866,18 @@ body#home section#speakers article > ul > li.show {
     .inner-page section#speakers ul > li .main-info {
       float: left;
       width: 300px; }
+      .inner-page section#speakers ul > li .main-info .img {
+        overflow: visible; }
+        .inner-page section#speakers ul > li .main-info .img .overlay h5 {
+          display: none; }
+        .inner-page section#speakers ul > li .main-info .img .overlay:hover {
+          background: transparent; }
+        .inner-page section#speakers ul > li .main-info .img .overlay .links {
+          border: 0 none;
+          top: 96%;
+          opacity: 1; }
+          .inner-page section#speakers ul > li .main-info .img .overlay .links a {
+            color: #dadada; }
     .inner-page section#speakers ul > li .details {
       box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -2883,11 +2896,26 @@ body#home section#speakers article > ul > li.show {
         margin-left: 0;
         width: 100%; }
       .inner-page section#speakers ul > li .details {
-        min-height: 0; }
+        min-height: 0;
+        padding: 30px 1em 0.33em; }
+        .inner-page section#speakers ul > li .details a.share {
+          display: none; }
+        .inner-page section#speakers ul > li .details ol {
+          padding-left: 0;
+          padding-right: 0; }
         .inner-page section#speakers ul > li .details h2 {
           text-align: center; }
         .inner-page section#speakers ul > li .details p {
-          text-align: justify; } }
+          text-align: justify; }
+      .inner-page section#speakers ul > li .main-info .img .overlay .links {
+        left: 0;
+        margin: 0;
+        top: 86%;
+        width: 100%; }
+        .inner-page section#speakers ul > li .main-info .img .overlay .links a:first-child {
+          float: left; }
+        .inner-page section#speakers ul > li .main-info .img .overlay .links a:last-child {
+          float: right; } }
 
 section#rubyfunday {
   background: #65b79a url(../images/salondelajusticia-1400.png) no-repeat center top;
