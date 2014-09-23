@@ -5,8 +5,8 @@ section#speakers
     .wrapper
       max-width: 1450px
 
-      ul
-        li
+      > ul
+        > li
           width: 19%
           margin: 0.5%
 
@@ -55,22 +55,24 @@ section#speakers
         height: 417px
         position: relative
 
+        h3
+          font-family: 'outage'
+          font-size: 18px
+          font-weight: normal
+          padding: 90px 0 0
+          text-transform: uppercase
+
+        h4
+          font-size: 15px
+          margin-bottom: 25px
+
       &:nth-child(even)
         background: #7d7d7d
         .main-info
           background-color: #7d7d7d
           background-image: url(../images/speaker-bkg-b.png)
 
-      h3
-        font-family: 'outage'
-        font-size: 18px
-        font-weight: normal
-        padding: 90px 0 0
-        text-transform: uppercase
-
-      h4
-        font-size: 15px
-        margin-bottom: 25px
+      
 
       .details
         display: none
@@ -234,8 +236,29 @@ body#home section#speakers
         .details
           display: block    
           margin-left: 300px
-          padding: 20px
+          padding: 30px 30px 10px
           text-align: left
+          color: $gray_light
+
+          h2
+            color: white
+            font-size
+            font-weight: 600
+            // &:before
+            //   font-family: 'fontAwesome'
+            //   font-weight: normal
+            //   margin-right: 8px
+            //   font-size: 90%
+          
+          // .abstract
+          //   h2
+          //     &:before
+          //       content: "\f0f6"
+          // .bio
+          //   h2
+          //     &:before
+          //       content: "\f118"
+          h3
 
         @media screen and (max-width: 650px)
           .main-info, .details

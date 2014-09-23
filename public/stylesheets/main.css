@@ -2612,7 +2612,7 @@ section#speakers {
   @media screen and (min-width: 1400px) {
     section#speakers .wrapper {
       max-width: 1450px; }
-      section#speakers .wrapper ul li {
+      section#speakers .wrapper > ul > li {
         width: 19%;
         margin: 0.5%; } }
   section#speakers #cave-top {
@@ -2658,20 +2658,20 @@ section#speakers {
         background: url(../images/speaker-bkg-a.png) repeat center top;
         height: 417px;
         position: relative; }
+        section#speakers article > ul > li .main-info h3 {
+          font-family: "outage";
+          font-size: 18px;
+          font-weight: normal;
+          padding: 90px 0 0;
+          text-transform: uppercase; }
+        section#speakers article > ul > li .main-info h4 {
+          font-size: 15px;
+          margin-bottom: 25px; }
       section#speakers article > ul > li:nth-child(even) {
         background: #7d7d7d; }
         section#speakers article > ul > li:nth-child(even) .main-info {
           background-color: #7d7d7d;
           background-image: url(../images/speaker-bkg-b.png); }
-      section#speakers article > ul > li h3 {
-        font-family: "outage";
-        font-size: 18px;
-        font-weight: normal;
-        padding: 90px 0 0;
-        text-transform: uppercase; }
-      section#speakers article > ul > li h4 {
-        font-size: 15px;
-        margin-bottom: 25px; }
       section#speakers article > ul > li .details {
         display: none; }
       section#speakers article > ul > li .img {
@@ -2815,8 +2815,12 @@ section#speakers {
     .inner-page section#speakers ul > li .details {
       display: block;
       margin-left: 300px;
-      padding: 20px;
-      text-align: left; }
+      padding: 30px 30px 10px;
+      text-align: left;
+      color: #dadada; }
+      .inner-page section#speakers ul > li .details h2 {
+        color: white;
+        font-weight: 600; }
     @media screen and (max-width: 650px) {
       .inner-page section#speakers ul > li .main-info, .inner-page section#speakers ul > li .details {
         float: none;
