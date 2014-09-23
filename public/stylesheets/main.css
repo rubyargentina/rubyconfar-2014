@@ -2677,6 +2677,32 @@ section#speakers {
       section#speakers article > ul > li .details {
         background: url(../images/speaker-bkg-a2.png) repeat-x top center;
         display: none; }
+        section#speakers article > ul > li .details a.share {
+          transition: all 0.25s;
+          -moz-transition: all 0.25s;
+          -webkit-transition: all 0.25s;
+          -o-transition: all 0.25s;
+          display: inline-block;
+          vertical-align: baseline;
+          zoom: 1;
+          *display: inline;
+          *vertical-align: auto;
+          border-radius: 100%;
+          border: 1px solid rgba(255, 255, 255, 0.5);
+          color: white;
+          float: right;
+          font-size: 20px;
+          opacity: 0.15;
+          padding: 2px 8px 1px;
+          background: rgba(0, 0, 0, 0.15); }
+          section#speakers article > ul > li .details a.share:hover {
+            text-decoration: none; }
+          section#speakers article > ul > li .details a.share:before {
+            font-weight: normal;
+            content: "\f0c1";
+            font-family: "fontAwesome"; }
+      section#speakers article > ul > li:hover a.share {
+        opacity: 0.85; }
       section#speakers article > ul > li .img {
         bottom: 20px;
         left: 50%;
@@ -2710,8 +2736,10 @@ section#speakers {
             font-family: "Ubuntu";
             font-size: 18px;
             margin-top: 45px; }
-            section#speakers article > ul > li .img .overlay h5 small {
-              font-size: 14px; }
+          section#speakers article > ul > li .img .overlay a h5:hover {
+            text-decoration: underline; }
+          section#speakers article > ul > li .img .overlay a small {
+            font-size: 14px; }
           section#speakers article > ul > li .img .overlay .links {
             border-top: 1px solid rgba(255, 216, 143, 0.5);
             left: 50%;

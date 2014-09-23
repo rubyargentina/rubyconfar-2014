@@ -79,6 +79,28 @@ section#speakers
       .details
         background: url(../images/speaker-bkg-a2.png) repeat-x top center
         display: none
+
+        a.share
+          @include transition(all 0.25s)
+          @include inline-block
+          border-radius: 100%
+          border: 1px solid rgba(white, 0.5)
+          color: white
+          float: right
+          font-size: 20px
+          opacity: 0.15
+          padding: 2px 8px 1px
+          background: rgba(black, 0.15)
+          &:hover
+            text-decoration: none
+          &:before
+            font-weight: normal
+            content: "\f0c1"
+            font-family: 'fontAwesome'
+            
+      &:hover
+        a.share
+          opacity: 0.85
       
       .img        
         bottom: 20px
@@ -111,6 +133,11 @@ section#speakers
             font-family: 'Ubuntu'
             font-size: 18px
             margin-top: 45px
+
+          a
+            h5
+              &:hover
+                text-decoration: underline
 
             small
               font-size: 14px
