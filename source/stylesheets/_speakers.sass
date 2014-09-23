@@ -236,17 +236,28 @@ body#home section#speakers
         min-height: 417px    
         width: 100%
 
+        ol
+          padding: 0 20px 20px
+          li
+            &:before
+              color: $teal_vibrant
+              content: "\f00c"
+              font-family: 'fontAwesome'
+              margin-right: 10px
+
+
         .main-info
           float: left
           width: 300px   
           
         
         .details
+          @include box-sizing
+          color: $gray_light
           display: block    
           margin-left: 300px
           padding: 30px 30px 10px
           text-align: left
-          color: $gray_light
 
           h2
             color: white
@@ -258,6 +269,13 @@ body#home section#speakers
             float: none
             margin-left: 0
             width: 100%
+
+          .details
+            h2
+              text-align: center
+
+            p
+              text-align: justify
             
 
 

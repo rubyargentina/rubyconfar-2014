@@ -2824,15 +2824,24 @@ body#home section#speakers article > ul > li.show {
     margin: 0 0 10px 0;
     min-height: 417px;
     width: 100%; }
+    .inner-page section#speakers ul > li ol {
+      padding: 0 20px 20px; }
+      .inner-page section#speakers ul > li ol li:before {
+        color: #73c9a8;
+        content: "\f00c";
+        font-family: "fontAwesome";
+        margin-right: 10px; }
     .inner-page section#speakers ul > li .main-info {
       float: left;
       width: 300px; }
     .inner-page section#speakers ul > li .details {
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      color: #dadada;
       display: block;
       margin-left: 300px;
       padding: 30px 30px 10px;
-      text-align: left;
-      color: #dadada; }
+      text-align: left; }
       .inner-page section#speakers ul > li .details h2 {
         color: white;
         font-weight: 600; }
@@ -2840,7 +2849,11 @@ body#home section#speakers article > ul > li.show {
       .inner-page section#speakers ul > li .main-info, .inner-page section#speakers ul > li .details {
         float: none;
         margin-left: 0;
-        width: 100%; } }
+        width: 100%; }
+      .inner-page section#speakers ul > li .details h2 {
+        text-align: center; }
+      .inner-page section#speakers ul > li .details p {
+        text-align: justify; } }
 
 section#rubyfunday {
   background: #65b79a url(../images/salondelajusticia-1400.png) no-repeat center top;
