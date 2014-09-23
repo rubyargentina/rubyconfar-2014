@@ -2765,6 +2765,21 @@ section#speakers {
     width: 280px;
     z-index: 1; }
 
+body#home section#speakers article > ul > li.show {
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto; }
+  body#home section#speakers article > ul > li.show.last {
+    display: none; }
+    @media screen and (min-width: 1400px) {
+      body#home section#speakers article > ul > li.show.last {
+        display: inline-block;
+        vertical-align: baseline;
+        zoom: 1;
+        *display: inline;
+        *vertical-align: auto; } }
 @media screen and (min-width: 920px) and (max-width: 1140px) {
   body#home section#speakers article > ul > li {
     height: 400px; }

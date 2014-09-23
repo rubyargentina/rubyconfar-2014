@@ -171,10 +171,15 @@ section#speakers
     width: 280px
     z-index: 1
 
-    
 body#home section#speakers 
   article > ul
     > li
+      &.show
+        @include inline-block
+        &.last
+          display: none
+          @media screen and (min-width: 1400px)
+            @include inline-block
 
       @media screen and (min-width: 920px) and (max-width: 1140px)
         height: 400px
@@ -198,7 +203,10 @@ body#home section#speakers
         width: 96%
         margin: 2%
      
+       
+      
 
+          
  
 
 .inner-page

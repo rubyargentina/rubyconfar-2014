@@ -7,8 +7,9 @@ $(document).ready(function() {
   for(i = 0; i < 5; i++) {
     randomIndex = Math.floor(Math.random() * speakers.size());
     speaker = speakers.splice(randomIndex, 1)[0];
-    $(speaker).css( "display", "inline-block");
+    $(speaker).addClass( "show");
   }
+  $('.show:last').addClass( "last");
 
   var arr = ['horseboy', 'erlich', 'woz', 'moss', 'staplerguy', 'trinity'];
   var character = window.location.hash.substr(1);
