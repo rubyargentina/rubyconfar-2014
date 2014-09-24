@@ -207,6 +207,7 @@ body#home section#speakers
     > li
       &.show
         @include inline-block
+        vertical-align: top
         &.last
           display: none
           @media screen and (min-width: 1400px)
@@ -266,6 +267,8 @@ body#home section#speakers
         margin: 0 0 10px 0
         min-height: 450px    
         width: 100%
+        &:last-child
+          margin-bottom: 0
 
         ol
           padding: 0 20px 20px
