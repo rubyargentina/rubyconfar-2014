@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   // HOME - Speakers section
   var randomIndex, speaker, i;
-  var speakers = $('#home section#speakers ul >li');
+  var speakers = $('#home section#speakers ul >li.main');
 
   for(i = 0; i < 5; i++) {
     randomIndex = Math.floor(Math.random() * speakers.size());
