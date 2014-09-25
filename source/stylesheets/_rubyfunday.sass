@@ -1,7 +1,15 @@
 section#rubyfunday
   background: #65b79a url(../images/salondelajusticia-1400.png) no-repeat center top
-  height: 1370px
-  position: relative  
+  // height: 1310px
+  height: 1565px
+  position: relative
+
+  .floor
+    background: url(../images/sponsors-top.png) repeat-x center top
+    bottom: 0
+    height: 255px
+    position: absolute
+    width: 100%
 
   .text
     left: 50%
@@ -55,11 +63,11 @@ section#rubyfunday
     position: absolute
 
   .remeras
-    bottom: 480px
+    bottom: 735px
     margin-left: -745px
 
   .mesa
-    bottom: 60px
+    bottom: 255px
     margin-left: -535px
 
 
@@ -70,13 +78,13 @@ section#rubyfunday
 
   @media screen and (max-width: 1100px)
     background-position: 60% top
-    height: 1260px
+    height: 1515px
 
     .text
       margin-left: 120px
 
     .remeras
-      bottom: 350px
+      bottom: 605px
       margin-left: -695px
 
     .mesa
@@ -91,9 +99,14 @@ section#rubyfunday
 
   @media screen and (max-width: 800px)
     background-color: $teal
-    background-size: auto 33%
+    background-size: auto 28%
     background-position: 68% top
-    height: 1400px
+    height: 1655px
+    margin-bottom: -100px
+    
+    .floor
+      background: url(../images/sponsors-top-mobile.png) repeat-x center top
+
     .text
       left: auto
       position: relative
@@ -107,7 +120,7 @@ section#rubyfunday
       display: none
 
     .mesa
-      bottom: 20px
+      bottom: 255px
       margin-left: -630px
 
 
