@@ -183,7 +183,8 @@ $(window).load(function() {
   mainElementsHeight();
 
   // Cleans URL of dirty hashtag.
-  history.pushState("", document.title, window.location.pathname);  
+  // history.pushState("", document.title, window.location.pathname);  
+  //
 
 });
 
