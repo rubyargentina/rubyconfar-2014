@@ -316,6 +316,27 @@ body#home section#speakers
             font-size
             font-weight: 600
 
+        
+
+
+        &.rfd
+          .details
+            .abstract
+              h2
+                &:after
+                  @include inline-block
+                  background: $teal_vibrant    
+                  color: $gray2
+                  border-radius: 2px
+                  content: "Ruby Fun Day"
+                  font-family: 'OpenSans'
+                  font-size: 11px
+                  margin: -3px 0 0 9px
+                  padding: 1px 5px
+                  vertical-align: middle
+
+
+
         @media screen and (max-width: 650px)         
 
           .main-info, .details
