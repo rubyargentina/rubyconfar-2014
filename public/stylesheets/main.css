@@ -127,22 +127,26 @@ a, img a {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
+
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
+
   100% {
     -o-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
@@ -2198,7 +2202,7 @@ section#start {
   background: -o-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
   background: -ms-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
   background: linear-gradient(to bottom, #851512 0%, #cb2522 50%, #e74e3b 99%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 );
   position: relative;
   text-align: center;
   overflow: hidden; }
@@ -2512,7 +2516,7 @@ section#registration {
         width: 38%; }
         section#registration .table ul li:before {
           font-family: "fontAwesome";
-          content: "";
+          content: "\f00c";
           color: #e1483f;
           font-size: 17px;
           left: -28px;
@@ -2641,6 +2645,9 @@ section#speakers {
     top: 0;
     width: 100%;
     z-index: 2; }
+    @media screen and (max-width: 750px) {
+      section#speakers header {
+        display: none; } }
     section#speakers header .wrapper {
       position: relative; }
     section#speakers header .top {
@@ -2689,7 +2696,7 @@ section#speakers {
         -ms-transform: rotate(180deg);
         -webkit-transform: rotate(180deg); }
     section#speakers header a.register {
-      background: #DF483F;
+      background: #df483f;
       border-radius: 2px;
       padding: 7px 25px;
       position: absolute;
@@ -2711,13 +2718,13 @@ section#speakers {
       section#speakers header a.register:after {
         left: auto;
         right: 10px; }
-    section#speakers header #index {
+    section#speakers header .index {
       background: url(../images/speakers-index.png) repeat center bottom;
       height: 430px;
       position: absolute;
       top: 0;
       width: 100%; }
-      section#speakers header #index.fixed {
+      section#speakers header .index:last-child {
         position: fixed;
         display: none; }
     section#speakers header .stuff {
@@ -2737,6 +2744,13 @@ section#speakers {
       top: 20px; }
   section#speakers header + article {
     margin-top: 450px; }
+    section#speakers header + article h1 {
+      display: none; }
+    @media screen and (max-width: 750px) {
+      section#speakers header + article {
+        margin-top: 0; }
+        section#speakers header + article h1 {
+          display: block; } }
   section#speakers article > ul {
     background: #363636;
     color: #ffd88f;
@@ -2799,7 +2813,7 @@ section#speakers {
             text-decoration: none; }
           section#speakers article > ul > li .details a.share:before {
             font-weight: normal;
-            content: "";
+            content: "\f0c1";
             font-family: "fontAwesome"; }
       section#speakers article > ul > li:hover a.share {
         opacity: 0.85; }
@@ -2958,7 +2972,7 @@ body#home section#speakers article > ul > li.show {
       padding: 0 20px 20px; }
       .inner-page section#speakers ul > li ol li:before {
         color: #73c9a8;
-        content: "";
+        content: "\f00c";
         font-family: "fontAwesome";
         margin-right: 10px; }
     .inner-page section#speakers ul > li .main-info {
@@ -3070,7 +3084,7 @@ section#rubyfunday {
       section#rubyfunday .text a:before {
         border-right: 1px solid rgba(255, 255, 255, 0.5);
         color: #73c9a8;
-        content: "";
+        content: "\f041";
         float: left;
         font-family: "fontAwesome";
         font-size: 36px;
@@ -3214,7 +3228,7 @@ section#venue {
         -o-transition: all, 0.25s;
         border-right: 1px solid rgba(255, 216, 143, 0.5);
         color: #ffd88f;
-        content: "";
+        content: "\f041";
         float: left;
         font-family: "fontAwesome";
         font-size: 36px;

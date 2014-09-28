@@ -47,6 +47,9 @@ section#speakers
     top: 0
     width: 100%
     z-index: 2
+    @media screen and (max-width: 750px)
+      display: none
+
     
     .wrapper
       position: relative
@@ -120,13 +123,13 @@ section#speakers
 
 
 
-    #index
+    .index
       background: url(../images/speakers-index.png) repeat center bottom
       height: 430px
       position: absolute
       top: 0
       width: 100%
-      &.fixed
+      &:last-child
         position: fixed
         display: none
 
@@ -160,6 +163,12 @@ section#speakers
 
   header + article
     margin-top: 450px
+    h1
+      display: none
+    @media screen and (max-width: 750px)
+      margin-top: 0
+      h1
+        display: block
 
 
 

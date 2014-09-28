@@ -1,9 +1,13 @@
 $(document).ready(function() {
 
   // SPEAKERS
+
+  $('body.inner-page section#speakers .index').clone().appendTo('body.inner-page section#speakers header');
+
   $('span.full-list').click(function(){
     $(this).toggleClass('open');
-    $('body.inner-page section#speakers #index').slideToggle();
+    $('header').toggleClass('open');
+    $('body.inner-page section#speakers .index:last').slideToggle();
   });
 
   // HOME - Speakers section
@@ -226,11 +230,16 @@ $(window).scroll(function(){
   }
 
   if (windowTop > 430) {
-    $('body.inner-page section#speakers #index').addClass('fixed');
+    $('body.inner-page section#speakers .index:last').addClass('fixed');
     $('body.inner-page section#speakers .full-list').fadeIn();
+    if ( $('header').hasClass('open') ) {
+      $('body.inner-page section#speakers .index:last').show();
+    } else {
+    $('body.inner-page section#speakers .index:last').hide();
+    }
   }
   else {
-    $('body.inner-page section#speakers #index').removeClass('fixed');
+    $('body.inner-page section#speakers .index:last').removeClass('fixed');
     $('body.inner-page section#speakers .full-list').fadeOut();
   }
 
