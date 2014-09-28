@@ -173,6 +173,19 @@ $(document).ready(function() {
      }
   });
 
+
+  // SPEAKERS
+  $('span.full-list').click(function(){
+    $(this).toggleClass('open');
+    $('body.inner-page section#speakers #index').slideToggle();
+  });
+
+  
+
+
+
+
+
 });
 $(window).load(function() {
   centerTrinity();
@@ -211,5 +224,28 @@ $(window).scroll(function(){
   }  
   // console.log(windowTop);
 
+
+  if (windowTop > 108) {
+    $('body.inner-page section#speakers header').addClass('fixed');
+  }
+  else {
+    $('body.inner-page section#speakers header').removeClass('fixed');
+  }
+
+  if (windowTop > 430) {
+    $('body.inner-page section#speakers #index').addClass('fixed');
+    $('body.inner-page section#speakers .full-list').fadeIn();
+  }
+  else {
+    $('body.inner-page section#speakers #index').removeClass('fixed');
+    $('body.inner-page section#speakers .full-list').fadeOut();
+  }
+
+
 });
+
+
+
+
+
 

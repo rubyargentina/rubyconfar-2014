@@ -2,8 +2,18 @@
 
 
 %section#speakers
-  #cave-top
-  %article.wrapper
-    %h1 Oradores    
+  %header
+    .top
+    .stuff     
+      .wrapper
+        %a.register{:href=>"register.html"} Inscribirse
+        %span.full-list
+          %i.fa.fa-angle-down
+          Índice
+      %h1 Oradores
+    #index
+  
+  %article.wrapper  
+    
     %ul
       = partial("_speakers.haml", lang: 'es')

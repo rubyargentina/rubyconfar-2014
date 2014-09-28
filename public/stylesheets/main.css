@@ -2638,6 +2638,109 @@ section#speakers {
         background-size: 100% auto; } }
   section#speakers h2.title {
     color: #ffd88f; }
+  section#speakers header {
+    height: 430px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2; }
+    section#speakers header .wrapper {
+      position: relative; }
+    section#speakers header .top {
+      background: url(../images/speakers-top.png) repeat center bottom;
+      height: 112px;
+      left: 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 2; }
+    section#speakers header span.full-list {
+      display: none;
+      color: #ffd88f;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 600;
+      left: 100px;
+      position: fixed;
+      text-transform: uppercase;
+      top: 20px;
+      z-index: 3; }
+      section#speakers header span.full-list i {
+        display: inline-block;
+        vertical-align: baseline;
+        zoom: 1;
+        *display: inline;
+        *vertical-align: auto;
+        transition: all, 0.4s;
+        -moz-transition: all, 0.4s;
+        -webkit-transition: all, 0.4s;
+        -o-transition: all, 0.4s;
+        background: #35a785;
+        border-radius: 100%;
+        border: 2px solid #ffd88f;
+        height: 26px;
+        font-size: 26px;
+        margin-right: 10px;
+        vertical-align: middle;
+        width: 26px; }
+      section#speakers header span.full-list:hover {
+        text-decoration: none; }
+        section#speakers header span.full-list:hover i {
+          background: #e1483f; }
+      section#speakers header span.full-list.open i {
+        transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg); }
+    section#speakers header a.register {
+      background: #df483f;
+      border-radius: 2px;
+      padding: 7px 25px;
+      position: absolute;
+      top: 10px;
+      right: 100px;
+      text-transform: uppercase;
+      z-index: 3; }
+      section#speakers header a.register:hover {
+        background: rgba(223, 72, 63, 0.9);
+        text-decoration: none; }
+      section#speakers header a.register:before, section#speakers header a.register:after {
+        background: url(../images/chain.png) no-repeat center -8px;
+        content: "";
+        height: 130px;
+        left: 10px;
+        position: absolute;
+        top: -130px;
+        width: 8px; }
+      section#speakers header a.register:after {
+        left: auto;
+        right: 10px; }
+    section#speakers header #index {
+      background: url(../images/speakers-index.png) repeat center bottom;
+      height: 430px;
+      position: absolute;
+      top: 0;
+      width: 100%; }
+      section#speakers header #index.fixed {
+        position: fixed;
+        display: none; }
+    section#speakers header .stuff {
+      position: relative;
+      z-index: 4; }
+      section#speakers header .stuff h1 {
+        font-size: 36px;
+        position: relative;
+        margin-top: 120px; }
+    section#speakers header.fixed .stuff h1 {
+      position: fixed;
+      margin-top: 0;
+      width: 100%;
+      top: 10px; }
+    section#speakers header.fixed .stuff a.register {
+      position: fixed;
+      top: 20px; }
+  section#speakers header + article {
+    margin-top: 450px; }
   section#speakers article > ul {
     background: #363636;
     color: #ffd88f;

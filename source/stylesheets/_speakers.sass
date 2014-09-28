@@ -37,6 +37,135 @@ section#speakers
     color: $cream
 
 
+
+
+
+  header
+    height: 430px
+    left: 0
+    position: absolute
+    top: 0
+    width: 100%
+    z-index: 2
+    
+    .wrapper
+      position: relative
+
+    .top
+      background: url(../images/speakers-top.png) repeat center bottom
+      height: 112px
+      left: 0
+      position: fixed
+      top: 0
+      width: 100%
+      z-index: 2      
+
+    span.full-list
+      display: none
+      color: $cream
+      cursor: pointer
+      font-size: 12px
+      font-weight: 600
+      left: 100px
+      position: fixed
+      text-transform: uppercase
+      top: 20px
+      z-index: 3
+      i
+        @include inline-block
+        @include transition(all, 0.4s)
+        background: $teal
+        border-radius: 100%
+        border: 2px solid $cream
+        height: 26px
+        font-size: 26px
+        margin-right: 10px
+        vertical-align: middle
+        width: 26px
+      &:hover
+        text-decoration: none
+        i
+          background: $red_alt
+      
+      &.open
+        i
+          @include rotate(180)
+
+
+
+
+    a.register
+      background: #DF483F
+      border-radius: 2px
+      padding: 7px 25px
+      position: absolute
+      top: 10px
+      right: 100px
+      text-transform: uppercase
+      z-index: 3
+      &:hover
+        background: rgba(#DF483F, 0.9)
+        text-decoration: none
+      &:before, &:after
+        background: url(../images/chain.png) no-repeat center -8px
+        content: ""
+        height: 130px
+        left: 10px
+        position: absolute
+        top: -130px
+        width: 8px
+      &:after
+        left: auto
+        right: 10px
+
+
+
+    #index
+      background: url(../images/speakers-index.png) repeat center bottom
+      height: 430px
+      position: absolute
+      top: 0
+      width: 100%
+      &.fixed
+        position: fixed
+        display: none
+
+
+    .stuff
+      position: relative
+      z-index: 4
+
+      h1
+        font-size: 36px
+        position: relative
+        margin-top: 120px
+
+
+    
+
+    &.fixed
+      .stuff
+        h1
+          position: fixed
+          margin-top: 0
+          width: 100%
+          top: 10px
+
+        a.register
+          position: fixed
+          top: 20px
+
+  
+
+
+  header + article
+    margin-top: 450px
+
+
+
+
+
+
   article > ul
     background: $gray2
     color: $cream
