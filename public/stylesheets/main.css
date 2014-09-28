@@ -2814,19 +2814,15 @@ body#home section#speakers article > ul > li.show {
         *display: inline;
         *vertical-align: auto; } }
 @media screen and (min-width: 920px) and (max-width: 1140px) {
-  body#home section#speakers article > ul > li {
-    height: 400px; }
-    body#home section#speakers article > ul > li .img {
-      bottom: 30px;
-      margin-left: -100px;
-      width: 200px; } }
+  body#home section#speakers article > ul > li .img {
+    bottom: 30px;
+    margin-left: -100px;
+    width: 200px; } }
 @media screen and (min-width: 920px) and (max-width: 1020px) {
-  body#home section#speakers article > ul > li {
-    height: 380px; }
-    body#home section#speakers article > ul > li .img {
-      bottom: 20px;
-      margin-left: -90px;
-      width: 180px; } }
+  body#home section#speakers article > ul > li .img {
+    bottom: 20px;
+    margin-left: -90px;
+    width: 180px; } }
 @media screen and (max-width: 920px) {
   body#home section#speakers article > ul > li {
     width: 48%;
