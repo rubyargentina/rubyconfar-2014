@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+  // SPEAKERS
+  $('span.full-list').click(function(){
+    $(this).toggleClass('open');
+    $('body.inner-page section#speakers #index').slideToggle();
+  });
+
   // HOME - Speakers section
   var randomIndex, speaker, i;
   var speakers = $('#home section#speakers ul >li.main');
@@ -173,19 +179,6 @@ $(document).ready(function() {
      }
   });
 
-
-  // SPEAKERS
-  $('span.full-list').click(function(){
-    $(this).toggleClass('open');
-    $('body.inner-page section#speakers #index').slideToggle();
-  });
-
-  
-
-
-
-
-
 });
 $(window).load(function() {
   centerTrinity();
@@ -243,9 +236,4 @@ $(window).scroll(function(){
 
 
 });
-
-
-
-
-
 
