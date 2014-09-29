@@ -127,26 +127,22 @@ a, img a {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
-
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
-
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
-
   100% {
     -o-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
-
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
@@ -2202,7 +2198,7 @@ section#start {
   background: -o-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
   background: -ms-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
   background: linear-gradient(to bottom, #851512 0%, #cb2522 50%, #e74e3b 99%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 );
   position: relative;
   text-align: center;
   overflow: hidden; }
@@ -2516,7 +2512,7 @@ section#registration {
         width: 38%; }
         section#registration .table ul li:before {
           font-family: "fontAwesome";
-          content: "\f00c";
+          content: "";
           color: #e1483f;
           font-size: 17px;
           left: -28px;
@@ -2696,7 +2692,7 @@ section#speakers {
         -ms-transform: rotate(180deg);
         -webkit-transform: rotate(180deg); }
     section#speakers header a.register {
-      background: #df483f;
+      background: #DF483F;
       border-radius: 2px;
       padding: 7px 25px;
       position: absolute;
@@ -2891,7 +2887,7 @@ section#speakers {
             text-decoration: none; }
           section#speakers article > ul > li .details a.share:before {
             font-weight: normal;
-            content: "\f0c1";
+            content: "";
             font-family: "fontAwesome"; }
       section#speakers article > ul > li:hover a.share {
         opacity: 0.85; }
@@ -3052,7 +3048,7 @@ body#home section#speakers article > ul {
       padding: 0 20px 20px; }
       .inner-page section#speakers ul > li ol li:before {
         color: #73c9a8;
-        content: "\f00c";
+        content: "";
         font-family: "fontAwesome";
         margin-right: 10px; }
     .inner-page section#speakers ul > li .main-info {
@@ -3164,7 +3160,7 @@ section#rubyfunday {
       section#rubyfunday .text a:before {
         border-right: 1px solid rgba(255, 255, 255, 0.5);
         color: #73c9a8;
-        content: "\f041";
+        content: "";
         float: left;
         font-family: "fontAwesome";
         font-size: 36px;
@@ -3308,7 +3304,7 @@ section#venue {
         -o-transition: all, 0.25s;
         border-right: 1px solid rgba(255, 216, 143, 0.5);
         color: #ffd88f;
-        content: "\f041";
+        content: "";
         float: left;
         font-family: "fontAwesome";
         font-size: 36px;
