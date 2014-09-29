@@ -1,0 +1,1029 @@
+---
+- id: xymbol
+  name: Adrián Mugnolo
+  company: Wye Works
+  twitter: https://twitter.com/xymbol
+  github: https://github.com/xymbol
+  image: images/speakers/adrian-mugnolo.jpg
+  es:
+    title_long: What makes Ruby, Ruby?
+    title: "\n                      What makes Ruby,\n                      <br>\n
+      \                     Ruby?\n                    "
+    bio: "<p>Adrián got his start programming in C and Perl in the early days of the
+      Web, but has been working primarily with Ruby since 2005. He has been quietly
+      influencing the Web in Argentina for the better part of the past 18 years: he
+      implemented the first search engines for Clarín and La Nación, and was the former
+      Technical Director of Yahoo Argentina since its launch. Adrián is now a Ruby
+      developer at WyeWorks.</p><p>A lifelong technology enthusiast with a background
+      in mechanical engineering, Adrián is just as comfortable coding Ruby and JavaScript
+      as he is hacking motorcycle engines or tuning the perfect snowboarding setup.</p>"
+    abstract: "<p>Throughout two decades and over 100 releases, the Ruby language
+      has evolved and grown around simple ideas and elegant constructs whose principles
+      have changed surprisingly little.</p><p>But, a deeper study of Ruby's history
+      and codebase will uncover some curious detours and dead ends: syntax and features
+      which were either revised or abandoned. An examination of these changes and,
+      the reasons behind them, can serve both to entertain and inform. In this talk
+      we'll visit some of Ruby's features, what remains in Ruby and what was left
+      out and, in the process, gain a unique insight into what makes today's Ruby,
+      Ruby.</p><p>These are some of the Ruby concepts that will be presented in this
+      talk:</p><p>Each topic will be introduced with easy to follow code examples.
+      Once described, we will investigate their availability across 20 years of Ruby
+      versions, eventually trying to elucidate the motivations for these changes.
+      The talk will target Rubyists of all skill levels.</p>"
+  en:
+    title_long: What makes Ruby, Ruby?
+    title: "\n                      What makes Ruby,\n                      <br>\n
+      \                     Ruby?\n                    "
+    bio: "<p>Adrián got his start programming in C and Perl in the early days of the
+      Web, but has been working primarily with Ruby since 2005. He has been quietly
+      influencing the Web in Argentina for the better part of the past 18 years: he
+      implemented the first search engines for Clarín and La Nación, and was the former
+      Technical Director of Yahoo Argentina since its launch. Adrián is now a Ruby
+      developer at WyeWorks.</p><p>A lifelong technology enthusiast with a background
+      in mechanical engineering, Adrián is just as comfortable coding Ruby and JavaScript
+      as he is hacking motorcycle engines or tuning the perfect snowboarding setup.</p>"
+    abstract: "<p>Throughout two decades and over 100 releases, the Ruby language
+      has evolved and grown around simple ideas and elegant constructs whose principles
+      have changed surprisingly little.</p><p>But, a deeper study of Ruby's history
+      and codebase will uncover some curious detours and dead ends: syntax and features
+      which were either revised or abandoned. An examination of these changes and,
+      the reasons behind them, can serve both to entertain and inform. In this talk
+      we'll visit some of Ruby's features, what remains in Ruby and what was left
+      out and, in the process, gain a unique insight into what makes today's Ruby,
+      Ruby.</p><p>These are some of the Ruby concepts that will be presented in this
+      talk:</p><p>Each topic will be introduced with easy to follow code examples.
+      Once described, we will investigate their availability across 20 years of Ruby
+      versions, eventually trying to elucidate the motivations for these changes.
+      The talk will target Rubyists of all skill levels.</p>"
+- id: chrishunt
+  name: Chris Hunt
+  company: Github
+  twitter: https://twitter.com/chrishunt
+  github: https://github.com/chrishunt
+  image: images/speakers/chrishunt.jpg
+  es:
+    title_long: Solving the Rubik’s Cube Blindfolded
+    title: "\n                      Solving the Rubik’s\n                      <br>\n
+      \                     Cube Blindfolded\n                    "
+    bio: "<p>Chris Hunt works for GitHub from a standing desk in Portland, Oregon.
+      Prior to GitHub, Chris worked on Rails applications for Square, Apple, the Department
+      of Defense, and his very critical mother.  When he's not writing Ruby, he's
+      probably looking over your shoulder trying to learn something new.</p>"
+    abstract: "<p>You think solving a Rubik’s Cube is difficult? Imagine scrambling
+      it, memorizing it, and solving it with your eyes closed.</p><p>In this two part
+      talk, we are going to combine techniques mastered by professional speedcubers
+      and memory athletes to learn how to solve the Rubik’s Cube blindfolded.</p><p>This
+      is not just a party trick. You will leave RubyConf Argentina with a greater
+      appreciation for the Rubik’s Cube and the ability to memorize anything in the
+      world.</p>"
+  en:
+    title_long: Solving the Rubik’s Cube Blindfolded
+    title: "\n                      Solving the Rubik’s\n                      <br>\n
+      \                     Cube Blindfolded\n                    "
+    bio: "<p>Chris Hunt works for GitHub from a standing desk in Portland, Oregon.
+      Prior to GitHub, Chris worked on Rails applications for Square, Apple, the Department
+      of Defense, and his very critical mother.  When he's not writing Ruby, he's
+      probably looking over your shoulder trying to learn something new.</p>"
+    abstract: "<p>You think solving a Rubik’s Cube is difficult? Imagine scrambling
+      it, memorizing it, and solving it with your eyes closed.</p><p>In this two part
+      talk, we are going to combine techniques mastered by professional speedcubers
+      and memory athletes to learn how to solve the Rubik’s Cube blindfolded.</p><p>This
+      is not just a party trick. You will leave RubyConf Argentina with a greater
+      appreciation for the Rubik’s Cube and the ability to memorize anything in the
+      world.</p>"
+- id: cristianrasch
+  name: Cristian Rasch
+  company: WeCode
+  twitter: https://twitter.com/cristianrasch
+  github: https://github.com/cristianrasch
+  image: images/speakers/cristianrasch.jpg
+  es:
+    title_long: A one on one date with vim
+    title: "\n                      A one on one date\n                      <br>\n
+      \                     with vim (Workshop)\n                    "
+    bio: "<p>I am freelance software engineer and member of the wecode (http://wecode.io)
+      initiative, who works for his American and European clients.</p><p>I mostly
+      do Ruby backend work with the occasional Javascript app. I'm also a huge fan
+      of the PostgreSQL database and a vim user as of late.</p>"
+    abstract: "<p>The vim text editor has been around for more than 20 years, so you
+      might have wondered once or twice what's its appeal? How come it's managed to
+      stick around for that many years, despite the changes in languages, frameworks
+      and generally, the tools we developers use every day.</p><p>Well, in this 2-hour
+      workshop I plan to take you for a ride with me through some of vim's best features,
+      the ones that make it a superb tool for editing text. We'll start with the basics
+      such as how to move around, perform simple tasks and then gradually, we'll start
+      composing a few more interesting commands, accomplishing more challenging tasks
+      and answering a few critical questions the attendees may have so that they feel
+      encouraged to dig deeper in their understanding of this wonderful tool.</p>"
+  en:
+    title_long: A one on one date with vim
+    title: "\n                      A one on one date\n                      <br>\n
+      \                     with vim (Workshop)\n                    "
+    bio: "<p>I am freelance software engineer and member of the wecode (http://wecode.io)
+      initiative, who works for his American and European clients.</p><p>I mostly
+      do Ruby backend work with the occasional Javascript app. I'm also a huge fan
+      of the PostgreSQL database and a vim user as of late.</p>"
+    abstract: "<p>The vim text editor has been around for more than 20 years, so you
+      might have wondered once or twice what's its appeal? How come it's managed to
+      stick around for that many years, despite the changes in languages, frameworks
+      and generally, the tools we developers use every day.</p><p>Well, in this 2-hour
+      workshop I plan to take you for a ride with me through some of vim's best features,
+      the ones that make it a superb tool for editing text. We'll start with the basics
+      such as how to move around, perform simple tasks and then gradually, we'll start
+      composing a few more interesting commands, accomplishing more challenging tasks
+      and answering a few critical questions the attendees may have so that they feel
+      encouraged to dig deeper in their understanding of this wonderful tool.</p>"
+- id: djanowski
+  name: Damián Janowski
+  company: Educabilia
+  twitter: https://twitter.com/djanowski
+  github: https://github.com/djanowski
+  image: images/speakers/jano.jpg
+  es:
+    title_long: 'Redis: más allá del caché y las colas'
+    title: "\n                      Redis: más allá\n                      <br>\n
+      \                     del caché y las colas\n                    "
+    bio: "<p>CTO en Educabilia. Damián es programador desde hace muchos años, pero
+      logró que le empiecen a pagar por ello hace diez. Como la web ya existía, nunca
+      tuvo que programar una aplicación de escritorio. Después de pasos fructíferos
+      por tecnologías de todo color y tendencia política, desde hace 8 años programa
+      principalmente en Ruby. Fue uno de los primeros en adoptar Redis y hoy la usa
+      como única base de datos en Educabilia, el startup que cofundó hace tres años.
+      En su tiempo libre le gustaría empezar a usar Go en producción.</p>"
+    abstract: "<p>Redis nació como un Memcached persistente. Y es por ese pasado sombrío
+      que muchos lo consideran solo una buena alternativa para cachear cosas. Sin
+      embargo, Redis evolucionó rápidamente hacia como se lo conoce hoy en día: un
+      servidor de estructuras de datos.</p><p>Redis provee operaciones atómicas sobre
+      tipos de datos primitivos (strings, listas, conjuntos, conjuntos ordenados y
+      hashes) que dan mucha flexibilidad para pensar la mejor manera de guardar los
+      datos de nuestra aplicación. Esto, sumado a otras funcionalidades (como replicación,
+      dos estrategias de persistencia, transacciones y scripting en Lua) hacen que
+      Redis sea una opción muy interesante a la hora de elegir la base de datos para
+      nuestro proyecto.</p><p>En esta charla vamos a explorar, a partir de ejemplos,
+      los casos de uso más frecuentes en cualquier aplicación web y cómo se puede
+      usar Redis para resolverlos. También se van a mostrar los pitfalls más comunes
+      y qué estrategias se pueden usar para evitarlos.</p>"
+  en:
+    title_long: 'Redis: más allá del caché y las colas'
+    title: "\n                      Redis: más allá\n                      <br>\n
+      \                     del caché y las colas\n                    "
+    bio: "<p>CTO en Educabilia. Damián es programador desde hace muchos años, pero
+      logró que le empiecen a pagar por ello hace diez. Como la web ya existía, nunca
+      tuvo que programar una aplicación de escritorio. Después de pasos fructíferos
+      por tecnologías de todo color y tendencia política, desde hace 8 años programa
+      principalmente en Ruby. Fue uno de los primeros en adoptar Redis y hoy la usa
+      como única base de datos en Educabilia, el startup que cofundó hace tres años.
+      En su tiempo libre le gustaría empezar a usar Go en producción.</p>"
+    abstract: "<p>Redis nació como un Memcached persistente. Y es por ese pasado sombrío
+      que muchos lo consideran solo una buena alternativa para cachear cosas. Sin
+      embargo, Redis evolucionó rápidamente hacia como se lo conoce hoy en día: un
+      servidor de estructuras de datos.</p><p>Redis provee operaciones atómicas sobre
+      tipos de datos primitivos (strings, listas, conjuntos, conjuntos ordenados y
+      hashes) que dan mucha flexibilidad para pensar la mejor manera de guardar los
+      datos de nuestra aplicación. Esto, sumado a otras funcionalidades (como replicación,
+      dos estrategias de persistencia, transacciones y scripting en Lua) hacen que
+      Redis sea una opción muy interesante a la hora de elegir la base de datos para
+      nuestro proyecto.</p><p>En esta charla vamos a explorar, a partir de ejemplos,
+      los casos de uso más frecuentes en cualquier aplicación web y cómo se puede
+      usar Redis para resolverlos. También se van a mostrar los pitfalls más comunes
+      y qué estrategias se pueden usar para evitarlos.</p>"
+- id: egutter
+  name: Emilio Gutter
+  company: 10Pines
+  twitter: https://twitter.com/egutter
+  github: https://github.com/egutter
+  image: images/speakers/emilio-gutter.jpg
+  es:
+    title_long: The Ten Commandments of the Ruby Programmer
+    title: "\n                      <small>The Ten Commandments of</small>\n                      <br>\n
+      \                     the Ruby Programmer\n                    "
+    bio: "<p>Emilio is co-founder of 10Pines, a boutique software company located
+      in Buenos Aires. He is a founder member of Agiles latin-american community and
+      he has been the co-chair of Agiles2012 conference held in Cordoba, Argentina.</p><p>He
+      has been working in software development for more than 15 years in several countries
+      including Argentina; Brazil; United Kingdom; United States; France; Romania
+      and Bulgaria. He has performed as software developer; project leader and agile
+      coach with experience in different industries such as credit services; media
+      &amp; entertainment; advertising; travel &amp; leisure; health care; among others.</p>"
+    abstract: '<p>More than 3000 years later Moses received the ten commandments from
+      God, on a hard day''s night of endless work, struggling with a legacy, untested,
+      big-ball-of-mud, spaghetti Ruby code, after liters of coffee, dozens of beers,
+      a few shots of tequila and a fine glass of single malt scotch, close to a point
+      of desperation, almost ready to give up his task, Emilio received an unexpected
+      visitor. God himself appeared on the screen of his computer, took control of
+      the machine and with a raspy, guttural voice said: "Emilio, you are the chosen
+      one. You shall open the red sea of rubies and illuminate the flock of Ruby sinners
+      with The Ten Commandments of the Ruby Programmer:"</p><p>The Ten Commandments
+      are:</p><p>Emilio received the commandments with joy and promised God to spread
+      his word. Then, as the night was long and God had no hurry, they played a few
+      hands of Poker. Emilio won and asked God to promise he will get him a talked
+      accepted at the RubyConf this year. In his wisdom God answered: "Hey, I am just
+      God dude. If you want miracles ask the Pope"</p>'
+  en:
+    title_long: The Ten Commandments of the Ruby Programmer
+    title: "\n                      <small>The Ten Commandments of</small>\n                      <br>\n
+      \                     the Ruby Programmer\n                    "
+    bio: "<p>Emilio is co-founder of 10Pines, a boutique software company located
+      in Buenos Aires. He is a founder member of Agiles latin-american community and
+      he has been the co-chair of Agiles2012 conference held in Cordoba, Argentina.</p><p>He
+      has been working in software development for more than 15 years in several countries
+      including Argentina; Brazil; United Kingdom; United States; France; Romania
+      and Bulgaria. He has performed as software developer; project leader and agile
+      coach with experience in different industries such as credit services; media
+      &amp; entertainment; advertising; travel &amp; leisure; health care; among others.</p>"
+    abstract: '<p>More than 3000 years later Moses received the ten commandments from
+      God, on a hard day''s night of endless work, struggling with a legacy, untested,
+      big-ball-of-mud, spaghetti Ruby code, after liters of coffee, dozens of beers,
+      a few shots of tequila and a fine glass of single malt scotch, close to a point
+      of desperation, almost ready to give up his task, Emilio received an unexpected
+      visitor. God himself appeared on the screen of his computer, took control of
+      the machine and with a raspy, guttural voice said: "Emilio, you are the chosen
+      one. You shall open the red sea of rubies and illuminate the flock of Ruby sinners
+      with The Ten Commandments of the Ruby Programmer:"</p><p>The Ten Commandments
+      are:</p><p>Emilio received the commandments with joy and promised God to spread
+      his word. Then, as the night was long and God had no hurry, they played a few
+      hands of Poker. Emilio won and asked God to promise he will get him a talked
+      accepted at the RubyConf this year. In his wisdom God answered: "Hey, I am just
+      God dude. If you want miracles ask the Pope"</p>'
+- id: kitopastorino
+  name: Esteban Pastorino
+  company: Jingle Punks
+  twitter: https://twitter.com/kitopastorino
+  github: https://github.com/kitop
+  image: images/speakers/kitopastorino.jpg
+  es:
+    title_long: Angular on Cuba
+    title: "\n                      Angular on Cuba\n                      <br>\n
+      \                     (Workshop)\n                    "
+    bio: <p>Esteban, también conocido como Kito, es programador, músico, amante del
+      buen café y actualmente vive en Nueva York. La curiosidad y la necesidad de
+      resolver problemas son sus grandes fuertes y le permitieron aprender desde programación
+      a electrónica y hasta marketing. Ruby fue su primer y gran amor y ya lleva muchos
+      años de experiencia. Trabajó en empresas como MercadoLibre, Despegar y Sumavisos.
+      Realizó varios emprendimientos propios y hoy en día es el primer programador
+      "importado" de Jingle Punks, empresa basada en NY relacionada con la música.</p>
+    abstract: "<p>En los últimos años aparecieron frameworks MVC front-end como Backbone,
+      Angular, Ember, y otros más. Estos frameworks tuvieron un crecimiento enorme,
+      no hay un solo día que no salga un artículo sobre ellos y sin embargo existen
+      muchos programadores Ruby que todavía no saben por donde arrancar ni para que
+      casos utilizarlos.</p><p>En este workshop pretendemos hacer un repaso sobre
+      los principales frameworks, sus ventajas y desventajas, las diferencias de concepto
+      con el MVC de Rails y mostraremos a través de un caso concreto como estos frameworks
+      pueden llevar la experiencia del usuario al siguiente nivel.</p><p>A diferencia
+      de otras guías que eligen como ejemplo aplicaciones inherementente dinámicas
+      y complejas como un music player, feed reader, task manager o to-do list, nosotros
+      elegimos un blog. Un blog es una aplicación trivial que se suele utilizar en
+      muchas guías de Ruby on Rails; sin embargo, mostraremos como a través de estos
+      frontend frameworks podemos mejorar muchísimo la interfaz y la interacción con
+      el usuario. Mejoras de interfaz desde el formulario de sign up hasta validaciones
+      client side en la carga de contenido.</p><p>En este workshop utilizaremos Cuba
+      para crear una REST API para servir a la aplicación frontend y persistir los
+      objetos, y Angular como frontend framework. Los participantes de este workshop
+      van a poder descargar un repositorio de Github con la configuración básica necesaria
+      y terminaran desarrollando este blog en Angular on Cuba.</p>"
+  en:
+    title_long: Angular on Cuba
+    title: "\n                      Angular on Cuba\n                      <br>\n
+      \                     (Workshop)\n                    "
+    bio: <p>Esteban, también conocido como Kito, es programador, músico, amante del
+      buen café y actualmente vive en Nueva York. La curiosidad y la necesidad de
+      resolver problemas son sus grandes fuertes y le permitieron aprender desde programación
+      a electrónica y hasta marketing. Ruby fue su primer y gran amor y ya lleva muchos
+      años de experiencia. Trabajó en empresas como MercadoLibre, Despegar y Sumavisos.
+      Realizó varios emprendimientos propios y hoy en día es el primer programador
+      "importado" de Jingle Punks, empresa basada en NY relacionada con la música.</p>
+    abstract: "<p>En los últimos años aparecieron frameworks MVC front-end como Backbone,
+      Angular, Ember, y otros más. Estos frameworks tuvieron un crecimiento enorme,
+      no hay un solo día que no salga un artículo sobre ellos y sin embargo existen
+      muchos programadores Ruby que todavía no saben por donde arrancar ni para que
+      casos utilizarlos.</p><p>En este workshop pretendemos hacer un repaso sobre
+      los principales frameworks, sus ventajas y desventajas, las diferencias de concepto
+      con el MVC de Rails y mostraremos a través de un caso concreto como estos frameworks
+      pueden llevar la experiencia del usuario al siguiente nivel.</p><p>A diferencia
+      de otras guías que eligen como ejemplo aplicaciones inherementente dinámicas
+      y complejas como un music player, feed reader, task manager o to-do list, nosotros
+      elegimos un blog. Un blog es una aplicación trivial que se suele utilizar en
+      muchas guías de Ruby on Rails; sin embargo, mostraremos como a través de estos
+      frontend frameworks podemos mejorar muchísimo la interfaz y la interacción con
+      el usuario. Mejoras de interfaz desde el formulario de sign up hasta validaciones
+      client side en la carga de contenido.</p><p>En este workshop utilizaremos Cuba
+      para crear una REST API para servir a la aplicación frontend y persistir los
+      objetos, y Angular como frontend framework. Los participantes de este workshop
+      van a poder descargar un repositorio de Github con la configuración básica necesaria
+      y terminaran desarrollando este blog en Angular on Cuba.</p>"
+- id: febuiles
+  name: Federico Builes
+  company: mheroin
+  twitter: https://twitter.com/febuiles
+  github: https://github.com/febuiles
+  image: images/speakers/febuiles.jpg
+  es:
+    title_long: Practical EventMachine
+    title: "\n                      Practical\n                      <br>\n                      EventMachine\n
+      \                   "
+    bio: "<p>Hola, soy Federico, programador desde 2000, cuando PHP era cutting-edge
+      y C era el estándar para aplicaciones de escritorio. En 2006 conocí Ruby y desde
+      ese momento trabajamos juntos.</p><p>Proyectos: He colaborado en Ruby (MRI),
+      docrails, Rubinius, JRuby y algunos proyectos que pueden ver en mi cuenta de
+      GitHub. Fui estudiante del Ruby Summer of Code en 2009 y he sido mentor en el
+      Google Summer of Code (Ruby Central) en 2010, 2011 y 2014.</p>"
+    abstract: "<p>EventMachine (EM) is an event-driven concurrency library for Ruby,
+      akin to Python's Twisted or Node.js. In this talk we'll explore some of the
+      patterns and abstractions behind EM, how we can apply those ideas to our applications
+      and how the library has been used by companies like GitHub and Heroku.</p>"
+  en:
+    title_long: Practical EventMachine
+    title: "\n                      Practical\n                      <br>\n                      EventMachine\n
+      \                   "
+    bio: "<p>Hola, soy Federico, programador desde 2000, cuando PHP era cutting-edge
+      y C era el estándar para aplicaciones de escritorio. En 2006 conocí Ruby y desde
+      ese momento trabajamos juntos.</p><p>Proyectos: He colaborado en Ruby (MRI),
+      docrails, Rubinius, JRuby y algunos proyectos que pueden ver en mi cuenta de
+      GitHub. Fui estudiante del Ruby Summer of Code en 2009 y he sido mentor en el
+      Google Summer of Code (Ruby Central) en 2010, 2011 y 2014.</p>"
+    abstract: "<p>EventMachine (EM) is an event-driven concurrency library for Ruby,
+      akin to Python's Twisted or Node.js. In this talk we'll explore some of the
+      patterns and abstractions behind EM, how we can apply those ideas to our applications
+      and how the library has been used by companies like GitHub and Heroku.</p>"
+- id: unbalancedparen
+  name: Federico Carrone
+  company: Inaka
+  twitter: https://twitter.com/unbalancedparen
+  github: https://github.com/unbalancedparentheses
+  image: images/speakers/federico-carrone.jpg
+  es:
+    title_long: Concurrency for Rubyists
+    title: "\n                      Concurrency\n                      <br>\n                      for
+      Rubyists\n                    "
+    bio: "<p>I am gipsy developer who likes to test new and old stuff. I move from
+      one technology to another one trying to learn what I can from each community.</p><p>I
+      work at Inaka as a backend developer who creates REST systems with Erlang and
+      Cowboy. However my main languages for the last decade have been Ruby, Python
+      and Javascript. I am really interested by Haskell and Clojure but I had not
+      enough time to play and use them yet.</p>"
+    abstract: "<p>In the last few years thanks to the gain in popularity of functional
+      programming languages like Erlang, Clojure and Haskell, many of us learned how
+      to properly work and use the high level primitives for working with concurrency
+      and parallelism those languages have. Ruby, on the other side, even if it is
+      a very expressive language, it does not have built in most of those primitives.
+      However thanks to libraries like concurrent-ruby, celluloid and virtual machines
+      like JRuby and rubinius we are able to use great concurrency patterns like Actor,
+      Agent, Async, Future, Promise, ScheduledTask, TimerTask and efficient, immutable,
+      and thread-safe collections thanks to hamster.</p>"
+  en:
+    title_long: Concurrency for Rubyists
+    title: "\n                      Concurrency\n                      <br>\n                      for
+      Rubyists\n                    "
+    bio: "<p>I am gipsy developer who likes to test new and old stuff. I move from
+      one technology to another one trying to learn what I can from each community.</p><p>I
+      work at Inaka as a backend developer who creates REST systems with Erlang and
+      Cowboy. However my main languages for the last decade have been Ruby, Python
+      and Javascript. I am really interested by Haskell and Clojure but I had not
+      enough time to play and use them yet.</p>"
+    abstract: "<p>In the last few years thanks to the gain in popularity of functional
+      programming languages like Erlang, Clojure and Haskell, many of us learned how
+      to properly work and use the high level primitives for working with concurrency
+      and parallelism those languages have. Ruby, on the other side, even if it is
+      a very expressive language, it does not have built in most of those primitives.
+      However thanks to libraries like concurrent-ruby, celluloid and virtual machines
+      like JRuby and rubinius we are able to use great concurrency patterns like Actor,
+      Agent, Async, Future, Promise, ScheduledTask, TimerTask and efficient, immutable,
+      and thread-safe collections thanks to hamster.</p>"
+- id: frodsan
+  name: Francesco Rodríguez
+  company: Harmoni
+  twitter: https://twitter.com/frodsan
+  github: https://github.com/frodsan
+  image: images/speakers/frodsan.jpg
+  es:
+    title_long: The Guide to Cuba
+    title: "\n                      The Guide\n                      <br>\n                      to
+      Cuba\n                    "
+    bio: <p>Francesco actively contributes to Open Source and enjoys working with
+      minimalistic tools. He is also writing "The Guide to Cuba", a book about Cuba,
+      the Ruby microframework.</p>
+    abstract: "<p>In this workshop you will learn to build web applications with Cuba.
+      The workshop is intended for anyone who wants to learn to create a web application
+      with Cuba and other minimalistic tools from scratch. Experience with other web
+      frameworks is not required. However, it's recommended to have some basic knowledge
+      of the Ruby programming language.</p>"
+  en:
+    title_long: The Guide to Cuba
+    title: "\n                      The Guide\n                      <br>\n                      to
+      Cuba\n                    "
+    bio: <p>Francesco actively contributes to Open Source and enjoys working with
+      minimalistic tools. He is also writing "The Guide to Cuba", a book about Cuba,
+      the Ruby microframework.</p>
+    abstract: "<p>In this workshop you will learn to build web applications with Cuba.
+      The workshop is intended for anyone who wants to learn to create a web application
+      with Cuba and other minimalistic tools from scratch. Experience with other web
+      frameworks is not required. However, it's recommended to have some basic knowledge
+      of the Ruby programming language.</p>"
+- id: hannelita
+  name: Hanneli Tavante
+  company: Codeminer 42
+  twitter: https://twitter.com/hannelita
+  github: https://github.com/hannelita
+  image: images/speakers/hannelita.jpg
+  es:
+    title_long: Our daily graphs written in Ruby and Neo4j
+    title: "\n                      <small>Our daily graphs written</small>\n                      <br>\n
+      \                     in Ruby and Neo4j\n                    "
+    bio: "<p>Hanneli (a.k.a. @hannelita) is a developer working at Codeminer 42, addicted
+      to code, learn new programming languages, frameworks, blow capacitors, do some
+      C programming to relax and commit useful (or unuseful) code for random Open
+      Source Projects that she finds at Github. She met JBoss products into 2009 and
+      since then she tries to help the community with her blog, http://hannelita.wordpress.com</p><p>She
+      also likes coffee, specially the ones from Starbucks.</p>"
+    abstract: "<p>Have you ever noticed that so many situations could it into a graph?
+      Graphs are not only a boring subject into College, they can be really useful
+      in many situations. This talk will show you some graph modelling with a nice
+      graph database - Neo4j - and some ruby codes, inserting very creative scenarios
+      inside graphs.</p>"
+  en:
+    title_long: Our daily graphs written in Ruby and Neo4j
+    title: "\n                      <small>Our daily graphs written</small>\n                      <br>\n
+      \                     in Ruby and Neo4j\n                    "
+    bio: "<p>Hanneli (a.k.a. @hannelita) is a developer working at Codeminer 42, addicted
+      to code, learn new programming languages, frameworks, blow capacitors, do some
+      C programming to relax and commit useful (or unuseful) code for random Open
+      Source Projects that she finds at Github. She met JBoss products into 2009 and
+      since then she tries to help the community with her blog, http://hannelita.wordpress.com</p><p>She
+      also likes coffee, specially the ones from Starbucks.</p>"
+    abstract: "<p>Have you ever noticed that so many situations could it into a graph?
+      Graphs are not only a boring subject into College, they can be really useful
+      in many situations. This talk will show you some graph modelling with a nice
+      graph database - Neo4j - and some ruby codes, inserting very creative scenarios
+      inside graphs.</p>"
+- id: jgnatch
+  name: Ignacio Gutierrez
+  company: Sketch Consulting
+  twitter: https://twitter.com/jgnatch
+  github: https://github.com/jgnatch
+  image: images/speakers/jgnatch.jpg
+  es:
+    title_long: Angular on Cuba
+    title: "\n                      Angular on Cuba\n                      <br>\n
+      \                     (Workshop)\n                    "
+    bio: ''
+    abstract: "<p>En los últimos años aparecieron frameworks MVC front-end como Backbone,
+      Angular, Ember, y otros más. Estos frameworks tuvieron un crecimiento enorme,
+      no hay un solo día que no salga un artículo sobre ellos y sin embargo existen
+      muchos programadores Ruby que todavía no saben por donde arrancar ni para que
+      casos utilizarlos.</p><p>En este workshop pretendemos hacer un repaso sobre
+      los principales frameworks, sus ventajas y desventajas, las diferencias de concepto
+      con el MVC de Rails y mostraremos a través de un caso concreto como estos frameworks
+      pueden llevar la experiencia del usuario al siguiente nivel.</p><p>A diferencia
+      de otras guías que eligen como ejemplo aplicaciones inherementente dinámicas
+      y complejas como un music player, feed reader, task manager o to-do list, nosotros
+      elegimos un blog. Un blog es una aplicación trivial que se suele utilizar en
+      muchas guías de Ruby on Rails; sin embargo, mostraremos como a través de estos
+      frontend frameworks podemos mejorar muchísimo la interfaz y la interacción con
+      el usuario. Mejoras de interfaz desde el formulario de sign up hasta validaciones
+      client side en la carga de contenido.</p><p>En este workshop utilizaremos Cuba
+      para crear una REST API para servir a la aplicación frontend y persistir los
+      objetos, y Angular como frontend framework. Los participantes de este workshop
+      van a poder descargar un repositorio de Github con la configuración básica necesaria
+      y terminaran desarrollando este blog en Angular on Cuba.</p>"
+  en:
+    title_long: Angular on Cuba
+    title: "\n                      Angular on Cuba\n                      <br>\n
+      \                     (Workshop)\n                    "
+    bio: ''
+    abstract: "<p>En los últimos años aparecieron frameworks MVC front-end como Backbone,
+      Angular, Ember, y otros más. Estos frameworks tuvieron un crecimiento enorme,
+      no hay un solo día que no salga un artículo sobre ellos y sin embargo existen
+      muchos programadores Ruby que todavía no saben por donde arrancar ni para que
+      casos utilizarlos.</p><p>En este workshop pretendemos hacer un repaso sobre
+      los principales frameworks, sus ventajas y desventajas, las diferencias de concepto
+      con el MVC de Rails y mostraremos a través de un caso concreto como estos frameworks
+      pueden llevar la experiencia del usuario al siguiente nivel.</p><p>A diferencia
+      de otras guías que eligen como ejemplo aplicaciones inherementente dinámicas
+      y complejas como un music player, feed reader, task manager o to-do list, nosotros
+      elegimos un blog. Un blog es una aplicación trivial que se suele utilizar en
+      muchas guías de Ruby on Rails; sin embargo, mostraremos como a través de estos
+      frontend frameworks podemos mejorar muchísimo la interfaz y la interacción con
+      el usuario. Mejoras de interfaz desde el formulario de sign up hasta validaciones
+      client side en la carga de contenido.</p><p>En este workshop utilizaremos Cuba
+      para crear una REST API para servir a la aplicación frontend y persistir los
+      objetos, y Angular como frontend framework. Los participantes de este workshop
+      van a poder descargar un repositorio de Github con la configuración básica necesaria
+      y terminaran desarrollando este blog en Angular on Cuba.</p>"
+- id: ijpiantanida
+  name: Ignacio Piantanida
+  company: 10Pines
+  twitter: https://twitter.com/ijpiantanida
+  github: https://github.com/ijpiantanida
+  image: images/speakers/ignacio-piantanida.jpg
+  es:
+    title_long: Ruby on your pocket with RubyMotion
+    title: "\n                      Ruby on your\n                      <br>\n                      pocket
+      with RubyMotion\n                    "
+    bio: "<p>Developer por laburo y hobbie. Arranqué por .NET, pasé por Java y me
+      enamoré de la simplicidad de Ruby. Formo parte de 10Pines, donde actualmente
+      trabajo con RubyMotion en una aplicación iPhone para una start-up de Londres
+      del mercado financiero.</p>"
+    abstract: "<p>Si alguna vez quisiste escribir aplicaciones nativas de iOS pero
+      solo ver la sintaxis y verbosidad de Objective-C te produjo nauseas, RubyMotion
+      es para vos!</p><p>Con RubyMotion podemos llevar toda la simplicidad y poder
+      de expresión de ruby al ambiente mobile para escribir aplicaciones iOS/OS X
+      nativas (y próximamente Android también).</p><p>Usa todas las herramientas que
+      ya conoces: ruby, rake, gemas, RubyMine y otras en un nuevo ambiente con un
+      mercado más que interesante!</p>"
+  en:
+    title_long: Ruby on your pocket with RubyMotion
+    title: "\n                      Ruby on your\n                      <br>\n                      pocket
+      with RubyMotion\n                    "
+    bio: "<p>Developer por laburo y hobbie. Arranqué por .NET, pasé por Java y me
+      enamoré de la simplicidad de Ruby. Formo parte de 10Pines, donde actualmente
+      trabajo con RubyMotion en una aplicación iPhone para una start-up de Londres
+      del mercado financiero.</p>"
+    abstract: "<p>Si alguna vez quisiste escribir aplicaciones nativas de iOS pero
+      solo ver la sintaxis y verbosidad de Objective-C te produjo nauseas, RubyMotion
+      es para vos!</p><p>Con RubyMotion podemos llevar toda la simplicidad y poder
+      de expresión de ruby al ambiente mobile para escribir aplicaciones iOS/OS X
+      nativas (y próximamente Android también).</p><p>Usa todas las herramientas que
+      ya conoces: ruby, rake, gemas, RubyMine y otras en un nuevo ambiente con un
+      mercado más que interesante!</p>"
+- id: janogonzalez
+  name: Jano González
+  company: SoundCloud
+  twitter: https://twitter.com/janogonzalez
+  github: https://github.com/janogonzalez
+  image: images/speakers/janogonzalez.jpg
+  es:
+    title_long: Microservicios en la práctica
+    title: "\n                      Microservicios\n                      <br>\n                      en
+      la práctica\n                    "
+    bio: "<p>Programador, músico amateur y fanático de las conferencias. Aunque se
+      considera agnóstico en temas de tecnología, Ruby ocupa un lugar especial en
+      su corazón. Recientemente se mudó de su Chile natal a Alemania, para trabajar
+      en SoundCloud.</p>"
+    abstract: <p>¿Son los microservicios otra "buzzword" más? En esta charla conocerás
+      los pro y los contra de este enfoque, los problemas resuelve y qué nuevos problemas
+      crea, todo desde el punto de vista de un equipo que extrae servicios desde una
+      aplicación monolítica en su día a día.</p><p>Durante los últimos 6 meses he
+      sido parte del equipo que está extrayendo servicios del "monoriel" de SoundCloud,
+      creo que vale la pena compartir mis experiencias y que no hemos tenido tantas
+      charlas de arquitectura en las últimas conferencias del Cono Sur.</p><p>Algunos
+      de los temas a tocar:</p>
+  en:
+    title_long: Microservicios en la práctica
+    title: "\n                      Microservicios\n                      <br>\n                      en
+      la práctica\n                    "
+    bio: "<p>Programador, músico amateur y fanático de las conferencias. Aunque se
+      considera agnóstico en temas de tecnología, Ruby ocupa un lugar especial en
+      su corazón. Recientemente se mudó de su Chile natal a Alemania, para trabajar
+      en SoundCloud.</p>"
+    abstract: <p>¿Son los microservicios otra "buzzword" más? En esta charla conocerás
+      los pro y los contra de este enfoque, los problemas resuelve y qué nuevos problemas
+      crea, todo desde el punto de vista de un equipo que extrae servicios desde una
+      aplicación monolítica en su día a día.</p><p>Durante los últimos 6 meses he
+      sido parte del equipo que está extrayendo servicios del "monoriel" de SoundCloud,
+      creo que vale la pena compartir mis experiencias y que no hemos tenido tantas
+      charlas de arquitectura en las últimas conferencias del Cono Sur.</p><p>Algunos
+      de los temas a tocar:</p>
+- id: jbarreneche
+  name: Juan Barreneche
+  company: Restorando
+  twitter: https://twitter.com/jbarreneche
+  github: https://github.com/jbarreneche
+  image: images/speakers/jbarreneche.jpg
+  es:
+    title_long: Data analysis for startups
+    title: "\n                      Data analysis\n                      <br>\n                      for
+      startups\n                    "
+    bio: "<p>Soy estudiante de Ingeniería en Informática de la UBA cerca de recibirme
+      (actualmente escribiendo la tesis final). Trabajo en sistemas desde hace casi
+      10 años, comencé con COBOL, pasé por Java hasta que llegué a ruby.</p><p>Actualmente
+      estoy trabajando en Restorando.</p>"
+    abstract: "<p>TBA</p>"
+  en:
+    title_long: Data analysis for startups
+    title: "\n                      Data analysis\n                      <br>\n                      for
+      startups\n                    "
+    bio: "<p>Soy estudiante de Ingeniería en Informática de la UBA cerca de recibirme
+      (actualmente escribiendo la tesis final). Trabajo en sistemas desde hace casi
+      10 años, comencé con COBOL, pasé por Java hasta que llegué a ruby.</p><p>Actualmente
+      estoy trabajando en Restorando.</p>"
+    abstract: "<p>TBA</p>"
+- id: juliancheal
+  name: Julian Cheal
+  company: Artolo
+  twitter: https://twitter.com/juliancheal
+  github: http://github.com/juliancheal
+  image: images/speakers/juliancheal.jpg
+  es:
+    title_long: Dancing with Robots
+    title: "\n                      Dancing\n                      <br>\n                      with
+      Robots\n                    "
+    bio: "<p>A British Ruby/Rails developer, with a penchant for tweed, fine coffee,
+      and homebrewing. When not working for clients, I help organise fun events around
+      the world that teach people to program flying robots. Have committed to various
+      open source robotics frameworks including: Artoo.io, Cylon.js, and Gobot.io</p><p>By
+      bringing a variety of hardware to this talk, we'll see what fun a developer
+      can have with very little hardware knowledge and minimal code.</p><p>Hardware
+      used in this talk will include (but not limited to):</p><p>We will use Artoo.io
+      in the code examples, but this talk is about celebrating the combination of
+      Ruby and Robots, not about promoting a specific framework.</p>"
+    abstract: "<p>Web apps are great and everything, but imagine using Ruby to fly
+      drones and make them dance to the sounds of dubstep! Or to control disco lights
+      and other robots! Sounds fun, right? In this talk, we will not only explore
+      how we can write code to make this possible, but it will also be full of exciting,
+      interactive (and possibly dangerous ;) ) demos!</p>"
+  en:
+    title_long: Dancing with Robots
+    title: "\n                      Dancing\n                      <br>\n                      with
+      Robots\n                    "
+    bio: "<p>A British Ruby/Rails developer, with a penchant for tweed, fine coffee,
+      and homebrewing. When not working for clients, I help organise fun events around
+      the world that teach people to program flying robots. Have committed to various
+      open source robotics frameworks including: Artoo.io, Cylon.js, and Gobot.io</p><p>By
+      bringing a variety of hardware to this talk, we'll see what fun a developer
+      can have with very little hardware knowledge and minimal code.</p><p>Hardware
+      used in this talk will include (but not limited to):</p><p>We will use Artoo.io
+      in the code examples, but this talk is about celebrating the combination of
+      Ruby and Robots, not about promoting a specific framework.</p>"
+    abstract: "<p>Web apps are great and everything, but imagine using Ruby to fly
+      drones and make them dance to the sounds of dubstep! Or to control disco lights
+      and other robots! Sounds fun, right? In this talk, we will not only explore
+      how we can write code to make this possible, but it will also be full of exciting,
+      interactive (and possibly dangerous ;) ) demos!</p>"
+- id: moonbeamlabs
+  name: Lucas Dohmen
+  company: ArangoDB
+  twitter: https://twitter.com/moonbeamlabs
+  github: https://github.com/moonglum
+  image: images/speakers/lucas-dohem.jpg
+  es:
+    title_long: ArangoDB, A different approach to NoSQL
+    title: "\n                      ArangoDB\n                      <br>\n                      <small>A
+      different approach to NoSQL</small>\n                    "
+    bio: "<p>I’m a member of the core team of the NoSQL database project ArangoDB
+      where I work on the graph functionality, tools for the Ruby community to use
+      the database and Foxx. Furthermore I contribute to various open source projects
+      like hacken.in (an event calender for nerds in Cologne, Berlin and Munich) and
+      projects related to ArangoDB. You can find me listening or speaking at our local
+      usergroups for Ruby, JavaScript, NoSQL and (as a coach for) Rails Girls and
+      Coder Dojo.</p>"
+    abstract: "<p>ArangoDB is an open source NoSQL database which is not narrow-mindedly
+      focused on horizontal scalability. Instead, ArangoDB aims to offer developers
+      great flexibility and ease-of-use. The database is suitable for use cases which
+      are difficult to implement with most traditional relational databases and also
+      many of the other NoSQL databases. \LFoxx is a JavaScript framework built-into
+      ArangoDB that allows to extend the REST API of the database. I will show you
+      why this is interesting and how you can use it in your apps.</p>"
+  en:
+    title_long: ArangoDB, A different approach to NoSQL
+    title: "\n                      ArangoDB\n                      <br>\n                      <small>A
+      different approach to NoSQL</small>\n                    "
+    bio: "<p>I’m a member of the core team of the NoSQL database project ArangoDB
+      where I work on the graph functionality, tools for the Ruby community to use
+      the database and Foxx. Furthermore I contribute to various open source projects
+      like hacken.in (an event calender for nerds in Cologne, Berlin and Munich) and
+      projects related to ArangoDB. You can find me listening or speaking at our local
+      usergroups for Ruby, JavaScript, NoSQL and (as a coach for) Rails Girls and
+      Coder Dojo.</p>"
+    abstract: "<p>ArangoDB is an open source NoSQL database which is not narrow-mindedly
+      focused on horizontal scalability. Instead, ArangoDB aims to offer developers
+      great flexibility and ease-of-use. The database is suitable for use cases which
+      are difficult to implement with most traditional relational databases and also
+      many of the other NoSQL databases. \LFoxx is a JavaScript framework built-into
+      ArangoDB that allows to extend the REST API of the database. I will show you
+      why this is interesting and how you can use it in your apps.</p>"
+- id: noeliacabane
+  name: Marina Noelia Cabane
+  company: Restorando
+  twitter: https://twitter.com/noeliacabane
+  github: https://github.com/noeliacabane
+  image: images/speakers/noeliacabane.jpg
+  es:
+    title_long: The path to modular UI (workshop)
+    title: "\n                      The path to modular\n                      <br>\n
+      \                     UI (workshop)\n                    "
+    bio: "<p>Noelia es una diseñadora gráfica de la Universidad de Buenos Aires, que
+      empezó diseñando para imprenta hasta descubrir su pasión por el diseño centrado
+      en el usuario y la creación de sitios. Como Product Designer en Restorando,
+      trabaja en el diseño de las aplicaciones mobiles, el sitio público y las herramientas
+      para los restaurantes, es ahi donde descubrió el potencial de Sass combinado
+      con CSS orientado a objetos.</p><p>Además Noelia es organizadora de Rails Girls
+      en Buenos Aires.</p>"
+    abstract: "<p>Propongo hacer un taller de refactor de arquitectura de CSS (SASS/LESS)
+      en una app hecha en Ruby. Orientando a los participantes acerca de técnicas
+      de modulación de CSS para crear UI simple, reusable y escalable.</p>"
+  en:
+    title_long: The path to modular UI (workshop)
+    title: "\n                      The path to modular\n                      <br>\n
+      \                     UI (workshop)\n                    "
+    bio: "<p>Noelia es una diseñadora gráfica de la Universidad de Buenos Aires, que
+      empezó diseñando para imprenta hasta descubrir su pasión por el diseño centrado
+      en el usuario y la creación de sitios. Como Product Designer en Restorando,
+      trabaja en el diseño de las aplicaciones mobiles, el sitio público y las herramientas
+      para los restaurantes, es ahi donde descubrió el potencial de Sass combinado
+      con CSS orientado a objetos.</p><p>Además Noelia es organizadora de Rails Girls
+      en Buenos Aires.</p>"
+    abstract: "<p>Propongo hacer un taller de refactor de arquitectura de CSS (SASS/LESS)
+      en una app hecha en Ruby. Orientando a los participantes acerca de técnicas
+      de modulación de CSS para crear UI simple, reusable y escalable.</p>"
+- id: a_meba
+  name: Marta Paciorkowska
+  company: ''
+  twitter: https://twitter.com/a_meba
+  github: https://github.com/xamebax
+  image: images/speakers/marta-paciorkowska.jpg
+  es:
+    title_long: Programming, languages, literature
+    title: "\n                      Programming,\n                      <br>\n                      languages,
+      literature\n                    "
+    bio: "<p>Marta developed a love for literature and computers roughly at the same
+      time in her life: She wrote poetry and coded in Logo in primary school, learned
+      C in high school, studied American literature and created websites while at
+      university. Now she work as a software engineer in Three of Coins (http://3ofcoins.net).
+      Constantly on the border of these two worlds, she tries to look for ways to
+      bring them together.</p>"
+    abstract: "<p>Have you ever pondered on the similarities between programming languages
+      and literature? If you haven’t, here’s your chance! Just as the development
+      of literature can be divided into epochs with their distinctive themes, there
+      are stages in the evolution of programming languages. Code and literature have
+      more in common than you think! Let’s have a look at programming languages and
+      compare them to well known works of literature to (hopefully) come to a conclusion
+      that programming does not exist in a cultural vacuum and that its development
+      is significantly inspired by culture.</p>"
+  en:
+    title_long: Programming, languages, literature
+    title: "\n                      Programming,\n                      <br>\n                      languages,
+      literature\n                    "
+    bio: "<p>Marta developed a love for literature and computers roughly at the same
+      time in her life: She wrote poetry and coded in Logo in primary school, learned
+      C in high school, studied American literature and created websites while at
+      university. Now she work as a software engineer in Three of Coins (http://3ofcoins.net).
+      Constantly on the border of these two worlds, she tries to look for ways to
+      bring them together.</p>"
+    abstract: "<p>Have you ever pondered on the similarities between programming languages
+      and literature? If you haven’t, here’s your chance! Just as the development
+      of literature can be divided into epochs with their distinctive themes, there
+      are stages in the evolution of programming languages. Code and literature have
+      more in common than you think! Let’s have a look at programming languages and
+      compare them to well known works of literature to (hopefully) come to a conclusion
+      that programming does not exist in a cultural vacuum and that its development
+      is significantly inspired by culture.</p>"
+- id: pbruna
+  name: Patricio Bruna
+  company: ITLinux
+  twitter: https://twitter.com/pbruna
+  github: https://github.com/pbruna
+  image: images/speakers/pbruna.jpg
+  es:
+    title_long: De desarrollo a producción con Docker
+    title: "\n                      De desarrollo a\n                      <br>\n
+      \                     producción con Docker\n                    "
+    bio: "<p>Soy uno de los socios de ITLinux, empresa con cerca de 10 años de experiencia
+      en proyectos de software libre.</p><p>Hace 3 años comenzó mi interés por Ruby
+      al utilizar Rails para desarrollar nuestra aplicación de contabilidad al no
+      encontrar ninguna que acercara a nosotros.</p><p>Hoy en ITLijux seguimos en
+      el sendero de servicios de infraestructura con software Open Source pero además
+      lo acompañamos de desarrollos propios para mejorar la administración de estas
+      plataformas.</p>"
+    abstract: "<p>En esta charla pretendo enseñar de forma practica como Docker puede
+      ayudarnos a mejorar la experiencia de desarrollo de aplicaciones Rails y como
+      podemos olvidarnos de los problemas de tener plataformas distintas en Desarrollo
+      y Producción.</p><p>También revisaremos como podemos escalar automagicamente
+      nuestra aplicación cuando logremos el éxito y la fama.</p>"
+  en:
+    title_long: De desarrollo a producción con Docker
+    title: "\n                      De desarrollo a\n                      <br>\n
+      \                     producción con Docker\n                    "
+    bio: "<p>Soy uno de los socios de ITLinux, empresa con cerca de 10 años de experiencia
+      en proyectos de software libre.</p><p>Hace 3 años comenzó mi interés por Ruby
+      al utilizar Rails para desarrollar nuestra aplicación de contabilidad al no
+      encontrar ninguna que acercara a nosotros.</p><p>Hoy en ITLijux seguimos en
+      el sendero de servicios de infraestructura con software Open Source pero además
+      lo acompañamos de desarrollos propios para mejorar la administración de estas
+      plataformas.</p>"
+    abstract: "<p>En esta charla pretendo enseñar de forma practica como Docker puede
+      ayudarnos a mejorar la experiencia de desarrollo de aplicaciones Rails y como
+      podemos olvidarnos de los problemas de tener plataformas distintas en Desarrollo
+      y Producción.</p><p>También revisaremos como podemos escalar automagicamente
+      nuestra aplicación cuando logremos el éxito y la fama.</p>"
+- id: paulcsmith
+  name: Paul Smith
+  company: Thoughtbot
+  twitter: https://twitter.com/paulcsmith
+  github: https://github.com/paulcsmith
+  image: images/speakers/paulcsmith.jpg
+  es:
+    title_long: Derailing Irrationality
+    title: "\n                      Derailing\n                      <br>\n                      Irrationality\n
+      \                   "
+    bio: "<p>I’m Paul Smith. I currently work for thoughtbot in Boston, MA and have
+      been working with Rails applications for about 7 years. I lived in Argentina
+      for 2 years and learned to speak Spanish while I was living there. I am well
+      practiced in speaking to large groups of people in English and Spanish.</p><p>I
+      love studying the mind. Behavioral economics, cognitive biases and heuristics.
+      The study of behaviors and cognitive biases has helped me better understand
+      how to create simpler software and work more effectively with clients and coworkers.</p>"
+    abstract: "<p>Cognitive biases enable faster decisions when timeliness is more
+      valuable than accuracy. They are very hard to detect and rarely discussed. Without
+      realizing it we ask survey questions of our customers and clients that yield
+      biased answers, which in turn lead to features that are not useful. We review
+      code in ways that cause frustration, and hurt feelings. We take on technical
+      debt because of invisible and nearly imperceptible forces in our minds that
+      cause us to make irrational decisions. This talk will help developers to understand
+      how to think rationally in order to act quickly, write better software and be
+      happier while doing it.</p><p>In the presentation we will talk about the current
+      moment bias, the fairness bias, impostor syndrome, the IKEA effect, the diagnosis
+      bias, the principle of reactance and how these effects become formidable enemies
+      on the way to creating cohesive teams and simple software. We will learn how
+      to recognize when these biases take effect and how to overcome them.</p><p>By
+      the end of this talk people will know:</p>"
+  en:
+    title_long: Derailing Irrationality
+    title: "\n                      Derailing\n                      <br>\n                      Irrationality\n
+      \                   "
+    bio: "<p>I’m Paul Smith. I currently work for thoughtbot in Boston, MA and have
+      been working with Rails applications for about 7 years. I lived in Argentina
+      for 2 years and learned to speak Spanish while I was living there. I am well
+      practiced in speaking to large groups of people in English and Spanish.</p><p>I
+      love studying the mind. Behavioral economics, cognitive biases and heuristics.
+      The study of behaviors and cognitive biases has helped me better understand
+      how to create simpler software and work more effectively with clients and coworkers.</p>"
+    abstract: "<p>Cognitive biases enable faster decisions when timeliness is more
+      valuable than accuracy. They are very hard to detect and rarely discussed. Without
+      realizing it we ask survey questions of our customers and clients that yield
+      biased answers, which in turn lead to features that are not useful. We review
+      code in ways that cause frustration, and hurt feelings. We take on technical
+      debt because of invisible and nearly imperceptible forces in our minds that
+      cause us to make irrational decisions. This talk will help developers to understand
+      how to think rationally in order to act quickly, write better software and be
+      happier while doing it.</p><p>In the presentation we will talk about the current
+      moment bias, the fairness bias, impostor syndrome, the IKEA effect, the diagnosis
+      bias, the principle of reactance and how these effects become formidable enemies
+      on the way to creating cohesive teams and simple software. We will learn how
+      to recognize when these biases take effect and how to overcome them.</p><p>By
+      the end of this talk people will know:</p>"
+- id: poteland
+  name: Pote
+  company: 13 Floor
+  twitter: https://twitter.com/poteland
+  github: https://github.com/pote
+  image: images/speakers/pote.jpg
+  es:
+    title_long: The Dilemma of Simplicity
+    title: "\n                      The Dilemma\n                      <br>\n                      of
+      Simplicity\n                    "
+    bio: "<p>pote comes from a Python background writing Asterisk-based VoIP systems,
+      has several years of experience doing Rails/Ruby and has been known to work
+      with Go, Lua or other alternatives when the job permits it, he loves contributing
+      to open source projects, he is one of the authors of the @surculusfructum podcast
+      as well as a member of the [13Floor.org](http://13floor.org) software collective.</p><p>Passionate
+      about minimalistic software, Unix philosophy, doing things right, having fun
+      with cool people and using spaces instead of tabs, pote copes with a somewhat
+      unhealthy relationship with moustaches and is always willing to discuss the
+      evils of premature optimisation over a beer.</p>"
+    abstract: "<p>Over the years we've learned to pay attention to the importance
+      of a number of highly desirable qualities in software: readability, maintainability,
+      adaptation to change. We've accepted these values as good and actively pursue
+      them yet we consistently ignore what is probably the best method of achieving
+      these qualities, it's staring us right in the face now.</p><p>Slowly but steadily
+      the philosophy of embracing simplicity in software design by carefully calculating
+      and minimizing unnecessary complexity is gaining traction in our community,
+      and for a good reason: it organically pushes us to the best software practices
+      we all know and love, it both embraces all the core principles the ruby community
+      has developed over the years while rejecting many of the common practices we
+      carry based on inertia but which directly contradict these values.</p><p>In
+      this talk I explore my journey on this shift in perspective from certain fragments
+      of our community and how thinking about simplicity as one of our core values
+      can push us to be better developers while producing better quality of software.
+      We don't need our crutches anymore, let's drop them together!</p>"
+  en:
+    title_long: The Dilemma of Simplicity
+    title: "\n                      The Dilemma\n                      <br>\n                      of
+      Simplicity\n                    "
+    bio: "<p>pote comes from a Python background writing Asterisk-based VoIP systems,
+      has several years of experience doing Rails/Ruby and has been known to work
+      with Go, Lua or other alternatives when the job permits it, he loves contributing
+      to open source projects, he is one of the authors of the @surculusfructum podcast
+      as well as a member of the [13Floor.org](http://13floor.org) software collective.</p><p>Passionate
+      about minimalistic software, Unix philosophy, doing things right, having fun
+      with cool people and using spaces instead of tabs, pote copes with a somewhat
+      unhealthy relationship with moustaches and is always willing to discuss the
+      evils of premature optimisation over a beer.</p>"
+    abstract: "<p>Over the years we've learned to pay attention to the importance
+      of a number of highly desirable qualities in software: readability, maintainability,
+      adaptation to change. We've accepted these values as good and actively pursue
+      them yet we consistently ignore what is probably the best method of achieving
+      these qualities, it's staring us right in the face now.</p><p>Slowly but steadily
+      the philosophy of embracing simplicity in software design by carefully calculating
+      and minimizing unnecessary complexity is gaining traction in our community,
+      and for a good reason: it organically pushes us to the best software practices
+      we all know and love, it both embraces all the core principles the ruby community
+      has developed over the years while rejecting many of the common practices we
+      carry based on inertia but which directly contradict these values.</p><p>In
+      this talk I explore my journey on this shift in perspective from certain fragments
+      of our community and how thinking about simplicity as one of our core values
+      can push us to be better developers while producing better quality of software.
+      We don't need our crutches anymore, let's drop them together!</p>"
+- id: geerlinger
+  name: Stepahanie Geerlings
+  company: Cloud City Development
+  twitter: https://twitter.com/geerlinger
+  github: https://github.com/stf
+  image: images/speakers/geerlinger.jpg
+  es:
+    title_long: Ruby + RaspberryPi + That Was Not What I Expected
+    title: "\n                      <small>Ruby + RaspberryPi + That</small>\n                      <br>\n
+      \                     Was Not What I Expected\n                    "
+    bio: "<p>I am the General Manager of Cloud City Development. I have ten years
+      of experience bringing quality digital products to life. My focus is on how
+      well design and development works together for the good of the end-user and
+      company goals. I've created and worked alongside many successful startups including
+      12 Spokes, CrowdFlower, Gengo, and Kanjiru. I believe design is both an art
+      and science. My specialties include product design, LeanUX, agile, customer
+      development, and hardware hacking.</p>"
+    abstract: "<p>The RaspberryPi is a small, affordable computer that you can use
+      for your Internet of Things projects. It's incredibly simple to use if you have
+      a basic understanding of circuits and how computers work. I'll give an overview
+      on how to set up a project with resources for the fundamental steps along the
+      way.</p><p>I'd like to show my journey into setting up a light sensor that became
+      an increasingly dense project as I went along. Show the trouble of thinking
+      something worked one way and finding out it worked a completely different way.
+      Converting analogue to digital and other frankenstein-ing of hardware, sensors,
+      and microchips.</p><p>If the talk is accepted the format will be as follows:</p><p>The
+      goal is to show that the RaspberryPi is a hands-on model for computing that
+      is educational, powerful, and fun.</p>"
+  en:
+    title_long: Ruby + RaspberryPi + That Was Not What I Expected
+    title: "\n                      <small>Ruby + RaspberryPi + That</small>\n                      <br>\n
+      \                     Was Not What I Expected\n                    "
+    bio: "<p>I am the General Manager of Cloud City Development. I have ten years
+      of experience bringing quality digital products to life. My focus is on how
+      well design and development works together for the good of the end-user and
+      company goals. I've created and worked alongside many successful startups including
+      12 Spokes, CrowdFlower, Gengo, and Kanjiru. I believe design is both an art
+      and science. My specialties include product design, LeanUX, agile, customer
+      development, and hardware hacking.</p>"
+    abstract: "<p>The RaspberryPi is a small, affordable computer that you can use
+      for your Internet of Things projects. It's incredibly simple to use if you have
+      a basic understanding of circuits and how computers work. I'll give an overview
+      on how to set up a project with resources for the fundamental steps along the
+      way.</p><p>I'd like to show my journey into setting up a light sensor that became
+      an increasingly dense project as I went along. Show the trouble of thinking
+      something worked one way and finding out it worked a completely different way.
+      Converting analogue to digital and other frankenstein-ing of hardware, sensors,
+      and microchips.</p><p>If the talk is accepted the format will be as follows:</p><p>The
+      goal is to show that the RaspberryPi is a hands-on model for computing that
+      is educational, powerful, and fun.</p>"
+- id: tutec
+  name: Tute Costa
+  company: Thoughtbot
+  twitter: https://twitter.com/tutec
+  github: https://github.com/tute
+  image: images/speakers/tutec.jpg
+  es:
+    title_long: No vas a creer cómo simplificamos esta masa de código en 5 sencillos
+      pasos.
+    title: "\n                      5 simple steps\n                      <br>\n                      (Workshop)\n
+      \                   "
+    bio: "<p>Tute Costa trabajó en Startup Chile (chefsurfing.com) en 2012, en General
+      Assembly en 2013, y en thoughtbot desde 2014. Mantiene las gemas merit y doorkeeper.
+      Escribió un mashup para saber qué lo rodea cuando viaja, http://dynamicatlas.herokuapp.com/.
+      Empezó programando en PHP, agregó Ruby en 2007, y desde 2013 programa aplicaciones
+      en Javascript. Ama compartir asados, hacer deportes, andar por montañas y ver
+      jazz.</p>"
+    abstract: "<p>En este taller haremos que código complejo y acoplado se transforme
+      en más simple, legible y mantenible, y aprenderemos los pasos para lograrlo
+      una y otra vez.</p><p>Trabajaremos sobre anomalías recurrentes en software sobre
+      código y tests extraídos de proyectos reales, usando los Patrones de Refactorización:</p><p>Estas
+      recetas tienen un alcance acotado, que asegura mantenernos lejos de un commit
+      del tipo “reescribí todo no-vean-el-historial-de-cambios”, al tiempo que logramos
+      mejoras de diseño muy concretas.</p><p>Discutiremos soluciones para “Objetos
+      Dios (God Objects)”, “Modelos Gordos (Fat Models)”, cadenas largas de llamadas
+      a métodos (`user.friends.first.profile.address.street.WAT`), NoMethodError's,
+      métodos gigantescos, cómo nombrar las cosas, y cómo mantener un mate sano por
+      un termo (o más!).</p><p>Los ejemplos serán en Ruby, válidos para cualquier
+      proyecto o framework, y lo tratado es aplicable además a cualquier lenguaje
+      orientado a objetos.</p>"
+  en:
+    title_long: No vas a creer cómo simplificamos esta masa de código en 5 sencillos
+      pasos.
+    title: "\n                      5 simple steps\n                      <br>\n                      (Workshop)\n
+      \                   "
+    bio: "<p>Tute Costa trabajó en Startup Chile (chefsurfing.com) en 2012, en General
+      Assembly en 2013, y en thoughtbot desde 2014. Mantiene las gemas merit y doorkeeper.
+      Escribió un mashup para saber qué lo rodea cuando viaja, http://dynamicatlas.herokuapp.com/.
+      Empezó programando en PHP, agregó Ruby en 2007, y desde 2013 programa aplicaciones
+      en Javascript. Ama compartir asados, hacer deportes, andar por montañas y ver
+      jazz.</p>"
+    abstract: "<p>En este taller haremos que código complejo y acoplado se transforme
+      en más simple, legible y mantenible, y aprenderemos los pasos para lograrlo
+      una y otra vez.</p><p>Trabajaremos sobre anomalías recurrentes en software sobre
+      código y tests extraídos de proyectos reales, usando los Patrones de Refactorización:</p><p>Estas
+      recetas tienen un alcance acotado, que asegura mantenernos lejos de un commit
+      del tipo “reescribí todo no-vean-el-historial-de-cambios”, al tiempo que logramos
+      mejoras de diseño muy concretas.</p><p>Discutiremos soluciones para “Objetos
+      Dios (God Objects)”, “Modelos Gordos (Fat Models)”, cadenas largas de llamadas
+      a métodos (`user.friends.first.profile.address.street.WAT`), NoMethodError's,
+      métodos gigantescos, cómo nombrar las cosas, y cómo mantener un mate sano por
+      un termo (o más!).</p><p>Los ejemplos serán en Ruby, válidos para cualquier
+      proyecto o framework, y lo tratado es aplicable además a cualquier lenguaje
+      orientado a objetos.</p>"
