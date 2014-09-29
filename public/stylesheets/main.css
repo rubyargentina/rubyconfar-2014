@@ -2910,40 +2910,42 @@ section#speakers {
     width: 280px;
     z-index: 1; }
 
-body#home section#speakers article > ul > li.show {
-  display: inline-block;
-  vertical-align: baseline;
-  zoom: 1;
-  *display: inline;
-  *vertical-align: auto;
-  vertical-align: top; }
-  body#home section#speakers article > ul > li.show.last {
-    display: none; }
-    @media screen and (min-width: 1400px) {
-      body#home section#speakers article > ul > li.show.last {
-        display: inline-block;
-        vertical-align: baseline;
-        zoom: 1;
-        *display: inline;
-        *vertical-align: auto; } }
-@media screen and (min-width: 920px) and (max-width: 1140px) {
-  body#home section#speakers article > ul > li .img {
-    bottom: 30px;
-    margin-left: -100px;
-    width: 200px; } }
-@media screen and (min-width: 920px) and (max-width: 1020px) {
-  body#home section#speakers article > ul > li .img {
-    bottom: 20px;
-    margin-left: -90px;
-    width: 180px; } }
-@media screen and (max-width: 920px) {
-  body#home section#speakers article > ul > li {
-    width: 48%;
-    margin: 1%; } }
-@media screen and (max-width: 650px) {
-  body#home section#speakers article > ul > li {
-    width: 96%;
-    margin: 2%; } }
+body#home section#speakers article > ul {
+  font-size: 0; }
+  body#home section#speakers article > ul > li.show {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+    vertical-align: top; }
+    body#home section#speakers article > ul > li.show.last {
+      display: none; }
+      @media screen and (min-width: 1400px) {
+        body#home section#speakers article > ul > li.show.last {
+          display: inline-block;
+          vertical-align: baseline;
+          zoom: 1;
+          *display: inline;
+          *vertical-align: auto; } }
+  @media screen and (min-width: 920px) and (max-width: 1140px) {
+    body#home section#speakers article > ul > li .img {
+      bottom: 30px;
+      margin-left: -100px;
+      width: 200px; } }
+  @media screen and (min-width: 920px) and (max-width: 1020px) {
+    body#home section#speakers article > ul > li .img {
+      bottom: 20px;
+      margin-left: -90px;
+      width: 180px; } }
+  @media screen and (max-width: 920px) {
+    body#home section#speakers article > ul > li {
+      width: 48%;
+      margin: 1%; } }
+  @media screen and (max-width: 650px) {
+    body#home section#speakers article > ul > li {
+      width: 96%;
+      margin: 2%; } }
 
 .inner-page section#speakers {
   border-left: 0 none;
