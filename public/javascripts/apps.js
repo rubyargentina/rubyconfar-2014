@@ -1,25 +1,37 @@
+function fixWindowAfterAnchor() {
+  setTimeout(function() {
+    var windowTop = $(window).scrollTop(); // returns number  
+    var updated = windowTop - 40;
+    window.scrollTo(0, updated); 
+    console.log("Reposition to: "+updated);
+  }, 200);
+}
+
 $(document).ready(function() {
 
   // SPEAKERS
 
   $('body.inner-page section#speakers .index').clone().appendTo('body.inner-page section#speakers header');
+  $('body.inner-page section#speakers').each(function() {
+    fixWindowAfterAnchor();
+  });
 
   $('span.full-list').click(function(){
     $(this).toggleClass('open');
     $('header').toggleClass('open');
     $('body.inner-page section#speakers .index:last').slideToggle();
-
-    // if ( $('.index:last').is(":visible")  ) {
-    //   $('.index:last').prev().hide();
-    // } else {
-    //   $('.index:last').prev().show();
-    // }
-
   });
+
   $('.index a').click(function(){
+    fixWindowAfterAnchor();
     if ( $('span.full-list').hasClass('open') ) {
       $('span.full-list').click();
     }
+  });
+
+ 
+  $('a.share').click( function(elem) {
+    fixWindowAfterAnchor();
   });
 
   // HOME - Speakers section
