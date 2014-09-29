@@ -9,11 +9,11 @@ $(document).ready(function() {
     $('header').toggleClass('open');
     $('body.inner-page section#speakers .index:last').slideToggle();
 
-    if ( $('.index:last').is(":visible")  ) {
-      $('.index:last').prev().hide();
-    } else {
-      $('.index:last').prev().show();
-    }
+    // if ( $('.index:last').is(":visible")  ) {
+    //   $('.index:last').prev().hide();
+    // } else {
+    //   $('.index:last').prev().show();
+    // }
 
   });
   $('.index a').click(function(){
@@ -251,6 +251,9 @@ $(window).scroll(function(){
     }
   }
   else {
+    if ( $('header').hasClass('open') ) {
+      $('body.inner-page section#speakers .full-list').click();
+    }
     $('body.inner-page section#speakers .index:last').removeClass('fixed');
     $('body.inner-page section#speakers .full-list').fadeOut();
   }

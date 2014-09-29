@@ -2726,7 +2726,8 @@ section#speakers {
       width: 100%; }
       section#speakers header .index:last-child {
         position: fixed;
-        display: none; }
+        display: none;
+        top: -100px; }
       section#speakers header .index ol {
         text-align: center;
         padding-top: 210px; }
