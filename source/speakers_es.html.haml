@@ -12,6 +12,13 @@
           Índice
       %h1 Oradores
     .index
+      %ol.wrapper
+        - data.speakers.each do |speaker|
+          %li{class: speaker.rfd ? 'rfd' : 'main' }            
+            %a.share{href: "##{speaker.id}"}
+              .border              
+              %img{src: speaker.image , alt: speaker.name}
+            .tooltip= speaker.name
   
   %article.wrapper  
     %h1 Oradores

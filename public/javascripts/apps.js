@@ -8,6 +8,18 @@ $(document).ready(function() {
     $(this).toggleClass('open');
     $('header').toggleClass('open');
     $('body.inner-page section#speakers .index:last').slideToggle();
+
+    if ( $('.index:last').is(":visible")  ) {
+      $('.index:last').prev().hide();
+    } else {
+      $('.index:last').prev().show();
+    }
+
+  });
+  $('.index a').click(function(){
+    if ( $('span.full-list').hasClass('open') ) {
+      $('span.full-list').click();
+    }
   });
 
   // HOME - Speakers section

@@ -1,6 +1,7 @@
 - content_for(:body_class) {"inner-page"}
 
 
+
 %section#speakers
   %header
     .top
@@ -12,6 +13,13 @@
           Index
       %h1 Speakers
     .index
+      %ol.wrapper
+        - data.speakers.each do |speaker|
+          %li{class: speaker.rfd ? 'rfd' : 'main' }            
+            %a.share{href: "##{speaker.id}"}
+              .border              
+              %img{src: speaker.image , alt: speaker.name}
+            .tooltip= speaker.name
   
   %article.wrapper
    
