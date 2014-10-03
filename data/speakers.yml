@@ -748,7 +748,7 @@
       nuestra aplicación cuando logremos el éxito y la fama.</p>"
 - id: paulcsmith
   name: Paul Smith
-  company: Thoughtbot
+  company: thoughtbot
   twitter: https://twitter.com/paulcsmith
   github: https://github.com/paulcsmith
   image: images/speakers/paulcsmith.jpg
@@ -916,7 +916,7 @@
       is educational, powerful, and fun.</p>"
 - id: tutec
   name: Tute Costa
-  company: Thoughtbot
+  company: thoughtbot
   twitter: https://twitter.com/tutec
   github: https://github.com/tute
   image: images/speakers/tutec.jpg
