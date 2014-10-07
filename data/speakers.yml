@@ -8,17 +8,17 @@
   es:
     title_long: Solving the Rubik’s Cube Blindfolded
     title: "Solving the Rubik’s<br>Cube Blindfolded"
-    bio: "<p>Chris Hunt works for GitHub from a standing desk in Portland, Oregon.
-      Prior to GitHub, Chris worked on Rails applications for Square, Apple, the Department
-      of Defense, and his very critical mother.  When he's not writing Ruby, he's
-      probably looking over your shoulder trying to learn something new.</p>"
-    abstract: "<p>You think solving a Rubik’s Cube is difficult? Imagine scrambling
-      it, memorizing it, and solving it with your eyes closed.</p><p>In this two part
-      talk, we are going to combine techniques mastered by professional speedcubers
-      and memory athletes to learn how to solve the Rubik’s Cube blindfolded.</p><p>This
-      is not just a party trick. You will leave RubyConf Argentina with a greater
-      appreciation for the Rubik’s Cube and the ability to memorize anything in the
-      world.</p>"
+    bio: "<p>Chris Hunt trabaja para GitHub desde un escritorio en Portland, Oregon.
+      Previo a GitHub, Chris trabajó en aplicaciones Rails para Square, Apple, el 
+      Departamento de Defensa de Estados Unidos, y para su crítica madre. 
+      Cuando no está escribiendo Ruby, está probablemente tratando de aprender algo nuevo.</p>"
+    abstract: "<p>Piensas que resolver el Cubo Rubik es difícil? Imagina desordenarlo, 
+      memorizarlo y resolverlo con los ojos cerrados. </p>
+      <p>En esta charla de dos partes, vamos a combinar técnicas utilizadas por 'speedcubers' 
+      profesionales y atletas de la memoria para aprender cómo resolver el Cubo Rubik 
+      con los ojos vendados. Esto no es solo un truco para entretener fiestas. 
+      Dejarás RubyConf Argentina con una mayor apreciación acerca del Cubo Rubik y la abilidad 
+      de memorizar cualquier cosa en el mundo. </p>"
   en:
     title_long: Solving the Rubik’s Cube Blindfolded
     title: "Solving the Rubik’s<br>Cube Blindfolded"
