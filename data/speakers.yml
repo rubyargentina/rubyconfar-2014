@@ -42,8 +42,7 @@
   image: images/speakers/cristianrasch.jpg
   es:
     title_long: A one on one date with vim
-    title: "\n                      A one on one date\n                      <br>\n
-      \                     with vim (Workshop)\n                    "
+    title: "A one on one date<br>with vim (Workshop)"
     bio: "<p>I am freelance software engineer and member of the wecode (http://wecode.io)
       initiative, who works for his American and European clients.</p><p>I mostly
       do Ruby backend work with the occasional Javascript app. I'm also a huge fan
@@ -60,8 +59,7 @@
       encouraged to dig deeper in their understanding of this wonderful tool.</p>"
   en:
     title_long: A one on one date with vim
-    title: "\n                      A one on one date\n                      <br>\n
-      \                     with vim (Workshop)\n                    "
+    title: "A one on one date<br>with vim (Workshop)"
     bio: "<p>I am freelance software engineer and member of the wecode (http://wecode.io)
       initiative, who works for his American and European clients.</p><p>I mostly
       do Ruby backend work with the occasional Javascript app. I'm also a huge fan
@@ -84,8 +82,7 @@
   image: images/speakers/jano.jpg
   es:
     title_long: 'Redis: más allá del caché y las colas'
-    title: "\n                      Redis: más allá\n                      <br>\n
-      \                     del caché y las colas\n                    "
+    title: "Redis: más allá<br>del caché y las colas"
     bio: "<p>CTO en Educabilia. Damián es programador desde hace muchos años, pero
       logró que le empiecen a pagar por ello hace diez. Como la web ya existía, nunca
       tuvo que programar una aplicación de escritorio. Después de pasos fructíferos
@@ -108,8 +105,7 @@
       y qué estrategias se pueden usar para evitarlos.</p>"
   en:
     title_long: 'Redis: más allá del caché y las colas'
-    title: "\n                      Redis: más allá\n                      <br>\n
-      \                     del caché y las colas\n                    "
+    title: "Redis: más allá<br>del caché y las colas"
     bio: "<p>CTO en Educabilia. Damián es programador desde hace muchos años, pero
       logró que le empiecen a pagar por ello hace diez. Como la web ya existía, nunca
       tuvo que programar una aplicación de escritorio. Después de pasos fructíferos
@@ -138,8 +134,7 @@
   image: images/speakers/emilio-gutter.jpg
   es:
     title_long: The Ten Commandments of the Ruby Programmer
-    title: "\n                      <small>The Ten Commandments of</small>\n                      <br>\n
-      \                     the Ruby Programmer\n                    "
+    title: "<small>The Ten Commandments of</small><br>the Ruby Programmer"
     bio: "<p>Emilio is co-founder of 10Pines, a boutique software company located
       in Buenos Aires. He is a founder member of Agiles latin-american community and
       he has been the co-chair of Agiles2012 conference held in Cordoba, Argentina.</p><p>He
@@ -164,8 +159,7 @@
       God dude. If you want miracles ask the Pope"</p>'
   en:
     title_long: The Ten Commandments of the Ruby Programmer
-    title: "\n                      <small>The Ten Commandments of</small>\n                      <br>\n
-      \                     the Ruby Programmer\n                    "
+    title: "<small>The Ten Commandments of</small><br>the Ruby Programmer"
     bio: "<p>Emilio is co-founder of 10Pines, a boutique software company located
       in Buenos Aires. He is a founder member of Agiles latin-american community and
       he has been the co-chair of Agiles2012 conference held in Cordoba, Argentina.</p><p>He
@@ -197,8 +191,7 @@
   rfd: true
   es:
     title_long: Angular on Cuba
-    title: "\n                      Angular on Cuba\n                      <br>\n
-      \                     (Workshop)\n                    "
+    title: "Angular on Cuba<br>(Workshop)"
     bio: <p>Esteban, también conocido como Kito, es programador, músico, amante del
       buen café y actualmente vive en Nueva York. La curiosidad y la necesidad de
       resolver problemas son sus grandes fuertes y le permitieron aprender desde programación
@@ -227,8 +220,7 @@
       y terminaran desarrollando este blog en Angular on Cuba.</p>"
   en:
     title_long: Angular on Cuba
-    title: "\n                      Angular on Cuba\n                      <br>\n
-      \                     (Workshop)\n                    "
+    title: "Angular on Cuba<br>(Workshop)"
     bio: <p>Esteban, también conocido como Kito, es programador, músico, amante del
       buen café y actualmente vive en Nueva York. La curiosidad y la necesidad de
       resolver problemas son sus grandes fuertes y le permitieron aprender desde programación
@@ -550,8 +542,8 @@
   image: images/speakers/lucas-dohem.jpg
   es:
     title_long: ArangoDB, A different approach to NoSQL
-    title: "\n                      ArangoDB\n                      <br>\n                      <small>A
-      different approach to NoSQL</small>\n                    "
+    title: "ArangoDB<br><small>A
+      different approach to NoSQL</small>"
     bio: "<p>I’m a member of the core team of the NoSQL database project ArangoDB
       where I work on the graph functionality, tools for the Ruby community to use
       the database and Foxx. Furthermore I contribute to various open source projects
@@ -568,8 +560,8 @@
       why this is interesting and how you can use it in your apps.</p>"
   en:
     title_long: ArangoDB, A different approach to NoSQL
-    title: "\n                      ArangoDB\n                      <br>\n                      <small>A
-      different approach to NoSQL</small>\n                    "
+    title: "ArangoDB<br><small>A
+      different approach to NoSQL</small>"
     bio: "<p>I’m a member of the core team of the NoSQL database project ArangoDB
       where I work on the graph functionality, tools for the Ruby community to use
       the database and Foxx. Furthermore I contribute to various open source projects
@@ -593,8 +585,7 @@
   rfd: true
   es:
     title_long: The path to modular UI (workshop)
-    title: "\n                      The path to modular\n                      <br>\n
-      \                     UI (workshop)\n                    "
+    title: "The path to modular<br>UI (workshop)"
     bio: "<p>Noelia es una diseñadora gráfica de la Universidad de Buenos Aires, que
       empezó diseñando para imprenta hasta descubrir su pasión por el diseño centrado
       en el usuario y la creación de sitios. Como Product Designer en Restorando,
@@ -607,8 +598,7 @@
       de modulación de CSS para crear UI simple, reusable y escalable.</p>"
   en:
     title_long: The path to modular UI (workshop)
-    title: "\n                      The path to modular\n                      <br>\n
-      \                     UI (workshop)\n                    "
+    title: "The path to modular<br>UI (workshop)"
     bio: "<p>Noelia es una diseñadora gráfica de la Universidad de Buenos Aires, que
       empezó diseñando para imprenta hasta descubrir su pasión por el diseño centrado
       en el usuario y la creación de sitios. Como Product Designer en Restorando,
@@ -627,8 +617,8 @@
   image: images/speakers/marta-paciorkowska.jpg
   es:
     title_long: Programming, languages, literature
-    title: "\n                      Programming,\n                      <br>\n                      languages,
-      literature\n                    "
+    title: "Programming,<br>languages,
+      literature"
     bio: "<p>Marta developed a love for literature and computers roughly at the same
       time in her life: She wrote poetry and coded in Logo in primary school, learned
       C in high school, studied American literature and created websites while at
@@ -645,8 +635,8 @@
       is significantly inspired by culture.</p>"
   en:
     title_long: Programming, languages, literature
-    title: "\n                      Programming,\n                      <br>\n                      languages,
-      literature\n                    "
+    title: "Programming,<br>languages,
+      literature"
     bio: "<p>Marta developed a love for literature and computers roughly at the same
       time in her life: She wrote poetry and coded in Logo in primary school, learned
       C in high school, studied American literature and created websites while at
@@ -669,8 +659,7 @@
   image: images/speakers/pbruna.jpg
   es:
     title_long: De desarrollo a producción con Docker
-    title: "\n                      De desarrollo a\n                      <br>\n
-      \                     producción con Docker\n                    "
+    title: "De desarrollo a<br>producción con Docker"
     bio: "<p>Soy uno de los socios de ITLinux, empresa con cerca de 10 años de experiencia
       en proyectos de software libre.</p><p>Hace 3 años comenzó mi interés por Ruby
       al utilizar Rails para desarrollar nuestra aplicación de contabilidad al no
@@ -685,8 +674,7 @@
       nuestra aplicación cuando logremos el éxito y la fama.</p>"
   en:
     title_long: De desarrollo a producción con Docker
-    title: "\n                      De desarrollo a\n                      <br>\n
-      \                     producción con Docker\n                    "
+    title: "De desarrollo a<br>producción con Docker"
     bio: "<p>Soy uno de los socios de ITLinux, empresa con cerca de 10 años de experiencia
       en proyectos de software libre.</p><p>Hace 3 años comenzó mi interés por Ruby
       al utilizar Rails para desarrollar nuestra aplicación de contabilidad al no
@@ -707,7 +695,7 @@
   image: images/speakers/paulcsmith.jpg
   es:
     title_long: Derailing Irrationality
-    title: "\n                      Derailing\n                      <br>\n                      Irrationality\n
+    title: "Derailing<br>Irrationality\n
       \                   "
     bio: "<p>I’m Paul Smith. I currently work for thoughtbot in Boston, MA and have
       been working with Rails applications for about 7 years. I lived in Argentina
@@ -732,7 +720,7 @@
       the end of this talk people will know:</p>"
   en:
     title_long: Derailing Irrationality
-    title: "\n                      Derailing\n                      <br>\n                      Irrationality\n
+    title: "Derailing<br>Irrationality\n
       \                   "
     bio: "<p>I’m Paul Smith. I currently work for thoughtbot in Boston, MA and have
       been working with Rails applications for about 7 years. I lived in Argentina
@@ -763,8 +751,8 @@
   image: images/speakers/pote.jpg
   es:
     title_long: The Dilemma of Simplicity
-    title: "\n                      The Dilemma\n                      <br>\n                      of
-      Simplicity\n                    "
+    title: "The Dilemma<br>of
+      Simplicity"
     bio: "<p>pote comes from a Python background writing Asterisk-based VoIP systems,
       has several years of experience doing Rails/Ruby and has been known to work
       with Go, Lua or other alternatives when the job permits it, he loves contributing
@@ -791,8 +779,7 @@
       We don't need our crutches anymore, let's drop them together!</p>"
   en:
     title_long: The Dilemma of Simplicity
-    title: "\n                      The Dilemma\n                      <br>\n                      of
-      Simplicity\n                    "
+    title: "The Dilemma<br>ofSimplicity"
     bio: "<p>pote comes from a Python background writing Asterisk-based VoIP systems,
       has several years of experience doing Rails/Ruby and has been known to work
       with Go, Lua or other alternatives when the job permits it, he loves contributing
@@ -825,8 +812,7 @@
   image: images/speakers/geerlinger.jpg
   es:
     title_long: Ruby + RaspberryPi + That Was Not What I Expected
-    title: "\n                      <small>Ruby + RaspberryPi + That</small>\n                      <br>\n
-      \                     Was Not What I Expected\n                    "
+    title: "<small>Ruby + RaspberryPi + That</small><br>Was Not What I Expected"
     bio: "<p>I am the General Manager of Cloud City Development. I have ten years
       of experience bringing quality digital products to life. My focus is on how
       well design and development works together for the good of the end-user and
@@ -847,8 +833,7 @@
       is educational, powerful, and fun.</p>"
   en:
     title_long: Ruby + RaspberryPi + That Was Not What I Expected
-    title: "\n                      <small>Ruby + RaspberryPi + That</small>\n                      <br>\n
-      \                     Was Not What I Expected\n                    "
+    title: "<small>Ruby + RaspberryPi + That</small><br>Was Not What I Expected"
     bio: "<p>I am the General Manager of Cloud City Development. I have ten years
       of experience bringing quality digital products to life. My focus is on how
       well design and development works together for the good of the end-user and
@@ -877,7 +862,7 @@
   es:
     title_long: No vas a creer cómo simplificamos esta masa de código en 5 sencillos
       pasos.
-    title: "\n                      5 simple steps\n                      <br>\n                      (Workshop)\n
+    title: "5 simple steps<br>(Workshop)\n
       \                   "
     bio: "<p>Tute Costa trabajó en Startup Chile (chefsurfing.com) en 2012, en General
       Assembly en 2013, y en thoughtbot desde 2014. Mantiene las gemas merit y doorkeeper.
@@ -901,7 +886,7 @@
   en:
     title_long: No vas a creer cómo simplificamos esta masa de código en 5 sencillos
       pasos.
-    title: "\n                      5 simple steps\n                      <br>\n                      (Workshop)\n
+    title: "5 simple steps<br>(Workshop)\n
       \                   "
     bio: "<p>Tute Costa trabajó en Startup Chile (chefsurfing.com) en 2012, en General
       Assembly en 2013, y en thoughtbot desde 2014. Mantiene las gemas merit y doorkeeper.
