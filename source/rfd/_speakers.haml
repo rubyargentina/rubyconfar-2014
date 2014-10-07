@@ -1,0 +1,25 @@
+- data.speakers.select(&:rfd).each do |speaker|
+
+  %li{id: speaker.id, class: speaker.rfd ? 'rfd' : 'main' }
+    .main-info>
+      %h3= speaker.name
+      %h4= speaker.company
+      .img
+        .overlay
+          %a.share{href: "speakers_#{lang}.html##{speaker.id}"}
+            %h5= speaker.send(lang).title
+          .links
+            %a{href: speaker.twitter, target: "_blank"}
+              %i.fa.fa-twitter
+            %a{href: speaker.github, target: "_blank"}
+              %i.fa.fa-github
+        %img{src: speaker.image , alt: speaker.name}
+
+    .details>
+      %a.share{:href=>"speakers_#{lang}.html##{speaker.id}"}
+      .abstract
+        %h2= speaker.send(lang).title_long
+        = speaker.send(lang).abstract
+      .bio
+        %h2 Bio
+        = speaker.send(lang).bio
