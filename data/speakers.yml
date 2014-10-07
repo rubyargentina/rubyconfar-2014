@@ -7,8 +7,7 @@
   image: images/speakers/chrishunt.jpg
   es:
     title_long: Solving the Rubik’s Cube Blindfolded
-    title: "\n                      Solving the Rubik’s\n                      <br>\n
-      \                     Cube Blindfolded\n                    "
+    title: "Solving the Rubik’s<br>Cube Blindfolded"
     bio: "<p>Chris Hunt works for GitHub from a standing desk in Portland, Oregon.
       Prior to GitHub, Chris worked on Rails applications for Square, Apple, the Department
       of Defense, and his very critical mother.  When he's not writing Ruby, he's
@@ -22,8 +21,7 @@
       world.</p>"
   en:
     title_long: Solving the Rubik’s Cube Blindfolded
-    title: "\n                      Solving the Rubik’s\n                      <br>\n
-      \                     Cube Blindfolded\n                    "
+    title: "Solving the Rubik’s<br>Cube Blindfolded"
     bio: "<p>Chris Hunt works for GitHub from a standing desk in Portland, Oregon.
       Prior to GitHub, Chris worked on Rails applications for Square, Apple, the Department
       of Defense, and his very critical mother.  When he's not writing Ruby, he's
@@ -265,8 +263,7 @@
   image: images/speakers/febuiles.jpg
   es:
     title_long: Practical EventMachine
-    title: "\n                      Practical\n                      <br>\n                      EventMachine\n
-      \                   "
+    title: "Practical<br>EventMachine"
     bio: "<p>Federico ha colaborado en diversas implementaciones de Ruby y ha estado involucrado por varios años en el Google Summer of Code como estudiante y mentor.</p>"
     abstract: "<p>EventMachine (EM) is an event-driven concurrency library for Ruby,
       akin to Python's Twisted or Node.js. In this talk we'll explore some of the
@@ -274,8 +271,7 @@
       and how the library has been used by companies like GitHub and Heroku.</p>"
   en:
     title_long: Practical EventMachine
-    title: "\n                      Practical\n                      <br>\n                      EventMachine\n
-      \                   "
+    title: "Practical<br>EventMachine"
     bio: "<p>Federico ha colaborado en diversas implementaciones de Ruby y ha estado involucrado por varios años en el Google Summer of Code como estudiante y mentor.</p>"
     abstract: "<p>EventMachine (EM) is an event-driven concurrency library for Ruby,
       akin to Python's Twisted or Node.js. In this talk we'll explore some of the
@@ -289,8 +285,7 @@
   image: images/speakers/federico-carrone.jpg
   es:
     title_long: Concurrency for Rubyists
-    title: "\n                      Concurrency\n                      <br>\n                      for
-      Rubyists\n                    "
+    title: Concurrency<br>for Rubyists
     bio: "<p>I am gipsy developer who likes to test new and old stuff. I move from
       one technology to another one trying to learn what I can from each community.</p><p>I
       work at Inaka as a backend developer who creates REST systems with Erlang and
@@ -308,8 +303,7 @@
       and thread-safe collections thanks to hamster.</p>"
   en:
     title_long: Concurrency for Rubyists
-    title: "\n                      Concurrency\n                      <br>\n                      for
-      Rubyists\n                    "
+    title: Concurrency<br>for Rubyists
     bio: "<p>I am gipsy developer who likes to test new and old stuff. I move from
       one technology to another one trying to learn what I can from each community.</p><p>I
       work at Inaka as a backend developer who creates REST systems with Erlang and
@@ -334,8 +328,7 @@
   rfd: true
   es:
     title_long: The Guide to Cuba
-    title: "\n                      The Guide\n                      <br>\n                      to
-      Cuba\n                    "
+    title: The Guide<br>to Cuba
     bio: <p>Francesco actively contributes to Open Source and enjoys working with
       minimalistic tools. He is also writing "The Guide to Cuba", a book about Cuba,
       the Ruby microframework.</p>
@@ -346,8 +339,7 @@
       of the Ruby programming language.</p>"
   en:
     title_long: The Guide to Cuba
-    title: "\n                      The Guide\n                      <br>\n                      to
-      Cuba\n                    "
+    title: The Guide<br>to Cuba
     bio: <p>Francesco actively contributes to Open Source and enjoys working with
       minimalistic tools. He is also writing "The Guide to Cuba", a book about Cuba,
       the Ruby microframework.</p>
@@ -364,8 +356,7 @@
   image: images/speakers/hannelita.jpg
   es:
     title_long: Our daily graphs written in Ruby and Neo4j
-    title: "\n                      <small>Our daily graphs written</small>\n                      <br>\n
-      \                     in Ruby and Neo4j\n                    "
+    title: "<small>Our daily graphs written</small><br>in Ruby and Neo4j"
     bio: "<p>Hanneli (a.k.a. @hannelita) is a developer working at Codeminer 42, addicted
       to code, learn new programming languages, frameworks, blow capacitors, do some
       C programming to relax and commit useful (or unuseful) code for random Open
@@ -379,8 +370,7 @@
       inside graphs.</p>"
   en:
     title_long: Our daily graphs written in Ruby and Neo4j
-    title: "\n                      <small>Our daily graphs written</small>\n                      <br>\n
-      \                     in Ruby and Neo4j\n                    "
+    title: "<small>Our daily graphs written</small><br>in Ruby and Neo4j"
     bio: "<p>Hanneli (a.k.a. @hannelita) is a developer working at Codeminer 42, addicted
       to code, learn new programming languages, frameworks, blow capacitors, do some
       C programming to relax and commit useful (or unuseful) code for random Open
@@ -401,9 +391,14 @@
   rfd: true
   es:
     title_long: Angular on Cuba
-    title: "\n                      Angular on Cuba\n                      <br>\n
-      \                     (Workshop)\n                    "
-    bio: ''
+    title: "Angular on Cuba<br>(Workshop)"
+    bio: "<p>Nacho es programador y diseñador. Después de ser diseñador autodidacta y 
+      cumplir el rol de diseñador/developer front-end decidió que debía dominar todo 
+      el stack de programación. La simpleza y la facilidad de transformar cualquier 
+      idea en un producto concreto fue lo que hizo que Ruby se vuelva su principal 
+      herramienta. Tras emprender por muchos años Nacho continúa con Vientus, un pequeño 
+      emprendimiento unipersonal y al mismo tiempo trabaja como remote developer para Sketch, 
+      una pequeña agency basada en UK.</p>"
     abstract: "<p>En los últimos años aparecieron frameworks MVC front-end como Backbone,
       Angular, Ember, y otros más. Estos frameworks tuvieron un crecimiento enorme,
       no hay un solo día que no salga un artículo sobre ellos y sin embargo existen
@@ -425,9 +420,14 @@
       y terminaran desarrollando este blog en Angular on Cuba.</p>"
   en:
     title_long: Angular on Cuba
-    title: "\n                      Angular on Cuba\n                      <br>\n
-      \                     (Workshop)\n                    "
-    bio: ''
+    title: "Angular on Cuba<br>(Workshop)"
+    bio: "<p>Nacho es programador y diseñador. Después de ser diseñador autodidacta y 
+      cumplir el rol de diseñador/developer front-end decidió que debía dominar todo 
+      el stack de programación. La simpleza y la facilidad de transformar cualquier 
+      idea en un producto concreto fue lo que hizo que Ruby se vuelva su principal 
+      herramienta. Tras emprender por muchos años Nacho continúa con Vientus, un pequeño 
+      emprendimiento unipersonal y al mismo tiempo trabaja como remote developer para Sketch, 
+      una pequeña agency basada en UK.</p>"
     abstract: "<p>En los últimos años aparecieron frameworks MVC front-end como Backbone,
       Angular, Ember, y otros más. Estos frameworks tuvieron un crecimiento enorme,
       no hay un solo día que no salga un artículo sobre ellos y sin embargo existen
@@ -455,8 +455,7 @@
   image: images/speakers/ignacio-piantanida.jpg
   es:
     title_long: Ruby on your pocket with RubyMotion
-    title: "\n                      Ruby on your\n                      <br>\n                      pocket
-      with RubyMotion\n                    "
+    title: Ruby on <br>your pocket with RubyMotion
     bio: "<p>Developer por laburo y hobbie. Arranqué por .NET, pasé por Java y me
       enamoré de la simplicidad de Ruby. Formo parte de 10Pines, donde actualmente
       trabajo con RubyMotion en una aplicación iPhone para una start-up de Londres
@@ -470,8 +469,7 @@
       mercado más que interesante!</p>"
   en:
     title_long: Ruby on your pocket with RubyMotion
-    title: "\n                      Ruby on your\n                      <br>\n                      pocket
-      with RubyMotion\n                    "
+    title: Ruby on <br>your pocket with RubyMotion
     bio: "<p>Developer por laburo y hobbie. Arranqué por .NET, pasé por Java y me
       enamoré de la simplicidad de Ruby. Formo parte de 10Pines, donde actualmente
       trabajo con RubyMotion en una aplicación iPhone para una start-up de Londres
@@ -491,8 +489,7 @@
   image: images/speakers/janogonzalez.jpg
   es:
     title_long: Microservicios en la práctica
-    title: "\n                      Microservicios\n                      <br>\n                      en
-      la práctica\n                    "
+    title: Microservicios<br> en la práctica
     bio: "<p>Programador, músico amateur y fanático de las conferencias. Aunque se
       considera agnóstico en temas de tecnología, Ruby ocupa un lugar especial en
       su corazón. Recientemente se mudó de su Chile natal a Alemania, para trabajar
@@ -507,8 +504,7 @@
       de los temas a tocar:</p>
   en:
     title_long: Microservicios en la práctica
-    title: "\n                      Microservicios\n                      <br>\n                      en
-      la práctica\n                    "
+    title: Microservicios<br> en la práctica
     bio: "<p>Programador, músico amateur y fanático de las conferencias. Aunque se
       considera agnóstico en temas de tecnología, Ruby ocupa un lugar especial en
       su corazón. Recientemente se mudó de su Chile natal a Alemania, para trabajar
@@ -529,8 +525,7 @@
   image: images/speakers/jbarreneche.jpg
   es:
     title_long: Data analysis for startups
-    title: "\n                      Data analysis\n                      <br>\n                      for
-      startups\n                    "
+    title: "Data analysis<br>for startups"
     bio: "<p>Soy estudiante de Ingeniería en Informática de la UBA cerca de recibirme
       (actualmente escribiendo la tesis final). Trabajo en sistemas desde hace casi
       10 años, comencé con COBOL, pasé por Java hasta que llegué a ruby.</p><p>Actualmente
@@ -540,8 +535,7 @@
     <p>En esta charla voy a contar nuestra experiencia en Restorando construyendo un data warehouse que resuelve nuestros problemas sin insumir mucho tiempo de desarrollo y mantenimiento, ni tampoco grandes costos de infraestructura. Esto incluye: integración de múltiples fuentes de datos, el desarrollo de un framework de ETLs, técnicas avanzadas de SQL para análisis y otras técnicas Ad-Hoc para cuando SQL no alcanza.</p>"
   en:
     title_long: Data analysis for startups
-    title: "\n                      Data analysis\n                      <br>\n                      for
-      startups\n                    "
+    title: "Data analysis<br>for startups"
     bio: "<p>Soy estudiante de Ingeniería en Informática de la UBA cerca de recibirme
       (actualmente escribiendo la tesis final). Trabajo en sistemas desde hace casi
       10 años, comencé con COBOL, pasé por Java hasta que llegué a ruby.</p><p>Actualmente
