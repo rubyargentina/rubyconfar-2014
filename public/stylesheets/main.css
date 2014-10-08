@@ -3143,7 +3143,7 @@ section#rubyfunday {
       margin-top: 20px; }
       section#rubyfunday .text p strong, section#rubyfunday .text address strong {
         color: #ffd88f; }
-    section#rubyfunday .text a {
+    section#rubyfunday .text address a {
       display: inline-block;
       vertical-align: baseline;
       zoom: 1;
@@ -3157,7 +3157,7 @@ section#rubyfunday {
       color: white;
       margin: 0 0 0 -10px;
       padding: 5px 10px; }
-      section#rubyfunday .text a:before {
+      section#rubyfunday .text address a:before {
         border-right: 1px solid rgba(255, 255, 255, 0.5);
         color: #73c9a8;
         content: "";
@@ -3167,14 +3167,16 @@ section#rubyfunday {
         line-height: 1.2;
         margin-right: 15px;
         padding-right: 15px; }
-      section#rubyfunday .text a strong {
+      section#rubyfunday .text address a strong {
         color: white;
         font-weight: 600; }
-      section#rubyfunday .text a span {
+      section#rubyfunday .text address a span {
         font-size: 12px; }
-      section#rubyfunday .text a:hover {
+      section#rubyfunday .text address a:hover {
         background: rgba(0, 0, 0, 0.15);
         text-decoration: none; }
+    section#rubyfunday .text a.register {
+      display: none; }
   section#rubyfunday .remeras, section#rubyfunday .mesa {
     height: auto;
     left: 50%;
@@ -3229,6 +3231,17 @@ section#rubyfunday {
 
 .inner-page.rfd section {
   border-left: 0 none; }
+  .inner-page.rfd section#rubyfunday a.register {
+    background: #DF483F;
+    border-radius: 2px;
+    display: block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    text-align: center;
+    text-transform: uppercase; }
+    .inner-page.rfd section#rubyfunday a.register:hover {
+      background: rgba(223, 72, 63, 0.9);
+      text-decoration: none; }
   .inner-page.rfd section#rubyfunday .floor {
     background-image: url(../images/sponsors-top2.png); }
     @media screen and (max-width: 800px) {
