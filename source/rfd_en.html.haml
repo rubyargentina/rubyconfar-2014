@@ -1,0 +1,7 @@
+- content_for(:body_class) {"inner-page rfd"}
+- content_for(:lang) { "en" }
+= partial("rfd/_header_en.haml", lang: 'en')
+%section#speakers 
+  %article.wrapper
+    %ul
+      = partial("rfd/_speakers.haml", lang: 'en')

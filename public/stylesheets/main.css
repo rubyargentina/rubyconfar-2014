@@ -3143,7 +3143,7 @@ section#rubyfunday {
       margin-top: 20px; }
       section#rubyfunday .text p strong, section#rubyfunday .text address strong {
         color: #ffd88f; }
-    section#rubyfunday .text a {
+    section#rubyfunday .text address a {
       display: inline-block;
       vertical-align: baseline;
       zoom: 1;
@@ -3157,7 +3157,7 @@ section#rubyfunday {
       color: white;
       margin: 0 0 0 -10px;
       padding: 5px 10px; }
-      section#rubyfunday .text a:before {
+      section#rubyfunday .text address a:before {
         border-right: 1px solid rgba(255, 255, 255, 0.5);
         color: #73c9a8;
         content: "";
@@ -3167,14 +3167,16 @@ section#rubyfunday {
         line-height: 1.2;
         margin-right: 15px;
         padding-right: 15px; }
-      section#rubyfunday .text a strong {
+      section#rubyfunday .text address a strong {
         color: white;
         font-weight: 600; }
-      section#rubyfunday .text a span {
+      section#rubyfunday .text address a span {
         font-size: 12px; }
-      section#rubyfunday .text a:hover {
+      section#rubyfunday .text address a:hover {
         background: rgba(0, 0, 0, 0.15);
         text-decoration: none; }
+    section#rubyfunday .text a.register {
+      display: none; }
   section#rubyfunday .remeras, section#rubyfunday .mesa {
     height: auto;
     left: 50%;
@@ -3226,6 +3228,30 @@ section#rubyfunday {
       section#rubyfunday .mesa {
         bottom: 255px;
         margin-left: -630px; } }
+
+.inner-page.rfd section {
+  border-left: 0 none; }
+  .inner-page.rfd section#rubyfunday a.register {
+    background: #DF483F;
+    border-radius: 2px;
+    display: block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    text-align: center;
+    text-transform: uppercase; }
+    .inner-page.rfd section#rubyfunday a.register:hover {
+      background: rgba(223, 72, 63, 0.9);
+      text-decoration: none; }
+  .inner-page.rfd section#rubyfunday .floor {
+    background-image: url(../images/sponsors-top2.png); }
+    @media screen and (max-width: 800px) {
+      .inner-page.rfd section#rubyfunday .floor {
+        background-image: url(../images/sponsors-top-mobile2.png); } }
+  .inner-page.rfd section#speakers {
+    background: #363636; }
+    @media screen and (min-width: 801px) {
+      .inner-page.rfd section#speakers ul {
+        margin-top: -65px; } }
 
 section#sponsors {
   background: #dadada;
@@ -3374,35 +3400,35 @@ section#venue {
             right: auto;
             top: auto; } }
 
-body.inner-page {
+.inner-page {
   background: #dadada; }
-  body.inner-page h1 {
+  .inner-page h1 {
     font-size: 30px; }
-  body.inner-page section {
+  .inner-page section {
     color: #333333;
     padding-bottom: 50px;
     padding-top: 20px; }
     @media screen and (min-width: 500px) {
-      body.inner-page section {
+      .inner-page section {
         border-left: 64px solid #35a785; } }
-    body.inner-page section h1 {
+    .inner-page section h1 {
       color: #e1483f;
       margin: 20px 0; }
-    body.inner-page section h2 {
+    .inner-page section h2 {
       color: #e1483f;
       font-size: 20px;
       margin-bottom: 20px; }
-    body.inner-page section p {
+    .inner-page section p {
       margin-bottom: 20px; }
-    body.inner-page section ul {
+    .inner-page section ul {
       list-style: disc inside;
       padding: 0 20px 20px; }
-      body.inner-page section ul li {
+      .inner-page section ul li {
         margin-bottom: 5px; }
-        body.inner-page section ul li:last-child {
+        .inner-page section ul li:last-child {
           margin-bottom: 0; }
   @media screen and (min-width: 500px) {
-    body.inner-page nav {
+    .inner-page nav {
       margin-top: 70px; } }
 
 body#home section#cfp {
