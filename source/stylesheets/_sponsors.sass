@@ -85,7 +85,9 @@ body.inner-page
     li
       display: block
       margin: 50px 0
-      text-align: left
+      
+      .left, .right
+        text-align: left
         
       .left
         float: left
@@ -108,3 +110,8 @@ body.inner-page
           text-align: center
           width: 100%
 
+    .tourist-class
+      li
+        @include inline-block
+        margin: 20px
+        vertical-align: middle

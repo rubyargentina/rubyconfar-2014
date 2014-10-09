@@ -3307,8 +3307,9 @@ body.inner-page section#sponsors {
     text-shadow: 0 0 0 transparent; }
   body.inner-page section#sponsors li {
     display: block;
-    margin: 50px 0;
-    text-align: left; }
+    margin: 50px 0; }
+    body.inner-page section#sponsors li .left, body.inner-page section#sponsors li .right {
+      text-align: left; }
     body.inner-page section#sponsors li .left {
       float: left;
       width: 30%; }
@@ -3325,6 +3326,14 @@ body.inner-page section#sponsors {
         margin: 0;
         text-align: center;
         width: 100%; } }
+  body.inner-page section#sponsors .tourist-class li {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+    margin: 20px;
+    vertical-align: middle; }
 
 section#venue {
   background: #785767 url(../images/konex.png) no-repeat center top;
