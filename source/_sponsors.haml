@@ -6,17 +6,27 @@
       %a{:href=>"https://citrusbyte.com", :target=>"_blank"}
         %img{:src=>"images/sponsors/citrusbyte.png", :alt=>"Citrusbyte", :width=>"311", :height=>"70"}
     %span.right
-      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-<<<<<<< HEAD
-  
-  .lines
-    %h4 Gold
-  %li
-    %span.left
-      %a{:href=>"http://www.restorando.com", :target=>"_blank"}
-        %img{:src=>"images/sponsors/restorando.png", :alt=>"Restorando", :width=>"190", :height=>"64"}
-=======
+      - if lang == "en"
+        %p 
+          Citrusbyte works with you on the fundamentals of your business, from
+          business & product strategy, to defining first customer interactions
+          and how to measure them.   We specialize in rebuilding legacy systems,
+          modernizing aging infrastructure, reducing headcount and optimizing
+          costs. We build lean, agile systems and business processes that
+          increase efficiencies, automate manual workflows and improve your
+          business performance.  From concept to launch we apply startup style
+          customer development and agile engineering approaches to the
+          development of new products and lines of business.
+
+      - else 
+        %p 
+          Citrusbyte trabaja junto a vos en los fundamentos de tu
+          emprendimiento, desde estrategias de producto y negocio, a definir las
+          interacciones con tus clientes y cómo medirlas. Nos especializamos en
+          reconstruir sistemas viejos y obsoletos, modernizar infrastructuras
+          anticuadas y optimizar costos. Construimos sistemas y procesos de
+          negocio ágiles que incrementan la eficiencia, automatizando tareas
+          manuales y mejorando la velocidad de tu negocio.
   
   .lines
     %h4 Gold
@@ -25,7 +35,7 @@
       %a{:href=>"http://www.restorando.com", :target=>"_blank"}
         %img{:src=>"images/sponsors/restorando.png", :alt=>"Restorando", :width=>"190", :height=>"64"}
     %span.right
-      %p Lorem ipsum...
+      %p 
   
   .lines
     %h4 Silver
@@ -34,37 +44,54 @@
       %a{:href=>"http://inaka.net", :target=>"_blank"}
         %img.inaka{:src=>"images/sponsors/inaka.png", :alt=>"Inaka Networks", :width=>"120", :height=>"44"}
     %span.right
-      %p Lorem ipsum...
+      %p 
   %li
     %span.left
       %a{:href=>"http://www.10pines.com", :target=>"_blank"}
         %img.pines{:src=>"images/sponsors/10pines.png", :alt=>"10 Pines", :width=>"160", :height=>"52"}
     %span.right
-      %p Lorem ipsum...
+      -if lang == 'en'
+        %p 
+          10Pines is a Latin American software development company specializing in creating top quality solutions with cutting edge technology. Our priority is to add value to our customers through early and continuous delivery of valuable software. We care about crafting high-quality solutions; building trust in relationships and promoting a democratic and sustainable work environment.
+      - else
+        %p 
+          10Pines es una empresa Latinoamericana especializada en desarrollo ágil de software de alta calidad con tecnologías de punta. Nuestra prioridad es agregar valor a nuestros clientes a través de la entrega temprana y frecuente de software valioso. Nos apasiona crear soluciones de alta calidad, construir relaciones basadas en la confianza y promover un ambiente de trabajo democrático y sustentable. 
+
   %li
     %span.left
       %a{:href=>"http://www.ombulabs.com", :target=>"_blank"}
         %img{:src=>"images/sponsors/ombulabs.png", :alt=>"Ombu Labs", :width=>"200", :height=>"42"}
     %span.right
-      %p Lorem ipsum...
+      - if lang == 'en'
+        %p Ombu Labs helps you build your minimum viable product and takes you from idea to launch in weeks. As a lean software boutique, we specialize in agile methodologies, user experience design and building lean software. We believe successful products are built applying the Lean Startup methodology, pair programming, doing customer development and defining actionable metrics. 
+      - else
+        %p Ombu Labs construye productos mínimos viables y convierte ideas en productos en semanas. Nos especializamos en metodologías ágiles, diseño de experiencia de usuario y desarrollo de software lean. Creemos que la única forma de construir productos exitosos es aplicando Lean Startup, haciendo pair programming, siguiendo el proceso de desarrollo de clientes, y definiendo métricas objetivas.  
+
   %li
     %span.left
       %a{:href=>"http://www.wyeworks.com", :target=>"_blank"}
         %img{:src=>"images/sponsors/wyeworks.png", :alt=>"wye works", :width=>"210", :height=>"31"}
     %span.right
-      %p Lorem ipsum...
+      %p 
   %li
     %span.left
       %a{:href=>"http://www.toptierlabs.com", :target=>"_blank"}
         %img{:src=>"images/sponsors/toptier-labs.png", :alt=>"toptier labs", :width=>"150", :height=>"54"}
     %span.right
-      %p Lorem ipsum...
+      %p 
   %li
     %span.left
       %a{:href=>"http://www.sendgrid.com", :target=>"_blank"}
         %img{:src=>"images/sponsors/sendgrid.png", :alt=>"Sendgrid", :width=>"196", :height=>"50"}
     %span.right
-      %p Lorem ipsum...
+      - if lang == 'en'
+        %p
+          SendGrid is the world's largest Email Infrastructure as a Service provider. We're built to serve developers and make it easy to send email no matter your environment. You can send email over SMTP or HTTP, and even use one of our official client libraries. In just a few minutes, you can send your first email and millions more.
+      -else
+        %p
+          SendGrid es el proveedor más grande de infraestructura de emails como servicio. Hemos construido la plataforma para que desarrolladores puedan enviar emails fácilmente en cualquier entorno. Puedes enviar email por SMTP, HTTP o usar una de nuestras librerías oficiales. En solo minutos puedes enviar tu primer email o millones de emails.
+
+
   
   .lines
     %h4 Bronze
@@ -102,50 +129,7 @@
     %span.left
       %a{:href=>"http://www.altoros.com", :target=>"_blank"}
         %img{:src=>"images/sponsors/altoros.png", :alt=>"Sendgrid", :width=>"200", :height=>"35"}
->>>>>>> Sponsors done style-wise.
-    %span.right
-      %p Lorem ipsum...
   
-  .lines
-    %h4 Silver
-  %li
-    %span.left
-      %a{:href=>"http://inaka.net", :target=>"_blank"}
-        %img.inaka{:src=>"images/sponsors/inaka.png", :alt=>"Inaka Networks", :width=>"120", :height=>"44"}
-    %span.right
-      %p Lorem ipsum...
-  %li
-    %span.left
-      %a{:href=>"http://www.10pines.com", :target=>"_blank"}
-        %img.pines{:src=>"images/sponsors/10pines.png", :alt=>"10 Pines", :width=>"160", :height=>"52"}
-    %span.right
-      %p Lorem ipsum...
-  %li
-    %span.left
-      %a{:href=>"http://www.ombulabs.com", :target=>"_blank"}
-        %img{:src=>"images/sponsors/ombulabs.png", :alt=>"Ombu Labs", :width=>"200", :height=>"42"}
-    %span.right
-      %p Lorem ipsum...
-  %li
-    %span.left
-      %a{:href=>"http://www.wyeworks.com", :target=>"_blank"}
-        %img{:src=>"images/sponsors/wyeworks.png", :alt=>"wye works", :width=>"210", :height=>"31"}
-    %span.right
-      %p Lorem ipsum...
-  %li
-    %span.left
-      %a{:href=>"http://www.toptierlabs.com", :target=>"_blank"}
-        %img{:src=>"images/sponsors/toptier-labs.png", :alt=>"toptier labs", :width=>"150", :height=>"54"}
-    %span.right
-      %p Lorem ipsum...
-  %li
-    %span.left
-      %a{:href=>"http://www.sendgrid.com", :target=>"_blank"}
-        %img{:src=>"images/sponsors/sendgrid.png", :alt=>"Sendgrid", :width=>"196", :height=>"50"}
-    %span.right
-      %p Lorem ipsum...
-  
-<<<<<<< HEAD
   .tourist-class
 
     .lines
@@ -174,29 +158,12 @@
       %a{:href=>"http://www.altoros.com", :target=>"_blank"}
         %img{:src=>"images/sponsors/altoros.png", :alt=>"Sendgrid", :width=>"200", :height=>"35"}
 
-    
-    
     .lines
       %h4 Media Partners      
     %li
       %a{:href=>"http://szstudios.com.ar", :target=>"_blank"}
         %img{:src=>"images/sponsors/szstudios.png", :alt=>"Sz Studios | Beautiful graphic and web design", :width=>"100", :height=>"62"}
+
     %li
       %a{:href=>"http://www.palermo.edu", :target=>"_blank"}
         %img{:src=>"images/sponsors/up.png", :alt=>"Universidad de Palermo", :width=>"163", :height=>"36"}
-=======
-  .lines
-    %h4 Media Partners      
-  %li
-    %span.left
-      %a{:href=>"http://szstudios.com.ar", :target=>"_blank"}
-        %img{:src=>"images/sponsors/szstudios.png", :alt=>"Sz Studios", :width=>"100", :height=>"62"}
-    %span.right
-      %p Beautiful graphic and web design.
-  %li
-    %span.left
-      %a{:href=>"http://www.palermo.edu", :target=>"_blank"}
-        %img{:src=>"images/sponsors/up.png", :alt=>"Universidad de Palermo", :width=>"163", :height=>"36"}
-    %span.right
-      %p Lorem ipsum...
->>>>>>> Sponsors done style-wise.
