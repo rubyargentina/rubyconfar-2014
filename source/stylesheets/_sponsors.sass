@@ -6,16 +6,40 @@ section#sponsors
     color: $teal
     position: relative
 
-  h4
-    color: lighten($gray, 35%)
-    margin: 35px 0 0 
+  .lines
+    margin: 60px 0 30px
+    position: relative    
+    &:before
+      border-bottom: 5px solid rgba(white, 0.4)
+      border-top: 5px solid rgba(white, 0.4)
+      content: ""
+      height: 5px
+      left: 0
+      position: absolute
+      top: 8px
+      width: 100%
+
+    h4
+      @include inline-block
+      background: $gray_light
+      color: lighten($gray, 30%)
+      font-family: 'outage'
+      font-size: 22px
+      margin: 0
+      padding: 0 10px
+      position: relative
+      z-index: 1
+      
+    
+
 
   ul
     margin-bottom: 30px
     li
+      @include clearfix
       @include inline-block
-      vertical-align: middle
       margin: 20px
+      vertical-align: middle
       a
         @include transition(all, 0.25s)
         
@@ -25,6 +49,9 @@ section#sponsors
 
         &:hover
           opacity: 0.8
+
+    .right
+      display: none
 
 
   h3
@@ -42,3 +69,47 @@ section#sponsors
 
     img[alt="Jingle Punks"]
       margin-bottom: 45px
+
+
+
+body.inner-page
+  section#sponsors
+    background: $gray_light url(../images/sponsors-top.png) repeat-x center top    
+    text-align: center
+    h2.title
+      color: $cream
+      font-size: 42px
+      margin-bottom: 100px
+      text-shadow: 0 0 0 transparent
+
+    li
+      display: block
+      margin: 50px 0
+      text-align: left
+        
+      .left
+        float: left
+        width: 30%
+      .right        
+        display: block
+        margin-left: 32%
+
+      img
+        height: auto
+        max-width: 80%
+
+
+
+      @media screen and (max-width: 880px)
+        .left, .right
+          display: block
+          float: none
+          margin: 0
+          text-align: center
+          width: 100%
+
+    .tourist-class
+      li
+        @include inline-block
+        margin: 20px
+        vertical-align: middle

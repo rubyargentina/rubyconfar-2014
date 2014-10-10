@@ -102,7 +102,6 @@
 
       %a{href:"register.html", target: '_blank'} Register Now
 
-
   .stuff
     .wrapper
       %img.cup{:src=>"images/cup.png", :width=>"207", :height=>"98"}
@@ -113,7 +112,6 @@
   #cave-top  
   %article.wrapper
     %h2.title Speakers
-
     %ul
       = partial("_speakers.haml", lang: 'en')
       %a.btn.btn-alt{:href=>"speakers_en.html"} View All
@@ -126,17 +124,19 @@
   %article.wrapper
     %h2.title Sponsors
     .content
-      = partial("_sponsors.haml")
+      = partial("_sponsors.haml", lang: 'en')
       
       %h3 Are you interested in helping us organize the 4th RubyConf Argentina?
       %p 
         Your company can be part of one of the biggest software conferences in South America. 
 
-      / %p
-      /   %a.btn.btn-alt{:href=>"/assets/SponsorsBrochure2014.pdf"} Download Brochure
       %p 
         %a.btn.btn-alt{:href=>"mailto:rubyconfar@gmail.com?&subject=[RubyConfAr] About sponsoring the event."} Contact us
         and we'll tell you how to take advantage of this opportunity.
+
+      %p 
+        %a.btn.btn-alt{:href=>"sponsors_en.html"} More about sponsors
+
 
 %section#venue
   %article.wrapper

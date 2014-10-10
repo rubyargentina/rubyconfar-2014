@@ -3259,9 +3259,32 @@ section#sponsors {
   section#sponsors h2.title {
     color: #35a785;
     position: relative; }
-  section#sponsors h4 {
-    color: #8c8c8c;
-    margin: 35px 0 0; }
+  section#sponsors .lines {
+    margin: 60px 0 30px;
+    position: relative; }
+    section#sponsors .lines:before {
+      border-bottom: 5px solid rgba(255, 255, 255, 0.4);
+      border-top: 5px solid rgba(255, 255, 255, 0.4);
+      content: "";
+      height: 5px;
+      left: 0;
+      position: absolute;
+      top: 8px;
+      width: 100%; }
+    section#sponsors .lines h4 {
+      display: inline-block;
+      vertical-align: baseline;
+      zoom: 1;
+      *display: inline;
+      *vertical-align: auto;
+      background: #dadada;
+      color: gray;
+      font-family: "outage";
+      font-size: 22px;
+      margin: 0;
+      padding: 0 10px;
+      position: relative;
+      z-index: 1; }
   section#sponsors ul {
     margin-bottom: 30px; }
     section#sponsors ul li {
@@ -3270,8 +3293,12 @@ section#sponsors {
       zoom: 1;
       *display: inline;
       *vertical-align: auto;
-      vertical-align: middle;
-      margin: 20px; }
+      margin: 20px;
+      vertical-align: middle; }
+      section#sponsors ul li:after {
+        content: "";
+        display: table;
+        clear: both; }
       section#sponsors ul li a {
         transition: all, 0.25s;
         -moz-transition: all, 0.25s;
@@ -3282,6 +3309,8 @@ section#sponsors {
           height: auto; }
         section#sponsors ul li a:hover {
           opacity: 0.8; }
+    section#sponsors ul .right {
+      display: none; }
   section#sponsors h3 {
     font-weight: bold; }
   section#sponsors h3, section#sponsors p {
@@ -3293,6 +3322,43 @@ section#sponsors {
       margin-bottom: -2px; }
     section#sponsors img[alt="Jingle Punks"] {
       margin-bottom: 45px; } }
+
+body.inner-page section#sponsors {
+  background: #dadada url(../images/sponsors-top.png) repeat-x center top;
+  text-align: center; }
+  body.inner-page section#sponsors h2.title {
+    color: #ffd88f;
+    font-size: 42px;
+    margin-bottom: 100px;
+    text-shadow: 0 0 0 transparent; }
+  body.inner-page section#sponsors li {
+    display: block;
+    margin: 50px 0;
+    text-align: left; }
+    body.inner-page section#sponsors li .left {
+      float: left;
+      width: 30%; }
+    body.inner-page section#sponsors li .right {
+      display: block;
+      margin-left: 32%; }
+    body.inner-page section#sponsors li img {
+      height: auto;
+      max-width: 80%; }
+    @media screen and (max-width: 880px) {
+      body.inner-page section#sponsors li .left, body.inner-page section#sponsors li .right {
+        display: block;
+        float: none;
+        margin: 0;
+        text-align: center;
+        width: 100%; } }
+  body.inner-page section#sponsors .tourist-class li {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    *display: inline;
+    *vertical-align: auto;
+    margin: 20px;
+    vertical-align: middle; }
 
 section#venue {
   background: #785767 url(../images/konex.png) no-repeat center top;

@@ -125,17 +125,16 @@
   %article.wrapper
     %h2.title Sponsors
     .content
-      = partial("_sponsors.haml")
+      = partial("_sponsors.haml", lang: 'es')
       
       %h3 ¿Interesado en ayudarnos a organizar la cuarta RubyConf Argentina?
       %p Tu compañía puede ser parte de una de las conferencias de software más grandes de Sudamérica. 
 
-      / %p
-      /   %a.btn.btn-alt{:href=>"/assets/SponsorsBrochure2014.pdf"} Descargar Brochure
       %p 
         %a.btn.btn{:href=>"mailto:rubyconfar@gmail.com?&subject=[RubyConfAr] Consulta sobre Sponsoreo."} Contactanos
-        / %br
         y te contaremos más acerca de las ventajas de esta oportunidad. 
+        %p 
+        %a.btn.btn-alt{:href=>"sponsors_es.html"} Más acerca de sponsors
 
 %section#venue
   %article.wrapper
