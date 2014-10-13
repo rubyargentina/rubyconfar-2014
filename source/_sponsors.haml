@@ -78,7 +78,13 @@
       %a{:href=>"http://www.toptierlabs.com", :target=>"_blank"}
         %img{:src=>"images/sponsors/toptier-labs.png", :alt=>"toptier labs", :width=>"150", :height=>"54"}
     %span.right
-      %p 
+      - if lang == 'en'
+        %p For more than 3 years we have been creating all kinds of beautifully designed web and mobile applications. Our team consists of a mix of designers and software engineers with a strong technical background. 
+        %p We are always looking for great people to join our team. If you are interested please send your resume to hr@toptierlabs.com.
+      - else 
+        %p Por más de 3 años hemos creado todo tipo de aplicaciones web y mobile. Nuestro equipo está compuesto por una mezcla de diseñadores y ingenieros de software con una sólida formación técnica.
+        %p Siempre estamos buscando a los mejores profesionales para unirse a nuestro equipo. Si estás interesado envíanos tu CV a hr@toptierlabs.com.
+
   %li
     %span.left
       %a{:href=>"http://www.sendgrid.com", :target=>"_blank"}
