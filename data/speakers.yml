@@ -627,11 +627,11 @@
     abstract: "<p>Esta es la historia de como pasar de 3 horas a 30 segundos implementando 
       un problema sencillo, mediante algoritmos.</p>
       <p>Vamos a ver:</p>
-      <ul>
+      <ol>
       <li>Cómo usar ordenes de complejidad en la vida real</li>
       <li>Cómo influye el (no) paralelismo de Ruby (MRI)</li>
       <li>Cómo evitar sorpresas en la performance usando colecciones</li>
-      </ul>
+      </ol>
       <p>La charla no tiene spoilers, por lo que podes salir de la charla a probar tu propia 
       solución.</p>"
   en:
