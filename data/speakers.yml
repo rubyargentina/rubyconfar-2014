@@ -576,6 +576,84 @@
       many of the other NoSQL databases. \LFoxx is a JavaScript framework built-into
       ArangoDB that allows to extend the REST API of the database. I will show you
       why this is interesting and how you can use it in your apps.</p>"
+- id: lucasvidela
+  name: Lucas Videla
+  company: WeCode
+  twitter: https://twitter.com/luke_ar
+  github: https://github.com/delucas
+  image: images/speakers/luke_ar.jpg
+  es:
+    title_long: "You already _git_ started. Now, what?"
+    title: "You already _git_ started. Now, what?"
+    bio: "<p>Lucas is a tireless apprentice of the art of programming. He lectures at 
+      two universities, and teaches the basics of programming for young people from 
+      age 17 to 6x (because nobody older attended yet). He works at WeCode and is one of 
+      the co-founders. Some of his projects are [confy](http://confy.wecode.io), 
+      [braid](http://www.github.com/delucas/braid) and 
+      [notas](http://www.github.com/delucas/notas). He also translated the 
+      book [The Zen Programmer](http://www.zenprogrammer.org/) into Spanish to help 
+      fellow developers finding peace at work.</p>"
+
+    abstract: "<p>You already know the basics of git, and you liked it. You want to spread the usage of this magnificent tool between your co-workers, and you don't find how to involve them. Maybe your team is working with git, but you see that your repo is filling out with merge commits. Or, even better, you're working in a massive team that is turning the code base messier and messier. We need to face each problem with a concrete approach. In this talk you'll know the basics of the major workflow strategies, and the reasons to choose one among all other options.</p>"
+  en:
+    title_long: "Look ma', I know my algorithms!"
+    title: "Look ma', I know <br>my algorithms!"
+    bio: "<p>Lucas is a tireless apprentice of the art of programming. He lectures at 
+      two universities, and teaches the basics of programming for young people from 
+      age 17 to 6x (because nobody older attended yet). He works at WeCode and is one of 
+      the co-founders. Some of his projects are [confy](http://confy.wecode.io), 
+      [braid](http://www.github.com/delucas/braid) and 
+      [notas](http://www.github.com/delucas/notas). He also translated the 
+      book [The Zen Programmer](http://www.zenprogrammer.org/) into Spanish to help 
+      fellow developers finding peace at work.</p>"
+
+    abstract: "<p>You already know the basics of git, and you liked it. You want to spread the usage of this magnificent tool between your co-workers, and you don't find how to involve them. Maybe your team is working with git, but you see that your repo is filling out with merge commits. Or, even better, you're working in a massive team that is turning the code base messier and messier. We need to face each problem with a concrete approach. In this talk you'll know the basics of the major workflow strategies, and the reasons to choose one among all other options.</p>"
+- id: raviolicode
+  name: Lucia Escanellas
+  company:
+  twitter: https://twitter.com/raviolicode
+  github: https://github.com/raviolicode
+  image: images/speakers/raviolicode.jpg
+  es:
+    title_long: "Look ma', I know my algorithms!"
+    title: "Look ma', I know <br>my algorithms!"
+    bio: "<p>Lucia es una Ingeniera en Computación que a los 18 años fue a la universidad 
+      a estudiar Física, pero después se pasaba las tardes en las librerías técnicas 
+      hurgando en libros de O’Reilly y soñando con algún día leerse la colección entera.</p>
+      <p>Hoy en día, Lucía logró ser de las personas más afortunadas del mundo: se dedica a lo que le encanta, y encima le pagan por ello :)</p>
+      <p>Si en algún momento se cruzan con ella, seguramente puedan hablar horas sobre 
+      lenguajes de programación, optimización, algoritmos, bases de datos, gatitos, o 
+      una combinación de todas las anteriores.</p>"
+    abstract: "<p>Esta es la historia de como pasar de 3 horas a 30 segundos implementando 
+      un problema sencillo, mediante algoritmos.</p>
+      <p>Vamos a ver:</p>
+      <ul>
+      <li>Cómo usar ordenes de complejidad en la vida real</li>
+      <li>Cómo influye el (no) paralelismo de Ruby (MRI)</li>
+      <li>Cómo evitar sorpresas en la performance usando colecciones</li>
+      </ul>
+      <p>La charla no tiene spoilers, por lo que podes salir de la charla a probar tu propia 
+      solución.</p>"
+  en:
+    title_long: "Look ma', I know my algorithms!"
+    title: "Look ma', I know <br>my algorithms!"
+    bio: "<p>Lucia es una Ingeniera en Computación que a los 18 años fue a la universidad 
+      a estudiar Física, pero después se pasaba las tardes en las librerías técnicas 
+      hurgando en libros de O’Reilly y soñando con algún día leerse la colección entera.</p>
+      <p>Hoy en día, Lucía logró ser de las personas más afortunadas del mundo: se dedica a lo que le encanta, y encima le pagan por ello :)</p>
+      <p>Si en algún momento se cruzan con ella, seguramente puedan hablar horas sobre 
+      lenguajes de programación, optimización, algoritmos, bases de datos, gatitos, o 
+      una combinación de todas las anteriores.</p>"
+    abstract: "<p>Esta es la historia de como pasar de 3 horas a 30 segundos implementando 
+      un problema sencillo, mediante algoritmos.</p>
+      <p>Vamos a ver:</p>
+      <ol>
+      <li>Cómo usar ordenes de complejidad en la vida real</li>
+      <li>Cómo influye el (no) paralelismo de Ruby (MRI)</li>
+      <li>Cómo evitar sorpresas en la performance usando colecciones</li>
+      </ol>
+      <p>La charla no tiene spoilers, por lo que podes salir de la charla a probar tu propia 
+      solución.</p>"
 - id: noeliacabane
   name: Marina Noelia Cabane
   company: Restorando
