@@ -1,10 +1,10 @@
 ---
 - id: becciu
-  name: Chris 
-  company: Github
+  name: Augusto Becciu
+  company: Restorando
   twitter: https://twitter.com/abecciu
   github: http://github.com/abecciu
-  image: images/speakers/abecciu.jpg
+  image: /images/speakers/placeholder.jpg
   es:
     title_long: Building you own search engine with JRuby and Lucene
     title: "Building you own<br>search engine with <br>JRuby and Lucene"
