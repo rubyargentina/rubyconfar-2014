@@ -4,7 +4,7 @@
   company: Restorando
   twitter: https://twitter.com/abecciu
   github: http://github.com/abecciu
-  image: /images/speakers/placeholder.jpg
+  image: images/speakers/placeholder.jpg
   es:
     title_long: Building you own search engine with JRuby and Lucene
     title: "Building you own<br>search engine with <br>JRuby and Lucene"
@@ -334,7 +334,7 @@
   company: Deviget
   twitter: https://twitter.com/krakatoa1987
   github: https://github.com/krakatoa
-  image: /images/speakers/placeholder.jpg
+  image: images/speakers/placeholder.jpg
   rfd: true
   es:
     title_long: Adhearsion - Easy VoIP @ Ruby
@@ -881,7 +881,7 @@
   company: 10 Pines
   twitter: https://twitter.com/NicolasPapagna
   github: https://github.com/npapagna
-  image: /images/speakers/placeholder.jpg
+  image: images/speakers/placeholder.jpg
   rfd: true
   es:
     title_long: "Wishful Thinking: Code Review With Myself"
