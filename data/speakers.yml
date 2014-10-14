@@ -1066,7 +1066,7 @@
   company: 
   twitter: https://twitter.com/krakatoa1987
   github: https://github.com/krakatoa1987
-  image: 
+  image: /images/speakers/placeholder.jpg
   rfd: true
   es:
     title_long: Adhearsion - Easy VoIP @ Ruby
@@ -1123,7 +1123,7 @@
   company: 10 Pines
   twitter: https://twitter.com/NicolasPapagna
   github: https://github.com/npapagna
-  image: 
+  image: /images/speakers/placeholder.jpg
   rfd: true
   es:
     title_long: "Wishful Thinking: Code Review With Myself"
