@@ -1,4 +1,4 @@
-- data.speakers.each do |speaker|
+- data.speakers.reject(&:rfd).each do |speaker|
 
   %li{id: speaker.id, class: speaker.rfd ? 'rfd' : 'main' }
     .main-info>
