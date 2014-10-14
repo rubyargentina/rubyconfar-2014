@@ -127,26 +127,22 @@ a, img a {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
-
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
-
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
-
   100% {
     -o-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
-
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
@@ -2516,7 +2512,7 @@ section#registration {
         width: 38%; }
         section#registration .table ul li:before {
           font-family: "fontAwesome";
-          content: "\f00c";
+          content: "";
           color: #e1483f;
           font-size: 17px;
           left: -28px;
@@ -2696,7 +2692,7 @@ section#speakers {
         -ms-transform: rotate(180deg);
         -webkit-transform: rotate(180deg); }
     section#speakers header a.register {
-      background: #df483f;
+      background: #DF483F;
       border-radius: 2px;
       padding: 7px 25px;
       position: absolute;
@@ -2718,6 +2714,32 @@ section#speakers {
       section#speakers header a.register:after {
         left: auto;
         right: 10px; }
+    section#speakers header a.rfd-speakers {
+      display: inline-block;
+      vertical-align: baseline;
+      zoom: 1;
+      *display: inline;
+      *vertical-align: auto;
+      border-radius: 3px;
+      border: 1px solid;
+      color: #73c9a8;
+      font-size: 12px;
+      padding: 8px 18px;
+      position: absolute;
+      right: 100px;
+      top: 310px;
+      vertical-align: middle; }
+      section#speakers header a.rfd-speakers:hover {
+        background: rgba(115, 201, 168, 0.85);
+        color: #363636;
+        text-decoration: none; }
+      @media screen and (max-width: 940px) {
+        section#speakers header a.rfd-speakers {
+          right: -1px;
+          border-radius: 3px 0 0 3px; } }
+      @media screen and (max-width: 864px) {
+        section#speakers header a.rfd-speakers {
+          display: none; } }
     section#speakers header .index {
       background: url(../images/speakers-index.png) repeat center bottom;
       height: 430px;
@@ -2769,13 +2791,6 @@ section#speakers {
             @media screen and (max-width: 1080px) {
               section#speakers header .index ol li a {
                 margin: 9px 2px; } }
-            @media screen and (max-width: 1010px) {
-              section#speakers header .index ol li a {
-                height: 52px;
-                width: 52px; }
-                section#speakers header .index ol li a .border {
-                  height: 44px;
-                  width: 44px; } }
           section#speakers header .index ol li .tooltip {
             transition: all, 0.25s;
             -moz-transition: all, 0.25s;
@@ -2891,7 +2906,7 @@ section#speakers {
             text-decoration: none; }
           section#speakers article > ul > li .details a.share:before {
             font-weight: normal;
-            content: "\f0c1";
+            content: "";
             font-family: "fontAwesome"; }
       section#speakers article > ul > li:hover a.share {
         opacity: 0.85; }
@@ -3052,7 +3067,7 @@ body#home section#speakers article > ul {
       padding: 0 20px 20px; }
       .inner-page section#speakers ul > li ol li:before {
         color: #73c9a8;
-        content: "\f00c";
+        content: "";
         font-family: "fontAwesome";
         margin-right: 10px; }
     .inner-page section#speakers ul > li .main-info {
@@ -3164,7 +3179,7 @@ section#rubyfunday {
       section#rubyfunday .text address a:before {
         border-right: 1px solid rgba(255, 255, 255, 0.5);
         color: #73c9a8;
-        content: "\f041";
+        content: "";
         float: left;
         font-family: "fontAwesome";
         font-size: 36px;
@@ -3236,7 +3251,7 @@ section#rubyfunday {
 .inner-page.rfd section {
   border-left: 0 none; }
   .inner-page.rfd section#rubyfunday a.register {
-    background: #df483f;
+    background: #DF483F;
     border-radius: 2px;
     display: block;
     margin-top: 25px;
@@ -3400,7 +3415,7 @@ section#venue {
         -o-transition: all, 0.25s;
         border-right: 1px solid rgba(255, 216, 143, 0.5);
         color: #ffd88f;
-        content: "\f041";
+        content: "";
         float: left;
         font-family: "fontAwesome";
         font-size: 36px;

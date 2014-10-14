@@ -122,6 +122,26 @@ section#speakers
         right: 10px
 
 
+    a.rfd-speakers
+      @include inline-block
+      border-radius: 3px
+      border: 1px solid
+      color: $teal_vibrant
+      font-size: 12px
+      padding: 8px 18px
+      position: absolute
+      right: 100px
+      top: 310px
+      vertical-align: middle
+      &:hover
+        background: rgba($teal_vibrant, 0.85)
+        color: $gray2
+        text-decoration: none
+      @media screen and (max-width: 940px)
+        right: -1px
+        border-radius: 3px 0 0 3px
+      @media screen and (max-width: 864px)
+        display: none
 
     .index
       background: url(../images/speakers-index.png) repeat center bottom
@@ -172,12 +192,12 @@ section#speakers
               margin: 9px 5px
             @media screen and (max-width: 1080px)
               margin: 9px 2px
-            @media screen and (max-width: 1010px)
-              height: 52px
-              width: 52px
-              .border
-                height: 44px
-                width: 44px
+            // @media screen and (max-width: 1010px)
+            //   height: 52px
+            //   width: 52px
+            //   .border
+            //     height: 44px
+            //     width: 44px
             
           
 

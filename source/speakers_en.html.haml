@@ -5,19 +5,24 @@
     .top
     .stuff     
       .wrapper
-        %a.register{:href=>"register.html"} Register now
+        %a.register{:href=>"register.html"} Register now        
         %span.full-list
           %i.fa.fa-angle-down
           Index
       %h1 Speakers
     .index
       %ol.wrapper
-        - data.speakers.each do |speaker|
+        - data.speakers.reject(&:rfd).each do |speaker|
           %li{class: speaker.rfd ? 'rfd' : 'main' }            
             %a.share{href: "##{speaker.id}"}
               .border              
               %img{src: speaker.image , alt: speaker.name}
             .tooltip= speaker.name
+        %a.rfd-speakers{:href=>"rfd_en.html"}
+          For 
+          %strong RUBY FUN DAY 
+          %br
+          speakers click here.
   
   %article.wrapper
    

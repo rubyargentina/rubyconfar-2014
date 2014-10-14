@@ -72,7 +72,10 @@
       %a{:href=>"http://www.wyeworks.com", :target=>"_blank"}
         %img{:src=>"images/sponsors/wyeworks.png", :alt=>"wye works", :width=>"210", :height=>"31"}
     %span.right
-      %p 
+      - if lang == 'en'
+        %p WyeWorks is a web consultancy agency based out in Uruguay, focused on providing services to startups from Silicon Valley and New York. The recognition gained through the contribution to Ruby on Rails allowed it to work with clients such as Google, History Channel, Zozi and Flavorpill.
+      - else
+        %p WyeWorks es una empresa Uruguaya que desarrolla aplicaciones web para startups de Silicon Valley y New York. El reconocimiento que la empresa ha logrado a través de su contribución a Ruby on Rails le ha permitido llegar a clientes de primera línea como Google, History Channel, Zozi y Flavor Pill. 
   %li
     %span.left
       %a{:href=>"http://www.toptierlabs.com", :target=>"_blank"}

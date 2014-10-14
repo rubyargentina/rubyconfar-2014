@@ -1,4 +1,22 @@
 ---
+- id: becciu
+  name: Augusto Becciu
+  company: Restorando
+  twitter: https://twitter.com/abecciu
+  github: http://github.com/abecciu
+  image: images/speakers/placeholder.jpg
+  es:
+    title_long: Building you own search engine with JRuby and Lucene
+    title: "Building you own<br>search engine with <br>JRuby and Lucene"
+    bio: "<p>Augusto se empezó a interesar por la programación a los 16 años cuando tuvo su primer computadora. El furor por el Demoscene en esa época despertó su pasión por el desarrollo de bajo nivel en C y Assembler. Luego Linux provoco su interés por el open source y los sistemas operativos. Finalmente Perl le demostró lo productivos que son los lenguajes de alto nivel y que programar para la web también puede ser divertido.</p><p>
+      En los últimos 10 años Augusto trabajó profesionalmente para distintos startups en C, Java, Perl, Python, Erlang, Javascript y Ruby. Actualmente trabaja como CTO en Restorando y previamente trabajó como Developer y Ops Engineer en Shopify.</p>"
+    abstract: "TBD"
+  en:
+    title_long: Building you own search engine with JRuby and Lucene
+    title: "Building you own<br>search engine with <br>JRuby and Lucene"
+    bio: "<p>Augusto se empezó a interesar por la programación a los 16 años cuando tuvo su primer computadora. El furor por el Demoscene en esa época despertó su pasión por el desarrollo de bajo nivel en C y Assembler. Luego Linux provoco su interés por el open source y los sistemas operativos. Finalmente Perl le demostró lo productivos que son los lenguajes de alto nivel y que programar para la web también puede ser divertido.</p><p>
+      En los últimos 10 años Augusto trabajó profesionalmente para distintos startups en C, Java, Perl, Python, Erlang, Javascript y Ruby. Actualmente trabaja como CTO en Restorando y previamente trabajó como Developer y Ops Engineer en Shopify.</p>"
+    abstract: "TBD"
 - id: chrishunt
   name: Chris Hunt
   company: Github
@@ -316,7 +334,7 @@
   company: Deviget
   twitter: https://twitter.com/krakatoa1987
   github: https://github.com/krakatoa
-  image: /images/speakers/placeholder.jpg
+  image: images/speakers/placeholder.jpg
   rfd: true
   es:
     title_long: Adhearsion - Easy VoIP @ Ruby
@@ -863,7 +881,7 @@
   company: 10 Pines
   twitter: https://twitter.com/NicolasPapagna
   github: https://github.com/npapagna
-  image: /images/speakers/placeholder.jpg
+  image: images/speakers/placeholder.jpg
   rfd: true
   es:
     title_long: "Wishful Thinking: Code Review With Myself"
@@ -1074,54 +1092,6 @@
       of our community and how thinking about simplicity as one of our core values
       can push us to be better developers while producing better quality of software.
       We don't need our crutches anymore, let's drop them together!</p>"
-- id: geerlinger
-  name: Stepahanie Geerlings
-  company: Cloud City Development
-  twitter: https://twitter.com/geerlinger
-  github: https://github.com/stf
-  image: images/speakers/geerlinger.jpg
-  es:
-    title_long: Ruby + RaspberryPi + That Was Not What I Expected
-    title: "<small>Ruby + RaspberryPi + That</small><br>Was Not What I Expected"
-    bio: "<p>I am the General Manager of Cloud City Development. I have ten years
-      of experience bringing quality digital products to life. My focus is on how
-      well design and development works together for the good of the end-user and
-      company goals. I've created and worked alongside many successful startups including
-      12 Spokes, CrowdFlower, Gengo, and Kanjiru. I believe design is both an art
-      and science. My specialties include product design, LeanUX, agile, customer
-      development, and hardware hacking.</p>"
-    abstract: "<p>The RaspberryPi is a small, affordable computer that you can use
-      for your Internet of Things projects. It's incredibly simple to use if you have
-      a basic understanding of circuits and how computers work. I'll give an overview
-      on how to set up a project with resources for the fundamental steps along the
-      way.</p><p>I'd like to show my journey into setting up a light sensor that became
-      an increasingly dense project as I went along. Show the trouble of thinking
-      something worked one way and finding out it worked a completely different way.
-      Converting analogue to digital and other frankenstein-ing of hardware, sensors,
-      and microchips.</p><p>If the talk is accepted the format will be as follows:</p><p>The
-      goal is to show that the RaspberryPi is a hands-on model for computing that
-      is educational, powerful, and fun.</p>"
-  en:
-    title_long: Ruby + RaspberryPi + That Was Not What I Expected
-    title: "<small>Ruby + RaspberryPi + That</small><br>Was Not What I Expected"
-    bio: "<p>I am the General Manager of Cloud City Development. I have ten years
-      of experience bringing quality digital products to life. My focus is on how
-      well design and development works together for the good of the end-user and
-      company goals. I've created and worked alongside many successful startups including
-      12 Spokes, CrowdFlower, Gengo, and Kanjiru. I believe design is both an art
-      and science. My specialties include product design, LeanUX, agile, customer
-      development, and hardware hacking.</p>"
-    abstract: "<p>The RaspberryPi is a small, affordable computer that you can use
-      for your Internet of Things projects. It's incredibly simple to use if you have
-      a basic understanding of circuits and how computers work. I'll give an overview
-      on how to set up a project with resources for the fundamental steps along the
-      way.</p><p>I'd like to show my journey into setting up a light sensor that became
-      an increasingly dense project as I went along. Show the trouble of thinking
-      something worked one way and finding out it worked a completely different way.
-      Converting analogue to digital and other frankenstein-ing of hardware, sensors,
-      and microchips.</p><p>If the talk is accepted the format will be as follows:</p><p>The
-      goal is to show that the RaspberryPi is a hands-on model for computing that
-      is educational, powerful, and fun.</p>"
 - id: tutec
   name: Tute Costa
   company: thoughtbot
