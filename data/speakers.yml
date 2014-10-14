@@ -985,3 +985,199 @@
       un termo (o más!).</p><p>Los ejemplos serán en Ruby, válidos para cualquier
       proyecto o framework, y lo tratado es aplicable además a cualquier lenguaje
       orientado a objetos.</p>"
+- id: lucasvidela2
+  name: Lucas Videla
+  company: WeCode
+  twitter: https://twitter.com/luke_ar
+  github: https://github.com/delucas
+  image: images/speakers/luke_ar.jpg
+  rfd: true
+  es:
+    title_long: "TDD IRL (reloaded)"
+    title: "TDD IRL (reloaded)"
+    bio: "<p>Lucas is a tireless apprentice of the art of programming. He lectures at 
+      two universities, and teaches the basics of programming for young people from 
+      age 17 to 6x (because nobody older attended yet). He works at WeCode and is one of 
+      the co-founders. Some of his projects are [confy](http://confy.wecode.io), 
+      [braid](http://www.github.com/delucas/braid) and 
+      [notas](http://www.github.com/delucas/notas). He also translated the 
+      book [The Zen Programmer](http://www.zenprogrammer.org/) into Spanish to help 
+      fellow developers finding peace at work.</p>"
+    abstract: "<p>¿Alguna vez, mientras mirabas un fragmento de código, pensaste: \"esto es 
+      bastante feo... seguramente podría escribirlo un poco mejor\"? Y luego, 
+      inmediatamente: \'¿Qué sucede si lo rompo? ¡NO PIENSO TOCAR ESO!\'. ¿O acaso tardás 
+      mucho tiempo diseñando la arquitectura perfecta, dibujando interminables diagramas 
+      en UML, y después de algunos requerimientos te encontrás redibujándolos? Tal vez 
+      jugando UML-golf: ¿qué tan pocos cambios puedo hacer para que mi diseño siga 
+      funcionando?. Quizás alguien te contó sobre TDD y mientras le decías \"seguramente 
+      lo intente\" pensabas \"no va a funcionar ni de casualidad\". El Test Driven 
+      Development está entre nosotros desde hace mucho, pero no siempre se utiliza. En 
+      este taller enterate de qué es, por qué hacerlo y algunas técnicas que te ayudarán 
+      a transitar este camino y a no volver a tener miedo de tu propio código.</p>"
+  en:
+    title_long: TDD IRL (reloaded)
+    title: TDD IRL (reloaded)
+    bio: "<p>Lucas is a tireless apprentice of the art of programming. He lectures at 
+      two universities, and teaches the basics of programming for young people from 
+      age 17 to 6x (because nobody older attended yet). He works at WeCode and is one of 
+      the co-founders. Some of his projects are [confy](http://confy.wecode.io), 
+      [braid](http://www.github.com/delucas/braid) and 
+      [notas](http://www.github.com/delucas/notas). He also translated the 
+      book [The Zen Programmer](http://www.zenprogrammer.org/) into Spanish to help 
+      fellow developers finding peace at work.</p>"
+    abstract: "<p>¿Alguna vez, mientras mirabas un fragmento de código, pensaste: \"esto es 
+      bastante feo... seguramente podría escribirlo un poco mejor\"? Y luego, 
+      inmediatamente: \"¿Qué sucede si lo rompo? ¡NO PIENSO TOCAR ESO!\". ¿O acaso tardás 
+      mucho tiempo diseñando la arquitectura perfecta, dibujando interminables diagramas 
+      en UML, y después de algunos requerimientos te encontrás redibujándolos? Tal vez 
+      jugando UML-golf: ¿qué tan pocos cambios puedo hacer para que mi diseño siga 
+      funcionando?. Quizás alguien te contó sobre TDD y mientras le decías \"seguramente 
+      lo intente\" pensabas \"no va a funcionar ni de casualidad\". El Test Driven 
+      Development está entre nosotros desde hace mucho, pero no siempre se utiliza. En 
+      este taller enterate de qué es, por qué hacerlo y algunas técnicas que te ayudarán 
+      a transitar este camino y a no volver a tener miedo de tu propio código.</p>"
+- id: frodsan2
+  name: Francesco Rodríguez
+  company: Harmoni
+  twitter: https://twitter.com/frodsan
+  github: https://github.com/frodsan
+  image: images/speakers/frodsan.jpg
+  rfd: true
+  es:
+    title_long: Web Security 101
+    title: "Web Security 101"
+    bio: "<p>Francesco actively contributes to Open Source and enjoys working with
+      minimalistic tools. He is also writing \"The Guide to Cuba\", a book about Cuba,
+      the Ruby microframework.</p>"
+    abstract: "In this workshop you will learn about the basics of web security by 
+      starting with a clean application and adding features to prevent the most common 
+      attacks."
+  en:
+    title_long: Web Security 101
+    title: "Web Security 101"
+    bio: "<p>Francesco actively contributes to Open Source and enjoys working with
+      minimalistic tools. He is also writing \"The Guide to Cuba\", a book about Cuba,
+      the Ruby microframework.</p>"
+    abstract: "In this workshop you will learn about the basics of web security by 
+      starting with a clean application and adding features to prevent the most common 
+      attacks."
+- id: krakatoa1987
+  name: Fernando Dario Alonso
+  company: 
+  twitter: https://twitter.com/krakatoa1987
+  github: https://github.com/krakatoa1987
+  image: 
+  rfd: true
+  es:
+    title_long: Adhearsion - Easy VoIP @ Ruby
+    title: "Adhearsion<br/>Easy VoIP @ Ruby"
+    bio: "<p>Hola! Soy programador desde los 11 anios, empece haciendo cosas con QBasic, 
+      jugando con VBasic 4, C... Hace 7 anios entre a laburar en sistemas, y desde hace 
+      5 empezo mi gran amor con Ruby y la Web jaja. Me apasionan temas que tienen que ver 
+      con el manejo de concurrencia, comunicaciones y nuevas tecnologias, y el mundo VoIP. 
+      Actualmente trabajo en Deviget, para un cliente con el que estamos desarrollando un 
+      backend SIP con Freeswitch, y por mi lado llevo un proyecto para monitoreo de servers 
+      con el que aprendi Erlang. Ahora estoy aprendiendo Elixir escribiendo lo que seria un 
+      framework VoIP para Freeswitch. El año pasado, en Deviget, trabajamos con un cliente 
+      para el que desarrollamos un servicio de IVRs dinamicos (sobre el framework Adhearsion), 
+      y precisamente mi charla estaria dedicada a mostrar un poco de que se trata Adhearsion.</p>"
+    abstract: "<p>La charla esta dividida en 5 segmentos. El primero, donde cuento que es y que 
+      rol cumple Adhearsion, e introduzco otros actores como los servers de telefonia Freeswitch, 
+      Asterisk, protocolo SIP. Funciones del DSL que provee Adhearsion.
+      El segundo segmento es, enfocado en el stack Adhearsion+Freeswitch, explicando como interactuan 
+      los distintos componentes a la hora de controlar una llamada VoIP. Routing y controladores de llamadas. 
+      El tercer segmento seria una mini demo en 5' de: creacion de una aplicacion Adhearsion, mostrar un 
+      mini IVR (menu+reproduccion audio+discado) llamando desde el softphone de mi Android que estaria 
+      conectado a la note por un hotspot wifi :) El cuarto segmento esta dedicado a Celluloid, para 
+      entender como Adhearsion implementa el modelo de actores para las llamadas. Y como esto influye 
+      en el engine de Ruby que nos conviene usar con Adhearsion: JRuby. 
+      En el quinto cuento de los plugins que existen, y la posiblidad de tomar metricas con un plugin 
+      (autobombo) que envia datos a un server Riemann.</p>"
+  en:
+    title_long: Adhearsion - Easy VoIP @ Ruby
+    title: "Adhearsion<br/>Easy VoIP @ Ruby"
+    bio: "<p>Hola! Soy programador desde los 11 anios, empece haciendo cosas con QBasic, 
+      jugando con VBasic 4, C... Hace 7 anios entre a laburar en sistemas, y desde hace 
+      5 empezo mi gran amor con Ruby y la Web jaja. Me apasionan temas que tienen que ver 
+      con el manejo de concurrencia, comunicaciones y nuevas tecnologias, y el mundo VoIP. 
+      Actualmente trabajo en Deviget, para un cliente con el que estamos desarrollando un 
+      backend SIP con Freeswitch, y por mi lado llevo un proyecto para monitoreo de servers 
+      con el que aprendi Erlang. Ahora estoy aprendiendo Elixir escribiendo lo que seria un 
+      framework VoIP para Freeswitch. El año pasado, en Deviget, trabajamos con un cliente 
+      para el que desarrollamos un servicio de IVRs dinamicos (sobre el framework Adhearsion), 
+      y precisamente mi charla estaria dedicada a mostrar un poco de que se trata Adhearsion.</p>"
+    abstract: "<p>La charla esta dividida en 5 segmentos. El primero, donde cuento que es y que 
+      rol cumple Adhearsion, e introduzco otros actores como los servers de telefonia Freeswitch, 
+      Asterisk, protocolo SIP. Funciones del DSL que provee Adhearsion.
+      El segundo segmento es, enfocado en el stack Adhearsion+Freeswitch, explicando como interactuan 
+      los distintos componentes a la hora de controlar una llamada VoIP. Routing y controladores de llamadas. 
+      El tercer segmento seria una mini demo en 5' de: creacion de una aplicacion Adhearsion, mostrar un 
+      mini IVR (menu+reproduccion audio+discado) llamando desde el softphone de mi Android que estaria 
+      conectado a la note por un hotspot wifi :) El cuarto segmento esta dedicado a Celluloid, para 
+      entender como Adhearsion implementa el modelo de actores para las llamadas. Y como esto influye 
+      en el engine de Ruby que nos conviene usar con Adhearsion: JRuby. 
+      En el quinto cuento de los plugins que existen, y la posiblidad de tomar metricas con un plugin 
+      (autobombo) que envia datos a un server Riemann.</p>"
+- id: npapagna
+  name: Nicolás Papagna Maldonado
+  company: 10 Pines
+  twitter: https://twitter.com/NicolasPapagna
+  github: https://github.com/npapagna
+  image: 
+  rfd: true
+  es:
+    title_long: "Wishful Thinking: Code Review With Myself"
+    title: "Wishful Thinking:<br/>Code Review With Myself"
+    bio: "<p> Comencé a construir software hace 14 años aprox., 
+      pasando por .NET y PHP hasta llegar a Ruby. <br/>
+      Actualmente trabajo en 10 Pines construyendo software en Ruby/Rails, 
+      y también participando de los distintos Webinars en donde discutimos 
+      ejercicios, buenas prácticas y problemas de diseño orientado a objetos.<br/>
+      Además de desarrollar, mi otra pasión es enseñar: fuí ayudante en la Lic. 
+      en Ciencias de la Computación (FCEN, UBA) en las materias Programación 
+      Orientada a Objetos, Diseño Avanzado Orientado a Objetos e Ingeniería 
+      del Software II.<br/> Creo que es muy importante aprender sobre la historia 
+      de nuestra profesión. A través de los años comencé a interesarme e investigar 
+      el trabajo de pioneros como Alan Kay y el trabajo que hicieron en Xerox Parc. 
+      Sobre todo, la creación del paradigma de objetos fundacional y su intención original.<br/>
+      Por último, creo que todo lo anterior no tiene sentido si no es en un contexto en donde 
+      se valore la buena onda y el respeto con la gente con la que se labura.</p>"
+    abstract: "<p>¿Cuántas de las prácticas de desarrollo que tenemos en nuestro bati-cinturón 
+      están ahí por estar inmersas en una cultura de desarrollo? <br/> ¿Eso las hace... *buenas* 
+      prácticas? <br/>El objetivo del taller es lograr verse a uno mismo como desarrollador en 
+      tercera persona, y reflexionar sobre esas prácticas/conceptos que incorporamos a tal 
+      punto que dejamos de cuestionar. <br/>Técnicamente el contenido del taller está relacionado 
+      con el diseño/implementacion de software bajo las distintas definiciones del paradigma 
+      de objetos (actual/fundacional), y también sobre las buenas prácticas más conocidas (ej. TDD).<br/>
+      El formato está pensado al estilo Q&A, en donde se busca generar un espacio cómodo para que 
+      podamos interactuar/compartir opiniones sobre los temas que vamos a ver.<br/>
+      Las preguntas, que guían el taller, están especiamente diseñadas para que volvamos a plantearnos 
+      cuestiones sobre conceptos que, a primera vista, nos parecen obvios.</p>"
+  en:
+    title_long: "Wishful Thinking: Code Review With Myself"
+    title: "Wishful Thinking:<br/>Code Review With Myself"
+    bio: "<p> Comencé a construir software hace 14 años aprox., 
+      pasando por .NET y PHP hasta llegar a Ruby. <br/>
+      Actualmente trabajo en 10 Pines construyendo software en Ruby/Rails, 
+      y también participando de los distintos Webinars en donde discutimos 
+      ejercicios, buenas prácticas y problemas de diseño orientado a objetos.<br/>
+      Además de desarrollar, mi otra pasión es enseñar: fuí ayudante en la Lic. 
+      en Ciencias de la Computación (FCEN, UBA) en las materias Programación 
+      Orientada a Objetos, Diseño Avanzado Orientado a Objetos e Ingeniería 
+      del Software II.<br/> Creo que es muy importante aprender sobre la historia 
+      de nuestra profesión. A través de los años comencé a interesarme e investigar 
+      el trabajo de pioneros como Alan Kay y el trabajo que hicieron en Xerox Parc. 
+      Sobre todo, la creación del paradigma de objetos fundacional y su intención original.<br/>
+      Por último, creo que todo lo anterior no tiene sentido si no es en un contexto en donde 
+      se valore la buena onda y el respeto con la gente con la que se labura.</p>"
+    abstract: "<p>¿Cuántas de las prácticas de desarrollo que tenemos en nuestro bati-cinturón 
+      están ahí por estar inmersas en una cultura de desarrollo? <br/> ¿Eso las hace... *buenas* 
+      prácticas? <br/>El objetivo del taller es lograr verse a uno mismo como desarrollador en 
+      tercera persona, y reflexionar sobre esas prácticas/conceptos que incorporamos a tal 
+      punto que dejamos de cuestionar. <br/>Técnicamente el contenido del taller está relacionado 
+      con el diseño/implementacion de software bajo las distintas definiciones del paradigma 
+      de objetos (actual/fundacional), y también sobre las buenas prácticas más conocidas (ej. TDD).<br/>
+      El formato está pensado al estilo Q&A, en donde se busca generar un espacio cómodo para que 
+      podamos interactuar/compartir opiniones sobre los temas que vamos a ver.<br/>
+      Las preguntas, que guían el taller, están especiamente diseñadas para que volvamos a plantearnos 
+      cuestiones sobre conceptos que, a primera vista, nos parecen obvios.</p>"
