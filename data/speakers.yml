@@ -583,15 +583,15 @@
   github: https://github.com/delucas
   image: images/speakers/luke_ar.jpg
   es:
-    title_long: "You already _git_ started. Now, what?"
-    title: "You already _git_ started. Now, what?"
+    title_long: "You already <em>git</em> started. Now, what?"
+    title: "You already <em>git</em> started. Now, what?"
     bio: "<p>Lucas is a tireless apprentice of the art of programming. He lectures at 
       two universities, and teaches the basics of programming for young people from 
       age 17 to 6x (because nobody older attended yet). He works at WeCode and is one of 
-      the co-founders. Some of his projects are [confy](http://confy.wecode.io), 
-      [braid](http://www.github.com/delucas/braid) and 
-      [notas](http://www.github.com/delucas/notas). He also translated the 
-      book [The Zen Programmer](http://www.zenprogrammer.org/) into Spanish to help 
+      the co-founders. Some of his projects are <a href="http://confy.wecode.io">confy</>, 
+      <a href="http://www.github.com/delucas/braid">braid</a> and 
+      <a href="http://www.github.com/delucas/notas">notas</a>. He also translated the 
+      book <a href="http://www.zenprogrammer.org/">The Zen Programmer</a> into Spanish to help 
       fellow developers finding peace at work.</p>"
 
     abstract: "<p>You already know the basics of git, and you liked it. You want to spread the usage of this magnificent tool between your co-workers, and you don't find how to involve them. Maybe your team is working with git, but you see that your repo is filling out with merge commits. Or, even better, you're working in a massive team that is turning the code base messier and messier. We need to face each problem with a concrete approach. In this talk you'll know the basics of the major workflow strategies, and the reasons to choose one among all other options.</p>"
@@ -998,10 +998,10 @@
     bio: "<p>Lucas is a tireless apprentice of the art of programming. He lectures at 
       two universities, and teaches the basics of programming for young people from 
       age 17 to 6x (because nobody older attended yet). He works at WeCode and is one of 
-      the co-founders. Some of his projects are [confy](http://confy.wecode.io), 
-      [braid](http://www.github.com/delucas/braid) and 
-      [notas](http://www.github.com/delucas/notas). He also translated the 
-      book [The Zen Programmer](http://www.zenprogrammer.org/) into Spanish to help 
+      the co-founders. Some of his projects are <a href="http://confy.wecode.io">confy</>, 
+      <a href="http://www.github.com/delucas/braid">braid</a> and 
+      <a href="http://www.github.com/delucas/notas">notas</a>. He also translated the 
+      book <a href="http://www.zenprogrammer.org/">The Zen Programmer</a> into Spanish to help 
       fellow developers finding peace at work.</p>"
     abstract: "<p>¿Alguna vez, mientras mirabas un fragmento de código, pensaste: \"esto es 
       bastante feo... seguramente podría escribirlo un poco mejor\"? Y luego, 
