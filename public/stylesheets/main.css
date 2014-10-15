@@ -1992,6 +1992,7 @@ nav {
             nav ol li.current a:after {
               font-family: "fontAwesome";
               content: "";
+              font-weight: normal;
               display: block;
               font-size: 14px;
               margin-top: -3px; }
@@ -2053,6 +2054,7 @@ nav {
         nav a span:before {
           font-family: "fontAwesome";
           content: "";
+          font-weight: normal;
           color: rgba(0, 0, 0, 0.7);
           font-size: 15px;
           left: -5px;
@@ -2813,6 +2815,7 @@ section#speakers {
             section#speakers header .index ol li .tooltip:after {
               font-family: "fontAwesome";
               content: "";
+              font-weight: normal;
               bottom: -17px;
               color: #ffd88f;
               display: block;
@@ -3143,6 +3146,34 @@ section#rubyfunday {
   background: #65b79a url(../images/salondelajusticia-1400.png) no-repeat center top;
   height: 1565px;
   position: relative; }
+  section#rubyfunday .table {
+    display: none; }
+  section#rubyfunday a.rfd-section {
+    background: #DF483F;
+    border-radius: 2px;
+    display: block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    text-align: center;
+    text-transform: uppercase; }
+    section#rubyfunday a.rfd-section:after {
+      font-family: "fontAwesome";
+      content: "";
+      font-weight: normal;
+      display: inline-block;
+      vertical-align: baseline;
+      zoom: 1;
+      *display: inline;
+      *vertical-align: auto;
+      -webkit-transform: translateY(-1px);
+      -moz-transform: translateY(-1px);
+      -o-transform: translateY(-1px);
+      transform: translateY(-1px);
+      font-size: 9px;
+      margin-left: 8px; }
+    section#rubyfunday a.rfd-section:hover {
+      background: rgba(223, 72, 63, 0.9);
+      text-decoration: none; }
   section#rubyfunday .floor {
     background: url(../images/sponsors-top.png) repeat-x center top;
     bottom: 0;
@@ -3250,22 +3281,62 @@ section#rubyfunday {
 
 .inner-page.rfd section {
   border-left: 0 none; }
-  .inner-page.rfd section#rubyfunday a.register {
-    background: #DF483F;
-    border-radius: 2px;
-    display: block;
-    margin-top: 25px;
-    padding: 12px 25px;
-    text-align: center;
-    text-transform: uppercase; }
-    .inner-page.rfd section#rubyfunday a.register:hover {
-      background: rgba(223, 72, 63, 0.9);
-      text-decoration: none; }
-  .inner-page.rfd section#rubyfunday .floor {
-    background-image: url(../images/sponsors-top2.png); }
+  .inner-page.rfd section#rubyfunday {
+    height: 1965px; }
+    .inner-page.rfd section#rubyfunday .remeras {
+      bottom: 1180px; }
+    @media screen and (max-width: 1100px) {
+      .inner-page.rfd section#rubyfunday {
+        height: 1850px; }
+        .inner-page.rfd section#rubyfunday .remeras {
+          bottom: 1069px; } }
+    @media screen and (max-width: 920px) {
+      .inner-page.rfd section#rubyfunday {
+        height: 1950px; }
+        .inner-page.rfd section#rubyfunday .remeras {
+          bottom: 1169px; } }
     @media screen and (max-width: 800px) {
-      .inner-page.rfd section#rubyfunday .floor {
-        background-image: url(../images/sponsors-top-mobile2.png); } }
+      .inner-page.rfd section#rubyfunday {
+        height: 2750px; } }
+    .inner-page.rfd section#rubyfunday .table {
+      display: block;
+      margin-top: 840px; }
+      @media screen and (max-width: 800px) {
+        .inner-page.rfd section#rubyfunday .table {
+          margin-top: 25px; }
+          .inner-page.rfd section#rubyfunday .table td:nth-of-type(2):after {
+            content: "Track 1"; }
+          .inner-page.rfd section#rubyfunday .table td:nth-of-type(3):after {
+            content: "Track 2"; }
+          .inner-page.rfd section#rubyfunday .table td:nth-of-type(4):after {
+            content: "Track 3"; }
+          .inner-page.rfd section#rubyfunday .table td:nth-of-type(5):after {
+            content: "Track 4"; }
+          .inner-page.rfd section#rubyfunday .table td:after {
+            border-radius: 3px;
+            border: 1px solid white;
+            font-weight: 600;
+            padding: 0 3px; }
+          .inner-page.rfd section#rubyfunday .table td.wide:after {
+            display: none; } }
+    .inner-page.rfd section#rubyfunday a.register {
+      background: #DF483F;
+      border-radius: 2px;
+      display: block;
+      margin-top: 25px;
+      padding: 12px 25px;
+      text-align: center;
+      text-transform: uppercase; }
+      .inner-page.rfd section#rubyfunday a.register:hover {
+        background: rgba(223, 72, 63, 0.9);
+        text-decoration: none; }
+    .inner-page.rfd section#rubyfunday a.rfd-section {
+      display: none; }
+    .inner-page.rfd section#rubyfunday .floor {
+      background-image: url(../images/sponsors-top2.png); }
+      @media screen and (max-width: 800px) {
+        .inner-page.rfd section#rubyfunday .floor {
+          background-image: url(../images/sponsors-top-mobile2.png); } }
   .inner-page.rfd section#speakers {
     background: #363636; }
     @media screen and (min-width: 801px) {
@@ -3710,6 +3781,53 @@ body {
       body#home section article.wrapper {
         padding-right: 20px;
         padding-left: 20px; } }
+
+.table {
+  background: rgba(0, 0, 0, 0.1); }
+  .table table {
+    border-collapse: collapse;
+    width: 100%; }
+    .table table th {
+      font-weight: bold;
+      font-size: 14px; }
+    .table table td {
+      font-size: 12px; }
+      .table table td.wide {
+        background: rgba(115, 201, 168, 0.25);
+        font-size: 13px;
+        letter-spacing: 1px;
+        text-transform: uppercase; }
+      .table table td h6 {
+        font-weight: 600;
+        font-size: 13px; }
+      .table table td p {
+        margin: 0; }
+    .table table td, .table table th {
+      border: 1px solid white;
+      color: white;
+      text-align: center;
+      padding: 6px; }
+  @media screen and (max-width: 800px) {
+    .table table, .table thead, .table tbody, .table th, .table td, .table tr {
+      display: block; }
+    .table thead tr {
+      left: -9999px;
+      position: absolute;
+      top: -9999px; }
+    .table td {
+      border: none;
+      border-bottom: 1px solid white;
+      position: relative;
+      padding-left: 50%; }
+      .table td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap; } }
 
 .mfp-content {
   height: 90%;

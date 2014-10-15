@@ -4,6 +4,27 @@ section#rubyfunday
   height: 1565px
   position: relative
 
+  .table
+    display: none
+
+  a.rfd-section
+    background: #DF483F
+    border-radius: 2px
+    display: block
+    margin-top: 25px
+    padding: 12px 25px
+    text-align: center
+    text-transform: uppercase
+    &:after
+      @include chevron-right
+      @include inline-block
+      @include transform(translateY(-1px))
+      font-size: 9px
+      margin-left: 8px
+    &:hover
+      background: rgba(#DF483F, 0.9)
+      text-decoration: none
+
   .floor
     background: url(../images/sponsors-top.png) repeat-x center top
     bottom: 0
@@ -132,9 +153,54 @@ section#rubyfunday
 
 .inner-page.rfd
   section
-    border-left: 0 none
+    border-left: 0 none 
+
     
     &#rubyfunday
+      height: 1965px
+
+      .remeras
+        bottom: 1180px
+      
+      @media screen and (max-width: 1100px)
+        height: 1850px
+        
+        .remeras
+          bottom: 1069px
+
+      @media screen and (max-width: 920px)
+        height: 1950px
+        .remeras
+          bottom: 1169px
+
+      @media screen and (max-width: 800px)
+        height: 2750px
+
+      .table
+        display: block
+        margin-top: 840px
+        @media screen and (max-width: 800px)
+          margin-top: 25px
+
+          // Label the data
+          td:nth-of-type(2):after
+            content: "Track 1"
+          td:nth-of-type(3):after
+            content: "Track 2"
+          td:nth-of-type(4):after
+            content: "Track 3"
+          td:nth-of-type(5):after
+            content: "Track 4"
+          td:after
+            border-radius: 3px
+            border: 1px solid white
+            font-weight: 600
+            padding: 0 3px
+          td.wide:after
+            display: none    
+
+      
+
       a.register
         background: #DF483F
         border-radius: 2px
@@ -146,6 +212,9 @@ section#rubyfunday
         &:hover
           background: rgba(#DF483F, 0.9)
           text-decoration: none
+
+      a.rfd-section
+        display: none
       
       .floor
         background-image: url(../images/sponsors-top2.png)

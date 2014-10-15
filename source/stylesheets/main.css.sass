@@ -150,6 +150,64 @@ body
 
 
 
+.table
+  background: rgba(black, 0.1)
+  table
+    border-collapse: collapse
+    width: 100%
+
+    th
+      font-weight: bold
+      font-size: 14px
+
+    td
+      font-size: 12px
+      &.wide
+        background: rgba($teal_vibrant, 0.25)
+        font-size: 13px
+        letter-spacing: 1px
+        text-transform: uppercase
+      
+      h6
+        font-weight: 600
+        font-size: 13px
+
+      p
+        margin: 0
+
+    td, th
+      border: 1px solid white
+      color: white
+      text-align: center
+      padding: 6px
+
+  @media screen and (max-width: 800px)
+    table, thead, tbody, th, td, tr
+      display: block
+
+    thead tr 
+      left: -9999px
+      position: absolute
+      top: -9999px
+
+    td
+      // Behave  like a "row"
+      border: none
+      border-bottom: 1px solid white
+      position: relative
+      padding-left: 50%
+
+      &:before
+        /* Now like a table header */
+        position: absolute
+        /* Top/left values mimic padding */
+        top: 6px
+        left: 6px
+        width: 45%
+        padding-right: 10px
+        white-space: nowrap
+
+
 // Magnific Popup
 .mfp-content
   height: 90%

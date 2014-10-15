@@ -46,6 +46,17 @@ $easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955)
   #{$property}: -moz-calc(#{$expression})
   #{$property}: calc(#{$expression})
 
+@mixin transform($rule)
+  -webkit-transform: $rule
+  -moz-transform: $rule
+  -o-transform: $rule
+  transform: $rule
+
+
+@mixin vertical-align
+  top: 50%
+  @include transform(translateY(-50%))
+
 @mixin box-sizing($value : border-box)
   box-sizing: $value
   -moz-box-sizing: $value
@@ -54,22 +65,63 @@ $easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955)
   font-family: 'fontAwesome'
   content: "\f00c" 
   
-@mixin caret
-  font-family: 'fontAwesome'
-
 @mixin caret-down
-  @include caret
+  font-family: 'fontAwesome'
   content: ""
+  font-weight: normal
 
 @mixin caret-up
-  @include caret
+  font-family: 'fontAwesome'
   content: ""
+  font-weight: normal
 
 @mixin caret-right
-  @include caret
+  font-family: 'fontAwesome'
   content: ""
+  font-weight: normal
 
 @mixin caret-left
-  @include caret
+  font-family: 'fontAwesome'
   content: ""
+  font-weight: normal
+
+@mixin angle-right
+  font-family: 'fontAwesome'
+  content: "\f105"
+  font-weight: normal
+
+@mixin angle-left
+  font-family: 'fontAwesome'
+  content: "\f104"
+  font-weight: normal
+
+@mixin angle-down
+  font-family: 'fontAwesome'
+  content: "\f107"
+  font-weight: normal
+
+@mixin angle-up
+  font-family: 'fontAwesome'
+  content: "\f106"
+  font-weight: normal
+
+@mixin chevron-right
+  font-family: 'fontAwesome'
+  content: "\f054"
+  font-weight: normal
+
+@mixin chevron-left
+  font-family: 'fontAwesome'
+  content: "\f053"
+  font-weight: normal
+
+@mixin chevron-down
+  font-family: 'fontAwesome'
+  content: "\f078"
+  font-weight: normal
+
+@mixin chevron-up
+  font-family: 'fontAwesome'
+  content: "\f077"
+  font-weight: normal
 
