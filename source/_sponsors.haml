@@ -44,7 +44,10 @@
       %a{:href=>"http://inaka.net", :target=>"_blank"}
         %img.inaka{:src=>"images/sponsors/inaka.png", :alt=>"Inaka Networks", :width=>"120", :height=>"44"}
     %span.right
-      %p 
+      - if lang == 'es'
+        %p Construimos software para servidores y dispositivos que sirven a millones de personas. Nuestras habilidades y elección de tecnologías ayudan a lanzar proyectos rápidamente, con código que escala a medida que crece el negocio de nuestros clientes. Somos expertos en hacer bootstrap. Tomamos ideas y construimos productos mínimos viables, antes de entregar el proyecto al cliente. 
+      - else
+        %p We build software on devices and servers, on-time, and on budget, for millions of people. Our skills and choice of technologies help clients launch quickly, with a codebase that can scale as their businesses grow. We are experts in bootstrapping; we take a startup idea and build it to "minimum viable product", before the client team takes over.  
   %li
     %span.left
       %a{:href=>"http://www.10pines.com", :target=>"_blank"}
