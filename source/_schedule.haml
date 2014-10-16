@@ -1,0 +1,18 @@
+- data.schedule.partition{|s| s.day == 1 }.each do |day|
+  %h1 Day #{day.first.day}
+  - day.each do |slot|
+    %ol
+      %li
+        .when
+          %h1=slot.time
+        %what
+          - if slot.speaker
+            - speaker = data.speakers.find {|s| s.id == slot.speaker}
+            - talk = speaker.send(lang)
+            .talk
+              %h1= speaker.name
+              %h2= talk.title
+              .abstract= talk.abstract
+          - else
+            %p= slot.description
+
