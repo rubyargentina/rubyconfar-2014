@@ -191,7 +191,7 @@ $(document).ready(function() {
   }
 
   // Ruby Fun Day
-  $('a.magnific-popup').magnificPopup({
+  $('#rubyfunday a.magnific-popup').magnificPopup({
     type:'iframe', 
     iframe: {
        markup: '<div class="mfp-iframe-scaler">'+
@@ -206,6 +206,12 @@ $(document).ready(function() {
        },
        srcAction: 'iframe_src', 
      }
+  });
+
+  // Schedule
+  $('#schedule a.popup').magnificPopup({
+    type:'inline',
+    midClick: true
   });
 
 });

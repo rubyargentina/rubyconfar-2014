@@ -5,14 +5,25 @@
       - if slot.speaker
         - speaker = data.speakers.find {|s| s.id == slot.speaker}
         - talk = speaker.send(lang)
-        %li
-          .when
-            %h1=slot.time
-          .what
-            .talk
-              %h1= speaker.name
-              %h2= talk.title
-              .abstract= talk.abstract
+        %a.popup{href: "##{slot.speaker}_schedule"}
+          %li
+            .when
+              %h1=slot.time
+            .what
+              %img{src: speaker.image , alt: speaker.name}
+              .talk
+                %h1= speaker.name
+                %h2= talk.title
+          %hr
+          %div{id: "#{slot.speaker}_schedule", class: 'mfp-hide'}
+            .when
+              %h1=slot.time
+            .what
+              %img{src: speaker.image , alt: speaker.name}
+              .talk
+                %h1= speaker.name
+                %h2= talk.title
+                .abstract= talk.abstract
       - else
         %li
           .when
