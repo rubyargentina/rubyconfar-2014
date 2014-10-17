@@ -3770,23 +3770,32 @@ section#schedule {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   border-radius: 6px;
-  border: 1px solid #73c9a8;
-  height: 100%;
-  padding: 40px; }
-  .speaker-popup .what .img {
-    border-radius: 100%;
-    max-width: 240px;
-    overflow: hidden;
-    position: relative; }
-    .speaker-popup .what .img .overlay {
+  border: 2px solid #73c9a8;
+  height: 100%; }
+  .speaker-popup .when {
+    border-bottom: 1px solid #73c9a8;
+    color: #73c9a8;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px 40px;
+    text-align: center; }
+  .speaker-popup .what {
+    color: #73c9a8;
+    padding: 40px 40px 0; }
+    .speaker-popup .what .img {
       border-radius: 100%;
-      box-shadow: 0 0 0 8px rgba(65, 73, 84, 0.7) inset;
-      height: 100%;
-      position: absolute;
-      width: 100%; }
-  .speaker-popup .what img {
-    max-width: 100%;
-    height: auto; }
+      max-width: 240px;
+      overflow: hidden;
+      position: relative; }
+      .speaker-popup .what .img .overlay {
+        border-radius: 100%;
+        box-shadow: 0 0 0 8px rgba(65, 73, 84, 0.7) inset;
+        height: 100%;
+        position: absolute;
+        width: 100%; }
+    .speaker-popup .what img {
+      max-width: 100%;
+      height: auto; }
 
 html, body {
   overflow-x: hidden; }
@@ -3948,4 +3957,6 @@ body {
       max-width: 94% !important; } }
 
 .mfp-wrap {
-  background: rgba(95, 104, 118, 0.8); }
+  background: rgba(51, 51, 51, 0.8); }
+  .mfp-wrap .mfp-close {
+    color: #73c9a8; }
