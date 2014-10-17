@@ -24,19 +24,19 @@
   github: https://github.com/chrishunt
   image: images/speakers/chrishunt.jpg
   es:
-    title_long: Solving the Rubik’s Cube Blindfolded
-    title: "Solving the Rubik’s<br>Cube Blindfolded"
+    title_long: Resolviendo el Cubo Rubik con los ojos vendados
+    title: "Resolviendo el Cubo Rubik<br>con los ojos vendados"
     bio: "<p>Chris Hunt trabaja para GitHub desde un escritorio en Portland, Oregon.
       Previo a GitHub, Chris trabajó en aplicaciones Rails para Square, Apple, el 
       Departamento de Defensa de Estados Unidos, y para su crítica madre. 
       Cuando no está escribiendo Ruby, está probablemente tratando de aprender algo nuevo.</p>"
-    abstract: "<p>Piensas que resolver el Cubo Rubik es difícil? Imagina desordenarlo, 
+    abstract: "<p>¿Piensas que resolver el Cubo Rubik es difícil? Imagina desordenarlo, 
       memorizarlo y resolverlo con los ojos cerrados. </p>
       <p>En esta charla de dos partes, vamos a combinar técnicas utilizadas por 'speedcubers' 
       profesionales y atletas de la memoria para aprender cómo resolver el Cubo Rubik 
-      con los ojos vendados. Esto no es solo un truco para entretener fiestas. 
+      con los ojos vendados. Esto no es sólo un truco para entretener fiestas. 
       Dejarás RubyConf Argentina con una mayor apreciación acerca del Cubo Rubik y la habilidad 
-      de memorizar cualquier cosa en el mundo. </p>"
+      de memorizar cualquier cosa en el mundo.</p>"
   en:
     title_long: Solving the Rubik’s Cube Blindfolded
     title: "Solving the Rubik’s<br>Cube Blindfolded"
