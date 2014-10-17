@@ -155,30 +155,32 @@
   github: https://github.com/egutter
   image: images/speakers/emilio-gutter.jpg
   es:
-    title_long: The Ten Commandments of the Ruby Programmer
-    title: "<small>The Ten Commandments of</small><br>the Ruby Programmer"
-    bio: "<p>Emilio is co-founder of 10Pines, a boutique software company located
-      in Buenos Aires. He is a founder member of Agiles latin-american community and
-      he has been the co-chair of Agiles2012 conference held in Cordoba, Argentina.</p><p>He
-      has been working in software development for more than 15 years in several countries
-      including Argentina; Brazil; United Kingdom; United States; France; Romania
-      and Bulgaria. He has performed as software developer; project leader and agile
-      coach with experience in different industries such as credit services; media
-      &amp; entertainment; advertising; travel &amp; leisure; health care; among others.</p>"
-    abstract: '<p>More than 3000 years later Moses received the ten commandments from
-      God, on a hard day''s night of endless work, struggling with a legacy, untested,
-      big-ball-of-mud, spaghetti Ruby code, after liters of coffee, dozens of beers,
-      a few shots of tequila and a fine glass of single malt scotch, close to a point
-      of desperation, almost ready to give up his task, Emilio received an unexpected
-      visitor. God himself appeared on the screen of his computer, took control of
-      the machine and with a raspy, guttural voice said: "Emilio, you are the chosen
-      one. You shall open the red sea of rubies and illuminate the flock of Ruby sinners
-      with The Ten Commandments of the Ruby Programmer:"</p><p>The Ten Commandments
-      are:</p><p>Emilio received the commandments with joy and promised God to spread
-      his word. Then, as the night was long and God had no hurry, they played a few
-      hands of Poker. Emilio won and asked God to promise he will get him a talked
-      accepted at the RubyConf this year. In his wisdom God answered: "Hey, I am just
-      God dude. If you want miracles ask the Pope"</p>'
+    title_long: Los Diez Mandamientos del Programador en Ruby
+    title: "<small>Los Diez Mandamientos del</small><br>Programador en Ruby"
+    bio: "<p>Emilio es co-fundador de 10Pines, una empresa boutique de sofware 
+      ubicada en Buenos Aires. Es miembro fundador de la comunidad de Agiles 
+      de Latinoamérica y ha sido organizador de la conferencia Agiles2012 realizada 
+      en Córdoba, Argentina.</p><p>Ha trabajado en desarrollo de software por más de 
+      15 años en varios países incluyendo Argentina, Brasil, Reino Unido, Estados 
+      Unidos, Francia, Rumania y Bulgaria. Se ha desempeñado como programador de 
+      software, project leader y agile coach con experiencias en diferentes 
+      industrias como servicios de crédito, medios &amp; entretenimiento, publicidad, 
+      viajes &amp; tiempo libre y salud, entre otras.</p>"
+    abstract: '<p>Más de 3000 años después de que Moisés recibiera los Diez 
+      Mandamientos de Dios, en una noche difícil de eterno trabajo, luchando con 
+      un heredado, sin testear y embarrado código en Ruby tipo spaghetti, después de 
+      litros de café, decenas de cervezas, un par de shots de tequila y un buen vaso 
+      de single malt scotch, ya cerca de la desesperación, casi listo para abandonar su 
+      tarea, Emilio recibió una visita inesperada. El mismísimo Dios apareció en la 
+      pantalla de su computadora, tomó el control de la máquina y con una voz ronca 
+      y gutural dijo: "Emilio, eres el elegido. Deberás abrir el Mar Rojo de los 
+      rubíes e iluminar al rebaño de pecadores Ruby con los Diez Mandamientos del 
+      Programador en Ruby:"</p><p>Los Diez Mandamientos son:</p><p>Emilio recibió los 
+      mandamientos con alegría y le prometió a Dios difundir su palabra. Luego, 
+      como la noche fue larga y Dios no tenía prisa, jugaron unas manos de Poker. Emilio 
+      ganó y le hizo prometer a Dios que haría posible que acepten una charla en la 
+      RubyConf este año. En su sabiduría Dios respondió: "Che, soy Dios nomás. Si 
+      querés milagros pedile al Papa".</p>'
   en:
     title_long: The Ten Commandments of the Ruby Programmer
     title: "<small>The Ten Commandments of</small><br>the Ruby Programmer"
@@ -186,11 +188,11 @@
       in Buenos Aires. He is a founder member of Agiles latin-american community and
       he has been the co-chair of Agiles2012 conference held in Cordoba, Argentina.</p><p>He
       has been working in software development for more than 15 years in several countries
-      including Argentina; Brazil; United Kingdom; United States; France; Romania
-      and Bulgaria. He has performed as software developer; project leader and agile
+      including Argentina, Brazil, United Kingdom, United States, France, Romania
+      and Bulgaria. He has performed as software developer, project leader and agile
       coach with experience in different industries such as credit services; media
-      &amp; entertainment; advertising; travel &amp; leisure; health care; among others.</p>"
-    abstract: '<p>More than 3000 years later Moses received the ten commandments from
+      &amp; entertainment, advertising, travel &amp; leisure, health care, among others.</p>"
+    abstract: '<p>More than 3000 years later Moses received the Ten Commandments from
       God, on a hard day''s night of endless work, struggling with a legacy, untested,
       big-ball-of-mud, spaghetti Ruby code, after liters of coffee, dozens of beers,
       a few shots of tequila and a fine glass of single malt scotch, close to a point
