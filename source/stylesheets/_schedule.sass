@@ -99,6 +99,8 @@ section#schedule
             top: 50%
             margin-top: -30px
             width: 60px
+            @media screen and (max-width: 1000px)
+              display: none
             .overlay
               border-radius: 100%
               box-shadow: 0 0 0 4px rgba(#414954, 0.7) inset
@@ -139,6 +141,7 @@ section#schedule
   border-radius: 6px
   border: 2px solid $teal_vibrant
   height: 100%
+  overflow-y: scroll
   
   .when
     border-bottom: 1px solid $teal_vibrant
@@ -152,10 +155,12 @@ section#schedule
     color: $teal_vibrant
     padding: 40px 40px 0
     .img
+      @include inline-block
       border-radius: 100%
-      max-width: 240px
+      max-width: 30%
       overflow: hidden
       position: relative
+      vertical-align: top
       .overlay
         border-radius: 100%
         box-shadow: 0 0 0 8px rgba(#414954, 0.7) inset
@@ -163,6 +168,69 @@ section#schedule
         position: absolute
         width: 100%
     img
+      display: block
+      margin: 0
       max-width: 100%            
-      height: auto 
+      border-radius: 100%
+
+
+  .talk
+    @include inline-block
+    vertical-align: top
+    margin-left: 4%
+    max-width: 65%
+
+    h1
+      font-family: 'outage'
+      font-size: 24px
+    h2
+      font-size: 18px
+      font-weight: 600
+
+    ol
+      padding: 0 20px 20px
+      li
+        margin-top: 5px
+        &:before
+          @include checkmark
+          color: $teal_vibrant
+          margin-right: 10px
+
+    p
+      margin-top: 20px
+
+
+
+  @media screen and (max-width: 600px)
+    @include box-sizing
+    height: 90%
+    margin-top: 5%
+
+    .mfp-close
+      top: 5%
+
+    
+    .what
+      @include box-sizing
+      padding: 20px
+      .img, .talk
+        display: block
+        margin: 0
+
+      .img
+        width: 50px
+        margin-top: -75px
+        margin-left: -10px
+        .overlay
+          box-shadow: 0 0 0 3px rgba(#414954, 0.7) inset
+      
+      .talk
+        text-align: center
+        max-width: 100%
+        width: 100%
+        padding-top: 20px
+        @include box-sizing
+
+        p
+          text-align: left
 

@@ -512,9 +512,8 @@ body#home section#speakers
           padding: 0 20px 20px
           li
             &:before
+              @include checkmark
               color: $teal_vibrant
-              content: "\f00c"
-              font-family: 'fontAwesome'
               margin-right: 10px
 
         .main-info
