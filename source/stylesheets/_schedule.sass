@@ -1,0 +1,168 @@
+section#schedule
+  @include clearfix
+  background: $violet2  
+  position: relative
+
+  #the-wall    
+    height: 421px
+    margin-top: -320px
+    position: absolute  
+    width: 100%
+    z-index: 2
+    #wall
+      background: url(../images/wall2.png) no-repeat bottom center
+      background-size: 100% auto
+      height: 221px
+      padding-top: 200px
+      position: absolute
+      width: 100%
+      z-index: 2
+    #gradient
+      @include gradient(rgba($violet, 0), $violet)
+      height: 421px
+      position: absolute  
+      width: 100%
+      z-index: 1
+    #bricks
+      background: url(../images/bricks-violet.png) no-repeat top center
+      border-top: 10px solid $gray
+      bottom: 0
+      height: 110px
+      position: absolute
+      width: 100%
+      z-index: 0
+    @media screen and (max-width: 600px)
+      zoom: 0.6
+
+  .schedule
+    float: left
+    margin-right: 4%
+    width: 48%
+    + .schedule
+      margin: 0
+
+    @media screen and (max-width: 600px)
+      float: none
+      margin: 0 0 20px 0
+      width: 100%
+
+
+    > h1
+      color: $teal_vibrant
+      font-family: 'outage'
+      font-size: 24px
+      margin-bottom: 10px
+    ol
+      border: 1px solid $teal_vibrant
+      border-radius: 6px
+      // background: url(../images/bricks-violet2.png) repeat top left
+      color: $teal_vibrant
+      overflow: hidden
+      
+      a
+        display: block
+        color: $teal_vibrant
+        &:hover
+          background: $teal_vibrant
+          color: $violet2
+          text-decoration: none
+          .what
+            background: $teal_vibrant
+          .when
+            background: $teal_vibrant
+            border-bottom-color: rgba($violet2, 0.5)
+      li
+        border-bottom: 1px solid $teal_vibrant
+        
+        &:last-child
+          border: 0 none
+        > div
+          padding: 20px
+
+
+        .when
+          background: #262626
+          font-size: 18px
+          font-weight: bold
+          padding-bottom: 10px
+          border-bottom: 1px solid rgba($teal_vibrant, 0.5)
+        
+        .what
+          background: #262626
+          padding-top: 10px
+          position: relative          
+          .img
+            border-radius: 100%
+            left: 20px
+            overflow: hidden
+            position: absolute
+            top: 50%
+            margin-top: -30px
+            width: 60px
+            .overlay
+              border-radius: 100%
+              box-shadow: 0 0 0 4px rgba(#414954, 0.7) inset
+              height: 100%
+              position: absolute
+              width: 100%
+          img
+            max-width: 100%            
+            height: auto            
+
+          .talk
+            @include inline-block
+            vertical-align: top
+            h1
+              font-family: 'outage'
+              font-size: 18px
+            h2
+            .abstract
+
+
+        &.no-speaker
+
+          .when
+            background: #313131
+            color: $cream
+            border-bottom: 1px solid #776a56
+            border: 0 none
+          .what
+            // background: #464646
+            color: $cream
+            background: #313131
+            text-transform: uppercase
+        
+
+
+.speaker-popup
+  @include box-sizing
+  border-radius: 6px
+  border: 2px solid $teal_vibrant
+  height: 100%
+  
+  .when
+    border-bottom: 1px solid $teal_vibrant
+    color: $teal_vibrant
+    font-size: 26px
+    font-weight: bold
+    padding: 10px 40px
+    text-align: center
+  
+  .what
+    color: $teal_vibrant
+    padding: 40px 40px 0
+    .img
+      border-radius: 100%
+      max-width: 240px
+      overflow: hidden
+      position: relative
+      .overlay
+        border-radius: 100%
+        box-shadow: 0 0 0 8px rgba(#414954, 0.7) inset
+        height: 100%
+        position: absolute
+        width: 100%
+    img
+      max-width: 100%            
+      height: auto 
+

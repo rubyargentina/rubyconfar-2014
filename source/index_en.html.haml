@@ -48,11 +48,16 @@
   %img#matrix{:src => "images/trinity.png", :width => "953", :height => "787"}
   %canvas#c
 
-%section#registration
+%section#schedule
   #the-wall
     #wall
     #gradient
     #bricks
+  %article.wrapper
+    %h2.title Schedule
+    = partial("_schedule.haml", lang: 'en')
+
+%section#registration  
   
   %article.wrapper
     %h2.title Registration

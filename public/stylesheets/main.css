@@ -127,26 +127,22 @@ a, img a {
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg); }
-
   100% {
     -moz-transform: rotate(359deg); } }
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg); }
-
   100% {
     -webkit-transform: rotate(359deg); } }
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg); }
-
   100% {
     -o-transform: rotate(359deg); } }
 @keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
-
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
@@ -2364,48 +2360,9 @@ section#start {
 
 section#registration {
   background: #734658;
+  text-align: center;
   padding-bottom: 150px;
-  position: relative;
-  text-align: center; }
-  section#registration #the-wall {
-    height: 421px;
-    margin-top: -320px;
-    position: absolute;
-    width: 100%;
-    z-index: 2; }
-    section#registration #the-wall #wall {
-      background: url(../images/wall2.png) no-repeat bottom center;
-      background-size: 100% auto;
-      height: 221px;
-      padding-top: 200px;
-      position: absolute;
-      width: 100%;
-      z-index: 2; }
-    section#registration #the-wall #gradient {
-      background-color: rgba(104, 72, 88, 0);
-      background-image: -moz-linear-gradient(top, rgba(104, 72, 88, 0), #684858);
-      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(104, 72, 88, 0)), color-stop(1, #684858));
-      background-image: linear-gradient(top, rgba(104, 72, 88, 0), #684858);
-      height: 421px;
-      position: absolute;
-      width: 100%;
-      z-index: 1; }
-    section#registration #the-wall #bricks {
-      background: url(../images/bricks-violet.png) no-repeat top center;
-      border-top: 10px solid #333333;
-      bottom: 0;
-      height: 110px;
-      position: absolute;
-      width: 100%;
-      z-index: 0; }
-    @media screen and (max-width: 600px) {
-      section#registration #the-wall {
-        zoom: 0.6; } }
-  section#registration h2.title {
-    margin-top: 120px; }
-    @media screen and (max-width: 600px) {
-      section#registration h2.title {
-        margin-top: 20px; } }
+  position: relative; }
   section#registration h2 + p {
     margin: 0 auto 50px;
     max-width: 600px; }
@@ -2518,7 +2475,7 @@ section#registration {
         width: 38%; }
         section#registration .table ul li:before {
           font-family: "fontAwesome";
-          content: "\f00c";
+          content: "";
           color: #e1483f;
           font-size: 17px;
           left: -28px;
@@ -2698,7 +2655,7 @@ section#speakers {
         -ms-transform: rotate(180deg);
         -webkit-transform: rotate(180deg); }
     section#speakers header a.register {
-      background: #df483f;
+      background: #DF483F;
       border-radius: 2px;
       padding: 7px 25px;
       position: absolute;
@@ -2913,7 +2870,7 @@ section#speakers {
             text-decoration: none; }
           section#speakers article > ul > li .details a.share:before {
             font-weight: normal;
-            content: "\f0c1";
+            content: "";
             font-family: "fontAwesome"; }
       section#speakers article > ul > li:hover a.share {
         opacity: 0.85; }
@@ -3074,7 +3031,7 @@ body#home section#speakers article > ul {
       padding: 0 20px 20px; }
       .inner-page section#speakers ul > li ol li:before {
         color: #73c9a8;
-        content: "\f00c";
+        content: "";
         font-family: "fontAwesome";
         margin-right: 10px; }
     .inner-page section#speakers ul > li .main-info {
@@ -3153,7 +3110,7 @@ section#rubyfunday {
   section#rubyfunday .table {
     display: none; }
   section#rubyfunday a.rfd-section {
-    background: #df483f;
+    background: #DF483F;
     border-radius: 2px;
     display: block;
     margin-top: 25px;
@@ -3162,7 +3119,7 @@ section#rubyfunday {
     text-transform: uppercase; }
     section#rubyfunday a.rfd-section:after {
       font-family: "fontAwesome";
-      content: "\f054";
+      content: "";
       font-weight: normal;
       display: inline-block;
       vertical-align: baseline;
@@ -3214,7 +3171,7 @@ section#rubyfunday {
       section#rubyfunday .text address a:before {
         border-right: 1px solid rgba(255, 255, 255, 0.5);
         color: #73c9a8;
-        content: "\f041";
+        content: "";
         float: left;
         font-family: "fontAwesome";
         font-size: 36px;
@@ -3324,7 +3281,7 @@ section#rubyfunday {
           .inner-page.rfd section#rubyfunday .table td.wide:after {
             display: none; } }
     .inner-page.rfd section#rubyfunday a.register {
-      background: #df483f;
+      background: #DF483F;
       border-radius: 2px;
       display: block;
       margin-top: 25px;
@@ -3490,7 +3447,7 @@ section#venue {
         -o-transition: all, 0.25s;
         border-right: 1px solid rgba(255, 216, 143, 0.5);
         color: #ffd88f;
-        content: "\f041";
+        content: "";
         float: left;
         font-family: "fontAwesome";
         font-size: 36px;
@@ -3682,6 +3639,164 @@ body section ul.details {
         text-align: center;
         width: 100%; } }
 
+section#schedule {
+  background: #734658;
+  position: relative; }
+  section#schedule:after {
+    content: "";
+    display: table;
+    clear: both; }
+  section#schedule #the-wall {
+    height: 421px;
+    margin-top: -320px;
+    position: absolute;
+    width: 100%;
+    z-index: 2; }
+    section#schedule #the-wall #wall {
+      background: url(../images/wall2.png) no-repeat bottom center;
+      background-size: 100% auto;
+      height: 221px;
+      padding-top: 200px;
+      position: absolute;
+      width: 100%;
+      z-index: 2; }
+    section#schedule #the-wall #gradient {
+      background-color: rgba(104, 72, 88, 0);
+      background-image: -moz-linear-gradient(top, rgba(104, 72, 88, 0), #684858);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(104, 72, 88, 0)), color-stop(1, #684858));
+      background-image: linear-gradient(top, rgba(104, 72, 88, 0), #684858);
+      height: 421px;
+      position: absolute;
+      width: 100%;
+      z-index: 1; }
+    section#schedule #the-wall #bricks {
+      background: url(../images/bricks-violet.png) no-repeat top center;
+      border-top: 10px solid #333333;
+      bottom: 0;
+      height: 110px;
+      position: absolute;
+      width: 100%;
+      z-index: 0; }
+    @media screen and (max-width: 600px) {
+      section#schedule #the-wall {
+        zoom: 0.6; } }
+  section#schedule .schedule {
+    float: left;
+    margin-right: 4%;
+    width: 48%; }
+    section#schedule .schedule + .schedule {
+      margin: 0; }
+    @media screen and (max-width: 600px) {
+      section#schedule .schedule {
+        float: none;
+        margin: 0 0 20px 0;
+        width: 100%; } }
+    section#schedule .schedule > h1 {
+      color: #73c9a8;
+      font-family: "outage";
+      font-size: 24px;
+      margin-bottom: 10px; }
+    section#schedule .schedule ol {
+      border: 1px solid #73c9a8;
+      border-radius: 6px;
+      color: #73c9a8;
+      overflow: hidden; }
+      section#schedule .schedule ol a {
+        display: block;
+        color: #73c9a8; }
+        section#schedule .schedule ol a:hover {
+          background: #73c9a8;
+          color: #734658;
+          text-decoration: none; }
+          section#schedule .schedule ol a:hover .what {
+            background: #73c9a8; }
+          section#schedule .schedule ol a:hover .when {
+            background: #73c9a8;
+            border-bottom-color: rgba(115, 70, 88, 0.5); }
+      section#schedule .schedule ol li {
+        border-bottom: 1px solid #73c9a8; }
+        section#schedule .schedule ol li:last-child {
+          border: 0 none; }
+        section#schedule .schedule ol li > div {
+          padding: 20px; }
+        section#schedule .schedule ol li .when {
+          background: #262626;
+          font-size: 18px;
+          font-weight: bold;
+          padding-bottom: 10px;
+          border-bottom: 1px solid rgba(115, 201, 168, 0.5); }
+        section#schedule .schedule ol li .what {
+          background: #262626;
+          padding-top: 10px;
+          position: relative; }
+          section#schedule .schedule ol li .what .img {
+            border-radius: 100%;
+            left: 20px;
+            overflow: hidden;
+            position: absolute;
+            top: 50%;
+            margin-top: -30px;
+            width: 60px; }
+            section#schedule .schedule ol li .what .img .overlay {
+              border-radius: 100%;
+              box-shadow: 0 0 0 4px rgba(65, 73, 84, 0.7) inset;
+              height: 100%;
+              position: absolute;
+              width: 100%; }
+          section#schedule .schedule ol li .what img {
+            max-width: 100%;
+            height: auto; }
+          section#schedule .schedule ol li .what .talk {
+            display: inline-block;
+            vertical-align: baseline;
+            zoom: 1;
+            *display: inline;
+            *vertical-align: auto;
+            vertical-align: top; }
+            section#schedule .schedule ol li .what .talk h1 {
+              font-family: "outage";
+              font-size: 18px; }
+        section#schedule .schedule ol li.no-speaker .when {
+          background: #313131;
+          color: #ffd88f;
+          border-bottom: 1px solid #776a56;
+          border: 0 none; }
+        section#schedule .schedule ol li.no-speaker .what {
+          color: #ffd88f;
+          background: #313131;
+          text-transform: uppercase; }
+
+.speaker-popup {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border-radius: 6px;
+  border: 2px solid #73c9a8;
+  height: 100%; }
+  .speaker-popup .when {
+    border-bottom: 1px solid #73c9a8;
+    color: #73c9a8;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px 40px;
+    text-align: center; }
+  .speaker-popup .what {
+    color: #73c9a8;
+    padding: 40px 40px 0; }
+    .speaker-popup .what .img {
+      border-radius: 100%;
+      max-width: 240px;
+      overflow: hidden;
+      position: relative; }
+      .speaker-popup .what .img .overlay {
+        border-radius: 100%;
+        box-shadow: 0 0 0 8px rgba(65, 73, 84, 0.7) inset;
+        height: 100%;
+        position: absolute;
+        width: 100%; }
+    .speaker-popup .what img {
+      max-width: 100%;
+      height: auto; }
+
 html, body {
   overflow-x: hidden; }
 
@@ -3840,3 +3955,8 @@ body {
     .mfp-content {
       height: 100%;
       max-width: 94% !important; } }
+
+.mfp-wrap {
+  background: rgba(51, 51, 51, 0.8); }
+  .mfp-wrap .mfp-close {
+    color: #73c9a8; }

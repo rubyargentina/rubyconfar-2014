@@ -1,0 +1,91 @@
+---
+- day: 1
+  time: 9:00 AM
+  description: "Ingreso / Access"
+- day: 1
+  time: 10:00 AM
+  speaker: janogonzalez
+- day: 1
+  time: 10:35 AM
+  speaker: unbalancedparen
+- day: 1
+  time: 11:05 AM
+  description: Break
+- day: 1
+  time: 11:25 AM
+  speaker: lucasvidela
+- day: 1
+  time: 12:00 PM
+  speaker: hannelita
+- day: 1
+  time: 12:30 PM
+  description: Almuerzo / Lunch
+- day: 1
+  time: 2:00 PM
+  speaker: paulcsmith
+- day: 1
+  time: 2:35 PM
+  speaker: raviolicode
+- day: 1
+  time: 3:05 PM
+  description: Break
+- day: 1
+  time: 3:20 PM
+  speaker: ijpiantanida
+- day: 1
+  time: 3:55 PM
+  speaker: djanowski
+- day: 1
+  time: 4:25 PM
+  description: Break
+- day: 1
+  time: 4:55 PM
+  speaker: egutter
+- day: 1
+  time: 5:35 PM
+  description: Chau
+- day: 2
+  time: 9:00 AM
+  description: "Ingreso / Access"
+- day: 2
+  time: 10:00 AM
+  speaker: pbruna
+- day: 2
+  time: 10:35 AM
+  speaker: jbarreneche
+- day: 2
+  time: 11:05 AM
+  description: Break
+- day: 2
+  time: 11:25 AM
+  speaker: a_meba
+- day: 2
+  time: 12:00 PM
+  speaker: febuiles
+- day: 2
+  time: 12:30 PM
+  description: Almuerzo / Lunch
+- day: 2
+  time: 2:00 PM
+  description: Charlas relámpago / Lightning Talks
+- day: 2
+  time: 2:35 PM
+  speaker: chrishunt
+- day: 2
+  time: 3:05 PM
+  description: Break
+- day: 2
+  time: 3:20 PM
+  speaker: moonbeamlabs
+- day: 2
+  time: 3:55 PM
+  speaker: becciu
+- day: 2
+  time: 4:25 PM
+  description: Break
+- day: 2
+  time: 4:55 PM
+  speaker: poteland
+- day: 2
+  time: 5:35 PM
+  description: Chau

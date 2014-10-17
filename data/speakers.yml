@@ -4,19 +4,19 @@
   company: Restorando
   twitter: https://twitter.com/abecciu
   github: http://github.com/abecciu
-  image: images/speakers/placeholder.jpg
+  image: images/speakers/abecciu.jpg
   es:
     title_long: Building you own search engine with JRuby and Lucene
     title: "Building you own<br>search engine with <br>JRuby and Lucene"
     bio: "<p>Augusto se empezó a interesar por la programación a los 16 años cuando tuvo su primer computadora. El furor por el Demoscene en esa época despertó su pasión por el desarrollo de bajo nivel en C y Assembler. Luego Linux provoco su interés por el open source y los sistemas operativos. Finalmente Perl le demostró lo productivos que son los lenguajes de alto nivel y que programar para la web también puede ser divertido.</p><p>
       En los últimos 10 años Augusto trabajó profesionalmente para distintos startups en C, Java, Perl, Python, Erlang, Javascript y Ruby. Actualmente trabaja como CTO en Restorando y previamente trabajó como Developer y Ops Engineer en Shopify.</p>"
-    abstract: "TBD"
+    abstract: "<p>La idea de la charla es contar nuestra experiencia en Restorando usando JRuby y distintas librerías de Java como Lucene y Jetty para construir nuestro propio search engine. Explicar cuales fueron los motivos por los cuales decidimos tomar este camino, con que desafíos nos encontramos y también mostrar algunos detalles interesantes de la arquitectura y la implementación. Finalmente se explicaran detalles sobre como resolvimos el deployment para que sea “zero downtime”, como empaquetamos la aplicación y las dependencias, y también detalles de logging, monitoreo y optimización de performance.</p>"
   en:
     title_long: Building you own search engine with JRuby and Lucene
     title: "Building you own<br>search engine with <br>JRuby and Lucene"
     bio: "<p>Augusto se empezó a interesar por la programación a los 16 años cuando tuvo su primer computadora. El furor por el Demoscene en esa época despertó su pasión por el desarrollo de bajo nivel en C y Assembler. Luego Linux provoco su interés por el open source y los sistemas operativos. Finalmente Perl le demostró lo productivos que son los lenguajes de alto nivel y que programar para la web también puede ser divertido.</p><p>
       En los últimos 10 años Augusto trabajó profesionalmente para distintos startups en C, Java, Perl, Python, Erlang, Javascript y Ruby. Actualmente trabaja como CTO en Restorando y previamente trabajó como Developer y Ops Engineer en Shopify.</p>"
-    abstract: "TBD"
+    abstract: "<p>La idea de la charla es contar nuestra experiencia en Restorando usando JRuby y distintas librerías de Java como Lucene y Jetty para construir nuestro propio search engine. Explicar cuales fueron los motivos por los cuales decidimos tomar este camino, con que desafíos nos encontramos y también mostrar algunos detalles interesantes de la arquitectura y la implementación. Finalmente se explicaran detalles sobre como resolvimos el deployment para que sea “zero downtime”, como empaquetamos la aplicación y las dependencias, y también detalles de logging, monitoreo y optimización de performance.</p>"
 - id: chrishunt
   name: Chris Hunt
   company: Github

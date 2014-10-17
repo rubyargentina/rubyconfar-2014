@@ -1,0 +1,38 @@
+- data.schedule.partition{|s| s.day == 1 }.each do |day|
+  
+  .schedule>
+    %h1 Day #{day.first.day}
+    %ol
+      - day.each do |slot|
+        - if slot.speaker
+          - speaker = data.speakers.find {|s| s.id == slot.speaker}
+          - talk = speaker.send(lang)
+          %a.popup{href: "##{slot.speaker}_schedule"}
+            %li
+              .when
+                %h1=slot.time
+              .what
+                .img
+                  .overlay
+                  %img{src: speaker.image , alt: speaker.name}
+                .talk
+                  %h1= speaker.name
+                  %h2= talk.title_long
+
+            %div{id: "#{slot.speaker}_schedule", class: 'mfp-hide speaker-popup'}
+              .when
+                %h1=slot.time
+              .what
+                .img
+                  .overlay
+                  %img{src: speaker.image , alt: speaker.name}
+                .talk
+                  %h1= speaker.name
+                  %h2= talk.title_long
+                  .abstract= talk.abstract
+        - else
+          %li.no-speaker
+            .when
+              %h1=slot.time
+            .what
+              %p= slot.description
