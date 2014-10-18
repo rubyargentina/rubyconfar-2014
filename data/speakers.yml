@@ -215,8 +215,8 @@
   image: images/speakers/kitopastorino.jpg
   rfd: true
   es:
-    title_long: Angular on Cuba
-    title: "Angular on Cuba<br>(Workshop)"
+    title_long: Angular en Cuba
+    title: "Angular en Cuba<br>(Taller)"
     bio: <p>Esteban, también conocido como Kito, es programador, músico, amante del
       buen café y actualmente vive en Nueva York. La curiosidad y la necesidad de
       resolver problemas son sus grandes fuertes y le permitieron aprender desde programación
@@ -227,51 +227,51 @@
     abstract: "<p>En los últimos años aparecieron frameworks MVC front-end como Backbone,
       Angular, Ember, y otros más. Estos frameworks tuvieron un crecimiento enorme,
       no hay un solo día que no salga un artículo sobre ellos y sin embargo existen
-      muchos programadores Ruby que todavía no saben por donde arrancar ni para que
+      muchos programadores Ruby que todavía no saben por donde arrancar ni para qué
       casos utilizarlos.</p><p>En este workshop pretendemos hacer un repaso sobre
       los principales frameworks, sus ventajas y desventajas, las diferencias de concepto
-      con el MVC de Rails y mostraremos a través de un caso concreto como estos frameworks
+      con el MVC de Rails y mostraremos a través de un caso concreto cómo estos frameworks
       pueden llevar la experiencia del usuario al siguiente nivel.</p><p>A diferencia
       de otras guías que eligen como ejemplo aplicaciones inherementente dinámicas
       y complejas como un music player, feed reader, task manager o to-do list, nosotros
       elegimos un blog. Un blog es una aplicación trivial que se suele utilizar en
-      muchas guías de Ruby on Rails; sin embargo, mostraremos como a través de estos
-      frontend frameworks podemos mejorar muchísimo la interfaz y la interacción con
+      muchas guías de Ruby on Rails; sin embargo, mostraremos cómo a través de estos
+      front-end frameworks podemos mejorar muchísimo la interfaz y la interacción con
       el usuario. Mejoras de interfaz desde el formulario de sign up hasta validaciones
       client side en la carga de contenido.</p><p>En este workshop utilizaremos Cuba
-      para crear una REST API para servir a la aplicación frontend y persistir los
+      para crear una REST API para servir a la aplicación front-end y persistir los
       objetos, y Angular como frontend framework. Los participantes de este workshop
       van a poder descargar un repositorio de Github con la configuración básica necesaria
-      y terminaran desarrollando este blog en Angular on Cuba.</p>"
+      y terminarán desarrollando este blog con Angular en Cuba.</p>"
   en:
     title_long: Angular on Cuba
     title: "Angular on Cuba<br>(Workshop)"
-    bio: <p>Esteban, también conocido como Kito, es programador, músico, amante del
-      buen café y actualmente vive en Nueva York. La curiosidad y la necesidad de
-      resolver problemas son sus grandes fuertes y le permitieron aprender desde programación
-      a electrónica y hasta marketing. Ruby fue su primer y gran amor y ya lleva muchos
-      años de experiencia. Trabajó en empresas como MercadoLibre, Despegar y Sumavisos.
-      Realizó varios emprendimientos propios y hoy en día es el primer programador
-      "importado" de Jingle Punks, empresa basada en NY relacionada con la música.</p>
-    abstract: "<p>En los últimos años aparecieron frameworks MVC front-end como Backbone,
-      Angular, Ember, y otros más. Estos frameworks tuvieron un crecimiento enorme,
-      no hay un solo día que no salga un artículo sobre ellos y sin embargo existen
-      muchos programadores Ruby que todavía no saben por donde arrancar ni para que
-      casos utilizarlos.</p><p>En este workshop pretendemos hacer un repaso sobre
-      los principales frameworks, sus ventajas y desventajas, las diferencias de concepto
-      con el MVC de Rails y mostraremos a través de un caso concreto como estos frameworks
-      pueden llevar la experiencia del usuario al siguiente nivel.</p><p>A diferencia
-      de otras guías que eligen como ejemplo aplicaciones inherementente dinámicas
-      y complejas como un music player, feed reader, task manager o to-do list, nosotros
-      elegimos un blog. Un blog es una aplicación trivial que se suele utilizar en
-      muchas guías de Ruby on Rails; sin embargo, mostraremos como a través de estos
-      frontend frameworks podemos mejorar muchísimo la interfaz y la interacción con
-      el usuario. Mejoras de interfaz desde el formulario de sign up hasta validaciones
-      client side en la carga de contenido.</p><p>En este workshop utilizaremos Cuba
-      para crear una REST API para servir a la aplicación frontend y persistir los
-      objetos, y Angular como frontend framework. Los participantes de este workshop
-      van a poder descargar un repositorio de Github con la configuración básica necesaria
-      y terminaran desarrollando este blog en Angular on Cuba.</p>"
+    bio: <p>Esteban, also known as Kito, is a programmer, musician, great coffee lover 
+      and he currently lives in New York. He's driven by his curiosity and the need 
+      to solve problems, which allowed him to learn to program, electronics and even 
+      marketing. Ruby was his first and big love and he has many years of experience now. 
+      He worked in companies such as Mercado Libre, Despegar and Sumavisos. He also 
+      worked in several personal projects and today he's the first "imported" programmer 
+      at Jingle Punks, a New York based company related to the music business.</p>
+    abstract: "<p>During the last years, some MVC frameworks like Backbone, Angular, Ember, 
+      and some others were created. These frameworks have had an enormous growth, 
+      articles talking about them are published every day but, however, many Ruby programmers 
+      don't know yet where to start nor in which cases they could make use of them.
+      </p><p>In this workshop, we would like to go through the main frameworks, its 
+      advantages and disadvantages, the conceptual differences they have comparing 
+      with the Rails MVC and we are also going to show how these frameworks 
+      can make the user go to the next level by seeing a concrete case of 
+      use.</p><p>Unlike other guides that choose dinamic 
+      applications to use as examples -such as music players, feed readers, task managers or 
+      to-do lists-, we choose a blog. A blog is a trivial application that is very common 
+      to see in some Ruby on Rails guides; however, we'll show how we can use these 
+      front-end frameworks to drastically improve the interface and the interaction with 
+      the user. Improvements in the interface can go from a sign up form up to the client-side 
+      validations during the load of content.</p><p>In this workshop, we'll use Cuba 
+      to create a REST API to serve a front-end application and persist the objects, and 
+      Angular as a front-end framework. The attendees are going to be able to download 
+      a repository from GitHub with the basic needed configuration and they'll end up 
+      developing this blog using Angular on Cuba.</p>"
 - id: febuiles
   name: Federico Builes
   company: mheroin
