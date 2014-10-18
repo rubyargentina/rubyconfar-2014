@@ -128,13 +128,14 @@
   en:
     title_long: 'Redis: más allá del caché y las colas'
     title: "Redis: más allá<br>del caché y las colas"
-    bio: "<p>CTO en Educabilia. Damián es programador desde hace muchos años, pero
-      logró que le empiecen a pagar por ello hace diez. Como la web ya existía, nunca
-      tuvo que programar una aplicación de escritorio. Después de pasos fructíferos
-      por tecnologías de todo color y tendencia política, desde hace 8 años programa
-      principalmente en Ruby. Fue uno de los primeros en adoptar Redis y hoy la usa
-      como única base de datos en Educabilia, el startup que cofundó hace tres años.
-      En su tiempo libre le gustaría empezar a usar Go en producción.</p>"
+    bio: "<p>CTO at Educabilia. Damián has been a programmer for many years now, but he managed 
+      to start getting paid for it ten years ago. As the web already existed, he never 
+      had to program a desktop application. After successfully going through technologies 
+      of all kind of colors and political tendences, he has been programming mainly in 
+      Ruby for the last 8 years now. He was one of the first ones adopting Redis and 
+      today he uses that technology as the main database in Educabilia, the startup 
+      he co-founded three years ago. In his spare time he would like to start 
+      using Go in production.</p>"
     abstract: "<p>Redis nació como un Memcached persistente. Y es por ese pasado sombrío
       que muchos lo consideran solo una buena alternativa para cachear cosas. Sin
       embargo, Redis evolucionó rápidamente hacia como se lo conoce hoy en día: un
