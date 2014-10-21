@@ -1689,4 +1689,9 @@ body {
 #schedule {
   bottom: 0;
   height: 30%;
+  overflow-y: scroll;
   width: 80%; }
+  #schedule ol li img {
+    width: 10%;
+    height: auto;
+    border-radius: 100%; }

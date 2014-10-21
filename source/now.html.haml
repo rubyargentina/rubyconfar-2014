@@ -1,6 +1,8 @@
 ---
 layout: now.haml 
 ---
+- lang = 'es'
+
 #sponsors
   %ul
     %li
@@ -34,5 +36,26 @@ layout: now.haml
 
 #twitter
   
+#schedule
+  %ol
+    - data.schedule.each do |slot|
+      - if slot.speaker
+        - speaker = data.speakers.find {|s| s.id == slot.speaker}
+        - talk = speaker.send(lang)
+        %li
+          .when
+            %h1=slot.time
+          .what
+            .img>
+              .overlay
+              %img{src: speaker.image , alt: speaker.name}
+            .talk>
+              %h1= speaker.name
+              %h2= talk.title_long
 
-#schedule Bitch
+      - else
+        %li.no-speaker
+          .when
+            %h1=slot.time
+          .what
+            %p= slot.description
