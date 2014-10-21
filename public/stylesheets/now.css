@@ -42,6 +42,139 @@ a, img a {
   src: url("../fonts/outage/outage-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/outage/outage-webfont.woff") format("woff"), url("../fonts/outage/outage-webfont.ttf") format("truetype"), url("../fonts/outage/outage-webfont.svg#outageregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+#speakers ul {
+  position: relative;
+  margin: 0 auto 60px;
+  padding: 0;
+  *zoom: 1; }
+  #speakers ul img {
+    max-width: 100%;
+    display: block; }
+  #speakers ul .bx-viewport {
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border: 5px solid #fff;
+    left: -5px;
+    background: #fff;
+    /*fix other elements on the page moving (on Chrome) */
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    transform: translatez(0); }
+  #speakers ul .bx-pager, #speakers ul .bx-controls-auto {
+    position: absolute;
+    bottom: -30px;
+    width: 100%; }
+  #speakers ul .bx-loading {
+    min-height: 50px;
+    background: url(/images/bxslider/bx_loader.gif) center center no-repeat #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000; }
+  #speakers ul .bx-pager {
+    text-align: center;
+    font-size: 0.85em;
+    font-family: Arial;
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px; }
+    #speakers ul .bx-pager .bx-pager-item {
+      display: inline-block;
+      *zoom: 1;
+      *display: inline; }
+  #speakers ul .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline; }
+  #speakers ul .bx-pager.bx-default-pager a {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+    #speakers ul .bx-pager.bx-default-pager a:hover, #speakers ul .bx-pager.bx-default-pager a.active {
+      background: #000; }
+  #speakers ul .bx-prev {
+    left: 10px;
+    background: url(/images/bxslider/controls.png) no-repeat 0 -32px; }
+  #speakers ul .bx-next {
+    right: 10px;
+    background: url(/images/bxslider/controls.png) no-repeat -43px -32px; }
+  #speakers ul .bx-prev:hover {
+    background-position: 0 0; }
+  #speakers ul .bx-next:hover {
+    background-position: -43px 0; }
+  #speakers ul .bx-controls-direction a {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    outline: 0;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 9999; }
+    #speakers ul .bx-controls-direction a.disabled {
+      display: none; }
+  #speakers ul .bx-controls-auto {
+    text-align: center; }
+    #speakers ul .bx-controls-auto .bx-start {
+      display: block;
+      text-indent: -9999px;
+      width: 10px;
+      height: 11px;
+      outline: 0;
+      background: url(/images/bxslider/controls.png) -86px -11px no-repeat;
+      margin: 0 3px; }
+      #speakers ul .bx-controls-auto .bx-start:hover, #speakers ul .bx-controls-auto .bx-start.active {
+        background-position: -86px 0; }
+    #speakers ul .bx-controls-auto .bx-stop {
+      display: block;
+      text-indent: -9999px;
+      width: 9px;
+      height: 11px;
+      outline: 0;
+      background: url(/images/bxslider/controls.png) -86px -44px no-repeat;
+      margin: 0 3px; }
+      #speakers ul .bx-controls-auto .bx-stop:hover, #speakers ul .bx-controls-auto .bx-stop.active {
+        background-position: -86px -33px; }
+  #speakers ul .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    text-align: left;
+    width: 80%; }
+  #speakers ul .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+    right: 0;
+    width: 35px; }
+  #speakers ul .bx-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #666 \9;
+    background: rgba(80, 80, 80, 0.75);
+    width: 100%; }
+    #speakers ul .bx-caption span {
+      color: #fff;
+      font-family: Arial;
+      display: block;
+      font-size: 0.85em;
+      padding: 10px; }
+
+/** THEME
+ *=================================== */
+/* LOADER */
+/* PAGER */
+/* DIRECTION CONTROLS (NEXT / PREV) */
+/* AUTO CONTROLS (START / STOP) */
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+/* IMAGE CAPTIONS */
 /*!
  *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -1539,13 +1672,19 @@ body {
 
 #sponsors {
   height: 70%;
+  overflow-y: scroll;
   width: 80%; }
+  #sponsors ul .lines {
+    display: none; }
+  #sponsors ul li .right {
+    display: none; }
 
 #twitter {
   height: 100%;
   right: 0;
   width: 20%;
-  z-index: 1; }
+  z-index: 1;
+  overflow-y: scroll; }
 
 #schedule {
   bottom: 0;

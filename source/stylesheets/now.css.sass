@@ -2,6 +2,7 @@
 @import stylesheets/colors.sass
 @import stylesheets/fonts.sass
 @import stylesheets/mixins.sass
+@import stylesheets/now_slider.sass
 
 // Vendor
 @import stylesheets/vendor/font-awesome.min.scss
@@ -21,13 +22,23 @@ body
 
 #sponsors
   height: 70%
+  overflow-y: scroll
   width: 80%
+
+  ul
+    .lines
+      display: none
+    li
+      .right
+        display: none
+     
 
 #twitter
   height: 100%
   right: 0
   width: 20%
   z-index: 1
+  overflow-y: scroll
 
 
 #schedule
