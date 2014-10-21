@@ -1,0 +1,36 @@
+@import stylesheets/reset.sass
+@import stylesheets/colors.sass
+@import stylesheets/fonts.sass
+@import stylesheets/mixins.sass
+
+// Vendor
+@import stylesheets/vendor/font-awesome.min.scss
+
+html, body
+  height: 100%
+
+body
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif
+
+  > div
+    @include box-sizing
+    border: 1px solid gray
+    padding: 15px
+    position: absolute
+
+
+#sponsors
+  height: 70%
+  width: 80%
+
+#twitter
+  height: 100%
+  right: 0
+  width: 20%
+  z-index: 1
+
+
+#schedule
+  bottom: 0
+  height: 30%
+  width: 80%
