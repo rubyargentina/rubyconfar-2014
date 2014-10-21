@@ -1,0 +1,13 @@
+
+!!!
+- lang = yield(:lang)||'en'
+%html{lang: lang}
+  %head
+
+    %title #{yield(:title)} RubyConf Argentina 2014
+    %meta{:charset => "UTF-8"}
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
+    %meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0", :name => "viewport"}
+    = yield(:head)
+  %body{id: yield(:body_id), class: yield(:body_class)}
+    = yield
