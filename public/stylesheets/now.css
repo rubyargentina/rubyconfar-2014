@@ -1700,8 +1700,16 @@ body {
       clear: both;
       position: relative;
       display: none; }
-      #schedule ol li:nth-child(5) {
+      #schedule ol li:nth-child(3) {
         display: block; }
+      #schedule ol li.no-speaker {
+        text-align: center; }
+        #schedule ol li.no-speaker .when {
+          margin: 0; }
+        #schedule ol li.no-speaker p {
+          font-family: "outage";
+          font-size: 65px;
+          margin-top: 2px; }
       #schedule ol li .when {
         color: #ffd88f;
         margin-left: 37%;
