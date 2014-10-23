@@ -1666,13 +1666,12 @@ body {
   body > div {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-    border: 1px solid gray;
     padding: 15px;
     position: absolute; }
 
 #sponsors {
+  background: #dadada;
   height: 70%;
-  overflow-y: scroll;
   width: 80%; }
   #sponsors ul .lines {
     display: none; }
@@ -1687,11 +1686,53 @@ body {
   overflow-y: scroll; }
 
 #schedule {
+  background: url(../images/speaker-bkg-a2.png) repeat-x top center;
   bottom: 0;
+  min-height: 200px;
   height: 30%;
-  overflow-y: scroll;
   width: 80%; }
-  #schedule ol li img {
-    width: 10%;
-    height: auto;
-    border-radius: 100%; }
+  #schedule ol {
+    height: 100%;
+    color: #73c9a8;
+    position: relative; }
+    #schedule ol li {
+      clear: both;
+      height: 100%;
+      position: relative;
+      display: none; }
+      #schedule ol li:nth-child(5) {
+        display: block; }
+      #schedule ol li .when {
+        color: #ffd88f;
+        position: absolute;
+        left: 37%;
+        top: 5%; }
+        #schedule ol li .when h1 {
+          font-size: 36px;
+          font-weight: bold; }
+      #schedule ol li .img {
+        left: 3%;
+        border-radius: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: -30%;
+        width: 30%; }
+        #schedule ol li .img img {
+          border-radius: 100%;
+          height: auto;
+          width: 100%; }
+        #schedule ol li .img .overlay {
+          border-radius: 100%;
+          box-shadow: 0 0 0 10px rgba(65, 73, 84, 0.7) inset;
+          height: 100%;
+          position: absolute;
+          width: 100%; }
+      #schedule ol li .talk {
+        margin-left: 37%;
+        padding-top: 6%; }
+        #schedule ol li .talk h1 {
+          font-family: "outage";
+          font-size: 42px; }
+        #schedule ol li .talk h2 {
+          font-size: 28px;
+          color: white; }

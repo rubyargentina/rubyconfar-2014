@@ -15,14 +15,14 @@ body
 
   > div
     @include box-sizing
-    border: 1px solid gray
+    // border: 1px solid gray    
     padding: 15px
     position: absolute
 
 
 #sponsors
-  height: 70%
-  overflow-y: scroll
+  background: $gray_light
+  height: 70%  
   width: 80%
 
   ul
@@ -42,14 +42,60 @@ body
 
 
 #schedule
+  background: url(../images/speaker-bkg-a2.png) repeat-x top center
   bottom: 0
+  min-height: 200px
   height: 30%
-  overflow-y: scroll
   width: 80%
   
   ol
+    height: 100%
+    color: $teal_vibrant
+    position: relative
     li
-      img
-        width: 10%
-        height: auto
+      clear: both 
+      height: 100%
+      position: relative
+
+      display: none
+      &:nth-child(5)
+        display: block
+      
+      .when
+        color: $cream
+        position: absolute
+        left: 37%
+        top: 5%
+        h1
+          font-size: 36px
+          font-weight: bold
+      
+      .img
+        left: 3%
         border-radius: 100%
+        overflow: hidden
+        position: absolute
+        top: -30%
+        width: 30%
+        img          
+          border-radius: 100%
+          height: auto
+          width: 100%
+        .overlay
+          border-radius: 100%
+          box-shadow: 0 0 0 10px rgba(#414954, 0.7) inset
+          height: 100%
+          position: absolute
+          width: 100%
+      
+      .talk
+        margin-left: 37%
+        padding-top: 6%
+
+        h1
+          font-family: 'outage'
+          font-size: 42px
+
+        h2
+          font-size: 28px
+          color: white
