@@ -1662,7 +1662,15 @@ html, body {
   height: 100%; }
 
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background: #851512;
+  background: -moz-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #851512), color-stop(50%, #cb2522), color-stop(99%, #e74e3b));
+  background: -webkit-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
+  background: -o-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
+  background: -ms-linear-gradient(top, #851512 0%, #cb2522 50%, #e74e3b 99%);
+  background: linear-gradient(to bottom, #851512 0%, #cb2522 50%, #e74e3b 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 ); }
   body > div {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1670,16 +1678,88 @@ body {
     position: absolute; }
 
 #sponsors {
-  background: #dadada;
   height: 100%;
+  height: -webkit-calc(100% - 250px);
+  height: -moz-calc(100% - 250px);
+  height: calc(100% - 250px);
+  padding: 100px 50px 50px;
   position: relative;
+  text-align: center;
   width: 70%; }
-  #sponsors ul .lines {
-    display: none; }
-  #sponsors ul li .right {
-    display: none; }
+  @media screen and (max-width: 1230px) {
+    #sponsors {
+      height: -webkit-calc(100% - 200px);
+      height: -moz-calc(100% - 200px);
+      height: calc(100% - 200px); } }
+  #sponsors .bx-wrapper {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 6px;
+    position: relative;
+    height: 100%;
+    z-index: 5; }
+    #sponsors .bx-wrapper h4 {
+      color: gray;
+      font-family: "outage";
+      font-size: 30px;
+      padding: 60px 0 20px; }
+    #sponsors .bx-wrapper img {
+      margin: 20px 25px;
+      height: auto; }
+      #sponsors .bx-wrapper img[alt="Citrusbyte"] {
+        margin-top: 20px;
+        width: 80%; }
+      #sponsors .bx-wrapper img[alt="Restorando"] {
+        margin-top: 15px;
+        width: 50%; }
+    #sponsors .bx-wrapper .silver img {
+      max-width: 30%;
+      margin: 15px 2.5%; }
+      #sponsors .bx-wrapper .silver img:nth-child(2), #sponsors .bx-wrapper .silver img:nth-child(5) {
+        margin-left: 0; }
+      #sponsors .bx-wrapper .silver img:nth-child(4), #sponsors .bx-wrapper .silver img:last-child {
+        margin-right: 0; }
+    #sponsors .bx-wrapper .bronze h4 {
+      margin-bottom: -35px; }
+    #sponsors .bx-wrapper .bronze img {
+      max-width: 29%;
+      margin: 10px 2%; }
+      #sponsors .bx-wrapper .bronze img:first-child {
+        margin-left: 0; }
+      #sponsors .bx-wrapper .bronze img:last-child {
+        margin-right: 0; }
+    #sponsors .bx-wrapper .bronze .four img {
+      max-width: 19%;
+      margin: 10px 2%; }
+    #sponsors .bx-wrapper .media h4 {
+      margin-bottom: 10px; }
+    #sponsors .bx-wrapper .media img {
+      display: inline-block;
+      width: 25%; }
+      #sponsors .bx-wrapper .media img.sz {
+        margin-top: 0;
+        margin-bottom: -5px; }
+      #sponsors .bx-wrapper .media img.up {
+        margin-top: -20px;
+        width: 29%; }
+  #sponsors .breeze {
+    background: url(../images/breeze.png) no-repeat top center;
+    height: 300px;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    z-index: 1; }
+  #sponsors .fist-logo {
+    background: #ffd88f url(../images/fist-logo.png) no-repeat center 2px;
+    border-radius: 100%;
+    border: 4px solid #e1483f;
+    height: 108px;
+    margin: -80px auto -40px;
+    position: relative;
+    width: 108px;
+    z-index: 6; }
 
 #twitter {
+  background: white;
   height: 100%;
   font-family: "Helvetica Neue", Helvetica, Arial;
   font-size: 18px;

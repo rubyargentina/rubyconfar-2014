@@ -12,6 +12,14 @@ html, body
 
 body
   font-family: 'Open Sans', Helvetica, Arial, sans-serif
+  background: #851512
+  background: -moz-linear-gradient(top,  #851512 0%, #cb2522 50%, #e74e3b 99%)
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#851512), color-stop(50%,#cb2522), color-stop(99%,#e74e3b))
+  background: -webkit-linear-gradient(top,  #851512 0%,#cb2522 50%,#e74e3b 99%)
+  background: -o-linear-gradient(top,  #851512 0%,#cb2522 50%,#e74e3b 99%)
+  background: -ms-linear-gradient(top,  #851512 0%,#cb2522 50%,#e74e3b 99%)
+  background: linear-gradient(to bottom,  #851512 0%,#cb2522 50%,#e74e3b 99%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#851512', endColorstr='#e74e3b',GradientType=0 )
 
   > div
     @include box-sizing
@@ -21,20 +29,99 @@ body
 
 
 #sponsors
-  background: $gray_light
-  height: 100%  
+  height: 100%
+  @include calc(height, "100% - 250px")
+  padding: 100px 50px 50px
   position: relative
-  width: 70%  
+  text-align: center
+  width: 70%
+  @media screen and (max-width: 1230px)
+    @include calc(height, "100% - 200px")
 
-  ul
-    .lines
-      display: none
-    li
-      .right
-        display: none
+
+  .bx-wrapper
+    background: rgba(white, 0.85)
+    border-radius: 6px
+    position: relative
+    height: 100%
+    z-index: 5
+
+    h4
+      color: lighten($gray, 30%)
+      font-family: 'outage'
+      font-size: 30px
+      padding: 60px 0 20px
+    img
+      margin: 20px 25px
+      height: auto
+      &[alt="Citrusbyte"]
+        margin-top: 20px
+        width: 80%
+      &[alt="Restorando"]
+        margin-top: 15px
+        width: 50%
+
+    .silver
+      img
+        max-width: 30%
+        margin: 15px 2.5%
+        &:nth-child(2), &:nth-child(5)
+          margin-left: 0
+        &:nth-child(4), &:last-child
+          margin-right: 0
+
+    .bronze
+      h4
+        margin-bottom: -35px
+      img
+        max-width: 29%
+        margin: 10px 2%
+        &:first-child
+          margin-left: 0
+        &:last-child
+          margin-right: 0
+      .four
+        img
+          max-width: 19%
+          margin: 10px 2%
+
+    .media
+      h4
+        margin-bottom: 10px
+      img
+        display: inline-block
+        width: 25%
+        &.sz
+          margin-top: 0
+          margin-bottom: -5px
+        &.up
+          margin-top: -20px
+          width: 29%
+
+
+  .breeze
+    background: url(../images/breeze.png) no-repeat top center
+    height: 300px
+    position: absolute
+    top: 10%
+    width: 100%
+    z-index: 1
+  
+
+  .fist-logo    
+    background: $cream url(../images/fist-logo.png) no-repeat center 2px
+    border-radius: 100%
+    border: 4px solid $red_alt
+    height: 108px
+    margin: -80px auto -40px
+    position: relative
+    width: 108px
+    z-index: 6
+
      
 
 #twitter
+  background: white
   height: 100%
   font-family: 'Helvetica Neue', Helvetica, Arial
   font-size: 18px
