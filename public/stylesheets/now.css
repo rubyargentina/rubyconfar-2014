@@ -1671,8 +1671,9 @@ body {
 
 #sponsors {
   background: #dadada;
-  height: 70%;
-  width: 80%; }
+  height: 100%;
+  position: relative;
+  width: 70%; }
   #sponsors ul .lines {
     display: none; }
   #sponsors ul li .right {
@@ -1680,42 +1681,42 @@ body {
 
 #twitter {
   height: 100%;
+  overflow-y: scroll;
   right: 0;
-  width: 20%;
-  z-index: 1;
-  overflow-y: scroll; }
+  top: 0;
+  width: 30%;
+  z-index: 2; }
 
 #schedule {
   background: url(../images/speaker-bkg-a2.png) repeat-x top center;
   bottom: 0;
-  min-height: 200px;
-  height: 30%;
-  width: 80%; }
+  height: 250px;
+  width: 70%;
+  z-index: 1; }
   #schedule ol {
-    height: 100%;
     color: #73c9a8;
     position: relative; }
     #schedule ol li {
       clear: both;
-      height: 100%;
       position: relative;
       display: none; }
       #schedule ol li:nth-child(5) {
         display: block; }
       #schedule ol li .when {
         color: #ffd88f;
-        position: absolute;
-        left: 37%;
-        top: 5%; }
+        margin-left: 37%;
+        padding: 20px 0; }
         #schedule ol li .when h1 {
           font-size: 36px;
           font-weight: bold; }
       #schedule ol li .img {
-        left: 3%;
         border-radius: 100%;
+        left: 3%;
+        margin-bottom: -20px;
+        max-width: 300px;
         overflow: hidden;
         position: absolute;
-        top: -30%;
+        top: -55px;
         width: 30%; }
         #schedule ol li .img img {
           border-radius: 100%;
@@ -1728,11 +1729,19 @@ body {
           position: absolute;
           width: 100%; }
       #schedule ol li .talk {
-        margin-left: 37%;
-        padding-top: 6%; }
+        margin-left: 37%; }
         #schedule ol li .talk h1 {
           font-family: "outage";
           font-size: 42px; }
         #schedule ol li .talk h2 {
           font-size: 28px;
           color: white; }
+  @media screen and (max-width: 1230px) {
+    #schedule {
+      height: 200px; }
+      #schedule ol li .when {
+        padding: 10px 0; }
+      #schedule ol li .talk h1 {
+        font-size: 38px; }
+      #schedule ol li .talk h2 {
+        font-size: 24px; } }
