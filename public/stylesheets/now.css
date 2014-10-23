@@ -1700,7 +1700,7 @@ body {
       clear: both;
       position: relative;
       display: none; }
-      #schedule ol li:nth-child(3) {
+      #schedule ol li:nth-child(9) {
         display: block; }
       #schedule ol li.no-speaker {
         text-align: center; }
@@ -1740,10 +1740,12 @@ body {
         margin-left: 37%; }
         #schedule ol li .talk h1 {
           font-family: "outage";
-          font-size: 42px; }
+          font-size: 42px;
+          white-space: nowrap; }
         #schedule ol li .talk h2 {
+          color: white;
           font-size: 28px;
-          color: white; }
+          white-space: nowrap; }
   @media screen and (max-width: 1230px) {
     #schedule {
       height: 200px; }

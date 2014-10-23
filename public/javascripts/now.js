@@ -16,5 +16,18 @@ $(document).ready(function() {
     "enableLinks": true,
     "showImages": true
   });
+
+
+  $('.talk h1').fitText(
+    1.2, { 
+      maxFontSize: '65px' 
+  });
+
+  $('.talk h2').fitText(
+    1.6, { 
+      maxFontSize: '36px' 
+  });
+
+
 });
 
