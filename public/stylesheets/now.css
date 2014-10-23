@@ -1681,11 +1681,50 @@ body {
 
 #twitter {
   height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 18px;
   overflow-y: scroll;
   right: 0;
+  padding: 0;
   top: 0;
   width: 30%;
   z-index: 2; }
+  #twitter a {
+    color: #0084B4;
+    text-decoration: none; }
+  #twitter ul li {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 15px;
+    border-bottom: 1px solid #e1e8ed; }
+    #twitter ul li:nth-child(odd) {
+      background: #f2f6f9; }
+    #twitter ul li .user img {
+      border-radius: 6px;
+      float: left;
+      margin: 0 15px 10px 0; }
+    #twitter ul li .user span {
+      color: black;
+      font-weight: bold; }
+      #twitter ul li .user span + span {
+        color: #9f9f9f;
+        display: block;
+        font-weight: normal; }
+    #twitter ul li .tweet {
+      clear: both; }
+    #twitter ul li .timePosted {
+      font-size: 14px;
+      margin-top: 5px;
+      color: #9f9f9f; }
+    #twitter ul li .media img {
+      border-radius: 6px;
+      display: block;
+      margin-top: 10px; }
+    #twitter ul li .interact {
+      display: none; }
+  #twitter img {
+    max-width: 100%;
+    height: auto; }
 
 #schedule {
   background: url(../images/speaker-bkg-a2.png) repeat-x top center;

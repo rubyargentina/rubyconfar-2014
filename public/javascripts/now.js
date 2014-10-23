@@ -28,6 +28,5 @@ $(document).ready(function() {
       maxFontSize: '36px' 
   });
 
-
 });
 

@@ -36,11 +36,60 @@ body
 
 #twitter
   height: 100%
+  font-family: 'Helvetica Neue', Helvetica, Arial
+  font-size: 18px
   overflow-y: scroll
   right: 0
+  padding: 0
   top: 0
   width: 30%
   z-index: 2
+  // background: $blue_dark
+
+  a
+    color: #0084B4
+    text-decoration: none
+
+  ul
+    li
+      @include box-sizing
+      padding: 15px
+      border-bottom: 1px solid #e1e8ed
+      &:nth-child(odd)
+        background: #f2f6f9
+      .user
+        img
+          border-radius: 6px
+          float: left
+          margin: 0 15px 10px 0
+        span
+          color: black
+          font-weight: bold
+          + span
+            color: #9f9f9f
+            display: block
+            font-weight: normal
+
+      .tweet
+        clear: both
+      
+      .timePosted
+        font-size: 14px
+        margin-top: 5px
+        color: #9f9f9f
+        
+      .media
+        img
+          border-radius: 6px
+          display: block
+          margin-top: 10px
+
+      .interact
+        display: none
+
+  img
+    max-width: 100%
+    height: auto
 
 
 #schedule
