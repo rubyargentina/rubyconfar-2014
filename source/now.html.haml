@@ -39,17 +39,16 @@ layout: now.haml
       / %br
       %img.aviato{:src=>"images/sponsors/aviato.png", :alt=>"Aviato"}
       
-
-
 #twitter
   
 #schedule
   %ol
     - data.schedule.each do |slot|
+      - now = slot.now ? 'now' : ''
       - if slot.speaker
         - speaker = data.speakers.find {|s| s.id == slot.speaker}
         - talk = speaker.send(lang)
-        %li
+        %li{class: now}
           .when
             %h1=slot.time
           .what
@@ -61,7 +60,7 @@ layout: now.haml
               %h2= talk.title_long
 
       - else
-        %li.no-speaker
+        %li.no-speaker{class: now}
           .when
             %h1=slot.time
           .what

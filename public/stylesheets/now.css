@@ -1819,7 +1819,7 @@ body {
       clear: both;
       position: relative;
       display: none; }
-      #schedule ol li:nth-child(9) {
+      #schedule ol li.now {
         display: block; }
       #schedule ol li.no-speaker {
         text-align: center; }

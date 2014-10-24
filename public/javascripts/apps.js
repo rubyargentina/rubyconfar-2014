@@ -28,7 +28,29 @@ $(document).ready(function() {
       $('span.full-list').click();
     }
   });
+  // Ruby Fun Day
+  $('#rubyfunday a.magnific-popup, #venue a.magnific-popup').magnificPopup({
+    type:'iframe', 
+    iframe: {
+       markup: '<div class="mfp-iframe-scaler">'+
+               '<div class="mfp-close"></div>'+
+               '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+               '</div>', 
+       patterns: {
+           gmaps: {
+               index: '//maps.google.',
+               src: '%id%&output=embed'
+           }
+       },
+       srcAction: 'iframe_src', 
+     }
+  });
 
+  // Schedule
+  $('#schedule a.popup').magnificPopup({
+    type:'inline',
+    midClick: true
+  });
  
   $('a.share').click( function(elem) {
     fixWindowAfterAnchor();
@@ -190,29 +212,7 @@ $(document).ready(function() {
     setInterval(draw, 33);  
   }
 
-  // Ruby Fun Day
-  $('#rubyfunday a.magnific-popup').magnificPopup({
-    type:'iframe', 
-    iframe: {
-       markup: '<div class="mfp-iframe-scaler">'+
-               '<div class="mfp-close"></div>'+
-               '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
-               '</div>', 
-       patterns: {
-           gmaps: {
-               index: '//maps.google.',
-               src: '%id%&output=embed'
-           }
-       },
-       srcAction: 'iframe_src', 
-     }
-  });
 
-  // Schedule
-  $('#schedule a.popup').magnificPopup({
-    type:'inline',
-    midClick: true
-  });
 
 });
 $(window).load(function() {
