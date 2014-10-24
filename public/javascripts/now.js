@@ -6,17 +6,21 @@ $(document).ready(function() {
     mode: 'fade', 
     pager: false, 
     auto: true, 
-    speed: 500
+    speed: 1000
   });
 
-  twitterFetcher.fetch({
-    "id": '524692224211042304',
-    "domId": 'twitter',
-    "maxTweets": 5,
-    "enableLinks": true,
-    "showImages": true
-  });
+  function updateFeed() {
+    twitterFetcher.fetch({
+      "id": '524692224211042304',
+      "domId": 'twitter',
+      "maxTweets": 5,
+      "enableLinks": true,
+      "showImages": true
+    });
+    setTimeout(updateFeed, 60000);
+  }
 
+  updateFeed();
 
   $('.talk h1').fitText(
     1.2, { 

@@ -2,28 +2,27 @@
 - day: 1
   time: 9:00 AM
   description: "Ingreso / Access"
-  now: true
 - day: 1
   time: 10:00 AM
   speaker: janogonzalez
 - day: 1
   time: 10:35 AM
-  speaker: unbalancedparen
+  speaker: lucasvidela
 - day: 1
   time: 11:05 AM
   description: Break
 - day: 1
   time: 11:25 AM
-  speaker: lucasvidela
+  speaker: hannelita
 - day: 1
   time: 12:00 PM
-  speaker: hannelita
+  speaker: paulcsmith
 - day: 1
   time: 12:30 PM
   description: Almuerzo / Lunch
 - day: 1
   time: 2:00 PM
-  speaker: paulcsmith
+  speaker: unbalancedparen
 - day: 1
   time: 2:35 PM
   speaker: raviolicode
@@ -43,8 +42,9 @@
   time: 4:55 PM
   speaker: egutter
 - day: 1
-  time: 5:35 PM
-  description: Chau
+  time: 7:30 PM en Carnal (Niceto Vega 5511)
+  now: true
+  description: Drink-up Citrus Byte
 - day: 2
   time: 9:00 AM
   description: "Ingreso / Access"
