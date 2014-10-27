@@ -43,7 +43,6 @@
   speaker: egutter
 - day: 1
   time: 7:30 PM en Carnal (Niceto Vega 5511)
-  now: true
   description: Drink-up Citrus Byte
 - day: 2
   time: 9:00 AM
@@ -68,7 +67,7 @@
   description: Almuerzo / Lunch
 - day: 2
   time: 2:00 PM
-  description: Charlas relámpago / Lightning Talks
+  description: Lightning Talks
 - day: 2
   time: 2:35 PM
   speaker: chrishunt
@@ -87,6 +86,7 @@
 - day: 2
   time: 4:55 PM
   speaker: poteland
+  now: true
 - day: 2
   time: 5:35 PM
   description: Chau
